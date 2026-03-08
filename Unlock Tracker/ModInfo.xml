@@ -2,8 +2,8 @@
 <xml>
 	<Name value="Unlock_Tracker"/>
 	<DisplayName value="Unlock Tracker"/>
-	<Description value="This is serverside mod for unlock tracking of craftable items."/>
+	<Description value="Generated unlock tracker based on unlock_entry and UnlockedBy for current game definitions."/>
 	<Author value="7DaystoDie.JP"/>
-	<Version value="1.0.2"/>
+	<Version value="1.2.0"/>
 	<Website value="https://github.com/7DTD-JP/Unlock_Tracker"/>
 </xml>     
