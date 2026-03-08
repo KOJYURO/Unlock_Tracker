@@ -1,11 +1,5 @@
 <config>
-	<!-- Created by 7DAYSTODIE_JP. Join Discord to report bugs, supports and suggestions.-->
-	<!-- Discord: https://discord.gg/Va9CMv59Ej -->
-	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@pos='3,-3']">
-		<panel depth="1" pos="3,-3" width="410" height="37" disableautobackground="true">
-			<grid name="categories" pos="16,-18" rows="1" cols="9" width="663" height="34" cell_width="40" cell_height="43" repeat_content="true" controller="CategoryList">
-				<category_icon/>
-			</grid>
-		</panel>
-	</set>
+    <set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']//grid[@name='categories']/@cols">9</set>
+    <set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']//grid[@name='categories']/@cell_width">40</set>
+    <set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']//grid[@name='categories']/@width">663</set>
 </config>

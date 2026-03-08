@@ -1,1027 +1,683 @@
 <config>
-	<!-- Created by 7DAYSTODIE_JP. Join Discord to report bugs, supports and suggestions.-->
-	<!-- Discord: https://discord.gg/Va9CMv59Ej -->
-	<!-- <append xpath="/items/item[@name='meleeClubIronSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeClubIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolSledgehammerIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolSledgehammerSteelSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnifeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolKnifeIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolKnifeMacheteSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeStunBatonSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolIronSetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolIronSetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolSteelSetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolSalvageT1WrenchSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolWrenchSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolSalvageT2RatchetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolRatchetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriverSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolImpactDriverSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolHoeIronSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolHoeIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolPickT3AugerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolAugerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeToolChainsawSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpearSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeThrownSpearIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeThrownSpearSteelSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeThrownSpearSteelSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnucklesSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeKnucklesIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmeleeKnucklesSteelSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBowT1WoodenBowSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunBowWoodenSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBowT3CompoundBowSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunBowCompoundSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBowT1IronCrossbowSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunCrossbowIronSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBowT3CompoundCrossbowSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunCrossbowCompoundSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunHandgunT1PistolSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunPistolSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunHandgunT2Magnum44Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgun44MagnumSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunHandgunT3DesertVultureSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunDesertVultureSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunDoubleBarrelShotgunSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunShotgunT2PumpShotgunSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunPumpShotgunSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunShotgunT3AutoShotgunSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunAutoShotgunSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunHandgunT3SMG5Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunSMG5Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunMGT1AK47Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunAK47Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunMGT2TacticalARSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunTacticalARSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunMGT3M60Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunMGT3M60Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunRifleT1HuntingRifleSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunHuntingRifleSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunRifleT2LeverActionRifleSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunLeverActionRifleSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunRifleT3SniperRifleSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunSniperRifleSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunMR10Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunMR10Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunRocketLauncherSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBotT1JunkSledgeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunJunkSledgeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunJunkTurretSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='gunBotT3JunkDroneSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunJunkDroneSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='armorLeatherSetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkarmorLeatherSetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='armorMilitarySetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkarmorMilitarySetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='resourceMilitaryFiberSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceMilitaryFiberSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='armorIronSetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkarmorIronSetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='armorSteelSetSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkarmorSteelSetSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkthrownAmmoPipeBombSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='thrownGrenadeContactSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkthrownGrenadeContactSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='thrownGrenadeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkthrownGrenadeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='thrownDynamiteSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkthrownDynamiteSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='meleeToolRepairT3NailgunSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgunToolNailgunSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='medicalFirstAidBandageSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmedicalFirstAidBandageSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='medicalFirstAidKitSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmedicalFirstAidKitSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='medicalPlasterCastSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmedicalPlasterCastSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='medicalBloodDrawKitSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmedicalBloodDrawKitSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='toolBellowsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perktoolBellowsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='toolForgeCrucibleSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perktoolForgeCrucibleSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='toolAnvilSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perktoolAnvilSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='cementMixerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkcementMixerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='workbenchSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkworkbenchSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='forgeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkforgeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='tableSawSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perktableSawSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='chemistryStationSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkchemistryStationSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleAnySchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleAnySchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleBicycleChassisSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleBicycleChassisSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleBicycleHandlebarsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleBicycleHandlebarsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleMinibikeChassisSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleMinibikeChassisSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleMinibikeHandlebarsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleMinibikeHandlebarsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleMotorcycleChassisSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleMotorcycleChassisSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleMotorcycleHandlebarsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleMotorcycleHandlebarsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicle4x4TruckChassisSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicle4x4TruckChassisSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicle4x4TruckAccessoriesSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicle4x4TruckAccessoriesSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleGyroCopterChassisSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleGyroCopterChassisSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleGyroCopterAccessoriesSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleGyroCopterAccessoriesSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkvehicleWheelsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='generatorbankSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkgeneratorbankSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkceilingLight01_playerSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkindustrialLight01_playerSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkindustrialLight02_playerSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkceilingLight07_playerSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkelectricwirerelaySchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='pressureplateSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkpressureplateSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkpressureplateLongSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perktripwirepostSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='poweredDoorsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkpoweredDoorsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmetalReinforcedWoodDrawBridgePoweredSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bladeTrapSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkbladeTrapSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='dartTrapSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdartTrapSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='shotgunTurretSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkshotgunTurretSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='autoTurretSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkautoTurretSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='electricfencepostSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkelectricfencepostSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='motionsensorSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmotionsensorSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='speakerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkspeakerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='spotlightPlayerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkspotlightPlayerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='switchSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkswitchSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='batterybankSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkbatterybankSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='electrictimerrelaySchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkelectrictimerrelaySchematic" level="-1"/>
-	</append> -->
-	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunBarrelExtenderSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunMuzzleBrakeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunSoundSuppressorSilencerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunLaserSightSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunLaserSightSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunFlashlightSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunFlashlightSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunScopeSmallSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunScopeSmallSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunScopeMediumSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunScopeMediumSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunScopeLargeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunScopeLargeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunReflexSightSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunReflexSightSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunTriggerGroupSemiSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunTriggerGroupBurst3Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunTriggerGroupAutomaticSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunRetractingStockSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunRodAndSpringSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunBipodSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunBipodSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunForegripSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunForegripSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunRetractingStockSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunRetractingStockSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunDuckbillSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunDuckbillSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunChokeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunChokeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunMagazineExtenderSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodShotgunSawedOffBarrelSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunCrippleEmSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunCrippleEmSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunBowPolymerStringSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunBowArrowRestSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunMeleeTheHunterSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunMeleeRadRemoverSchematic" level="-1"/>
-	</append>
-	<!-- <append xpath="/items/item[@name='modGunMeleeBlessedMetalSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunMeleeBlessedMetalSchematic" level="-1"/>
-	</append> -->
-	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeTemperedBladeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeSerratedBladeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeWeightedHeadSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeStructuralBraceSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeErgonomicGripSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeFortifyingGripSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeClubBarbedWireSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeClubMetalSpikesSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeGraveDiggerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeBunkerBusterSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeIronBreakerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeWoodSplitterSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeClubBurningShaftSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorInsulatedLinerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorCoolingMeshSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorImprovedFittingsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorCustomizedFittingsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorPlatingBasicSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorPlatingReinforcedSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorStoragePocketSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorDoubleStoragePocketSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorTripleStoragePocketSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorMuffledConnectorsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorAdvancedMuffledConnectorsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorImpactBracingSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorBandolierSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorBandolierSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorWaterPurifierSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodArmorHelmetLightSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modFuelTankSmallSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodFuelTankSmallSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modFuelTankLargeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodFuelTankLargeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modRoboticDroneCargoModSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodRoboticDroneCargoModSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modRoboticDroneMedicModSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodRoboticDroneMedicModSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modRoboticDroneHeadlampModSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodRoboticDroneHeadlampModSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modRoboticDroneArmorPlatingModSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodRoboticDroneArmorPlatingModSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modRoboticDroneMoraleBoosterModSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodRoboticDroneMoraleBoosterModSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modVehicleFuelSaverSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodVehicleFuelSaverSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modVehicleOffRoadHeadlightsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodVehicleOffRoadHeadlightsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modVehicleSuperChargerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodVehicleSuperChargerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modVehicleExpandedSeatSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodVehicleExpandedSeatSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='modVehicleReserveFuelTankSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodVehicleReserveFuelTankSchematic" level="-1"/>
-	</append>
-	<!-- <append xpath="/items/item[@name='ammoGasCanSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoGasCanSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='resourceOilSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceOilSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drugAntibioticsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrugAntibioticsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drugHerbalAntibioticsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrugHerbalAntibioticsSchematic" level="-1"/>
-	</append> -->
-	<append xpath="/items/item[@name='foodCanShamSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodCanShamSchematic" level="-1"/>
-	</append>
-	<!-- <append xpath="/items/item[@name='drinkJarBeerSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarBeerSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarCoffeeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarCoffeeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarGoldenRodTeaSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarGoldenRodTeaSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauceSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarGrandpasAwesomeSauceSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixirSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarGrandpasLearningElixirSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarGrandpasMoonshineSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarGrandpasMoonshineSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkJarRedTeaSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarRedTeaSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothieSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkYuccaJuiceSmoothieSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodBaconAndEggsSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodBaconAndEggsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodBakedPotatoSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodBakedPotatoSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodBlueberryPieSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodBlueberryPieSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodPumpkinPieSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodPumpkinPieSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodPumpkinCheesecakeSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodPumpkinCheesecakeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodPumpkinBreadSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodPumpkinBreadSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodGumboStewSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodGumboStewSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodShepardsPieSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodShepardsPieSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodSpaghettiSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodSpaghettiSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodTunaFishGravyToastSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodTunaFishGravyToastSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodBoiledMeatSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodBoiledMeatSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodChiliDogSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodChiliDogSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodCornBreadSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodCornBreadSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodCornOnTheCobSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodCornOnTheCobSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodFishTacosSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodFishTacosSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodGrilledMeatSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodGrilledMeatSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodHoboStewSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodHoboStewSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodMeatStewSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodMeatStewSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodShamChowderSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodShamChowderSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodSteakAndPotatoSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodSteakAndPotatoSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='foodVegetableStewSchematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkfoodVegetableStewSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedAloe1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedAloe1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedBlueberry1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedBlueberry1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedChrysanthemum1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedChrysanthemum1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedCoffee1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedCoffee1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedCorn1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedCorn1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedCotton1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedCotton1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedGoldenrod1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedGoldenrod1Schematic" level="-1"/>
-	</append> -->
-	<append xpath="/items/item[@name='plantedGraceCorn1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedGraceCorn1Schematic" level="-1"/>
-	</append>
-	<!-- <append xpath="/items/item[@name='plantedHop1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedHop1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedMushroom1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedMushroom1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedPotato1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedPotato1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedYucca1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedYucca1Schematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='plantedPumpkin1Schematic']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkplantedPumpkin1Schematic" level="-1"/>
-	</append>-->
-	<append xpath="/items/item[@name='bookNeedleAndThreadWinterWear']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelFlannelShirtSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelSweatshirtSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelSkullCapSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadLegwear']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelDenimPantsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelOverallsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelSkirtSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadFootwear']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelWornBootsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelRunningShoesRegularSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelCowboyBootsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelSuitDressShoesSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadDesertWear']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelTankTopSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelTShirtPlainSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelCowboyHatSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelDenimShortsPantsSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadDusters']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelCoatLeatherDusterSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadPufferCoats']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelCoatPufferCoatSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookNeedleAndThreadPockets']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodClothingCargoStoragePocketSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelArmyShirtSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillNeedleAndThread" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookEnforcerAPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo44MagnumBulletAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookEnforcerHPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo44MagnumBulletHPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle44MagnumBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillEnforcer" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookBatterUpMetalChain']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeClubMetalChainSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistSafes']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistGems']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistGoldRush']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistClaimed']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistAdrenalineFall']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistSprintSneak']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookGreatHeistMotionDetection']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLockPickBundleSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillGreatHeist" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookWasteTreasuresWater']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkJarPureMineralWaterSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookWasteTreasuresCloth']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceClothSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookArtOfMiningDiamondTools']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeDiamondTipSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookArtOfMiningBlackStrap']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkdrinkjarBlackStrapCoffeeSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookArtOfMiningPallets']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceRockSmallBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceWoodBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceScrapIronBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceOilShaleBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourcePotassiumNitratePowderBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceLeadBundleSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkresourceCoalBundleSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookRangersExplodingBolts']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoCrossbowBoltExplodingSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoArrowExplodingSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookRangersAPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoArrowSteelAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoCrossbowBoltSteelAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookRangersFlamingArrows']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoArrowFlamingSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoCrossbowBoltFlamingSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltFlamingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleArrowExplodingSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltIronSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltSteelAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleCrossbowBoltStoneSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillArchery" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookPistolPeteHPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo9mmBulletHPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookPistolPeteAPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo9mmBulletAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle9mmBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillPistolPete" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoShotgunBreachingSlugSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunBreachingSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookShotgunMessiahSlugs']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoShotgunSlugSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunBreachingSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookShotgunMessiahMagazine']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunShotgunTubeExtenderMagazineSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleShotgunBreachingSlugSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillShotguns" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookSniperAPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo762mmBulletAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitHoodSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitJacketSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookSniperHPAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammo762mmBulletHPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletBallSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletHPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundle762mmBulletAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitHoodSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitJacketSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelGhillieSuitPantsSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillSniper" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookAutoWeaponsDrumMag']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodGunDrumMagazineExtenderSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookUrbanCombatLanding']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkarmorMilitaryStealthBootsSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookUrbanCombatCigar']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkapparelCigarSchematic" level="-1"/>
-	</append>
-	<append xpath="/items/item[@name='bookTechJunkie3APAmmo']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoJunkTurretAPSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretRegularSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookTechJunkie4Shells']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoJunkTurretShellSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretRegularSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-	<append xpath="/items/item[@name='bookTechJunkie5Repulsor']/effect_group[@tiered='false']">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkmodMeleeStunBatonRepulsorSchematic" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretRegularSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretShellSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkammoBundleJunkTurretAPSchematic" level="-1">
-			<requirement name="PerksUnlocked" skill_name="skillTechJunkie" operation="GTE" value="7"/>
-		</triggered_effect>
-	</append>
-</config> 
+    <append xpath="/items/item[@name='bookArtOfMiningBlackStrap']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_drinkjarblackstrapcoffee" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_drinkjarblackstrapcoffee" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookArtOfMiningDiamondTools']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleediamondtip" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleediamondtip" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookArtOfMiningPallets']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcerocksmallbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcerocksmallbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcewoodbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcewoodbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcescrapironbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcescrapironbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourceoilshalebundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourceoilshalebundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcepotassiumnitratepowderbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcepotassiumnitratepowderbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourceleadbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourceleadbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcescrapbrassbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcescrapbrassbundle" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcecoalbundle" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcecoalbundle" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookAutoWeaponsDrumMag']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgundrummagazineextender" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgundrummagazineextender" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookBatterUpMetalChain']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeclubmetalchain" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeclubmetalchain" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookEnforcerAPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo44magnumbulletap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo44magnumbulletap" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookEnforcerHPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo44magnumbullethp" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo44magnumbullethp" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookFiremansAlmanacAxes']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleefiremansaxemod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleefiremansaxemod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookPistolPeteAPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo9mmbulletap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo9mmbulletap" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookPistolPeteHPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo9mmbullethp" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo9mmbullethp" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookRangersAPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammoarrowsteelap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammoarrowsteelap" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammocrossbowboltsteelap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammocrossbowboltsteelap" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookRangersExplodingBolts']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammocrossbowboltexploding" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammocrossbowboltexploding" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammoarrowexploding" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammoarrowexploding" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookRangersFlamingArrows']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammoarrowflaming" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammoarrowflaming" operation="LT" value="1"/>
+            </triggered_effect>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammocrossbowboltflaming" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammocrossbowboltflaming" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammoshotgunbreachingslug" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammoshotgunbreachingslug" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookShotgunMessiahMagazine']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunshotguntubeextendermagazine" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunshotguntubeextendermagazine" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookShotgunMessiahSlugs']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammoshotgunslug" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammoshotgunslug" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookSniperAPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo762mmbulletap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo762mmbulletap" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookSniperHPAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammo762mmbullethp" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammo762mmbullethp" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookTechJunkie3APAmmo']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammojunkturretap" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammojunkturretap" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookTechJunkie4Shells']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_ammojunkturretshell" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_ammojunkturretshell" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookTechJunkie5Repulsor']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleestunbatonrepulsor" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleestunbatonrepulsor" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookUrbanCombatCigar']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorcigar" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorcigar" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookUrbanCombatLanding']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorstealthboots" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorstealthboots" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookWasteTreasuresCloth']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_resourcecloth" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_resourcecloth" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='bookWasteTreasuresWater']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_drinkjarpuremineralwater" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_drinkjarpuremineralwater" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='foodCanShamSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_foodcansham" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_foodcansham" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmoradvancedmuffledconnectors" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmoradvancedmuffledconnectors" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorBandolierSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorbandolier" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorbandolier" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorcustomizedfittings" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorcustomizedfittings" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmordoublestoragepocket" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmordoublestoragepocket" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorHelmetLightSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorhelmetlight" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorhelmetlight" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorImpactBracingSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorimpactbracing" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorimpactbracing" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorimprovedfittings" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorimprovedfittings" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmormuffledconnectors" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmormuffledconnectors" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorPlatingBasicSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorplatingbasic" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorplatingbasic" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorplatingreinforced" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorplatingreinforced" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorQuadStoragePocketSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorquadstoragepocket" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorquadstoragepocket" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorStoragePocketSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorstoragepocket" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorstoragepocket" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmortriplestoragepocket" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmortriplestoragepocket" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modArmorWaterPurifierSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modarmorwaterpurifier" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modarmorwaterpurifier" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modFuelTankLargeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modfueltanklarge" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modfueltanklarge" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modFuelTankSmallSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modfueltanksmall" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modfueltanksmall" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunBarrelExtenderSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunbarrelextender" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunbarrelextender" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunBipodSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunbipod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunbipod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunBowArrowRestSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunbowarrowrest" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunbowarrowrest" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunBowPolymerStringSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunbowpolymerstring" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunbowpolymerstring" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunChokeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunchoke" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunchoke" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunCrippleEmSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modguncrippleem" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modguncrippleem" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunDuckbillSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunduckbill" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunduckbill" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunFlashlightSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunflashlight" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunflashlight" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunForegripSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunforegrip" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunforegrip" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunLaserSightSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunlasersight" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunlasersight" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunMagazineExtenderSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunmagazineextender" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunmagazineextender" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunmeleeradremover" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunmeleeradremover" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunmeleethehunter" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunmeleethehunter" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunmuzzlebrake" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunmuzzlebrake" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunReflexSightSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunreflexsight" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunreflexsight" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunRetractingStockSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunretractingstock" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunretractingstock" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunScopeLargeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunscopelarge" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunscopelarge" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunScopeMediumSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunscopemedium" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunscopemedium" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunScopeSmallSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunscopesmall" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunscopesmall" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modgunsoundsuppressorsilencer" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modgunsoundsuppressorsilencer" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modguntriggergroupautomatic" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modguntriggergroupautomatic" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modguntriggergroupburst3" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modguntriggergroupburst3" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modguntriggergroupsemi" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modguntriggergroupsemi" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleebunkerbuster" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleebunkerbuster" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeclubbarbedwire" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeclubbarbedwire" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeclubburningshaft" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeclubburningshaft" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeclubmetalspikes" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeclubmetalspikes" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeergonomicgrip" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeergonomicgrip" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleefortifyinggrip" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleefortifyinggrip" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleegravedigger" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleegravedigger" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeIronBreakerSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeironbreaker" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeironbreaker" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeserratedblade" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeserratedblade" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleestructuralbrace" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleestructuralbrace" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleetemperedblade" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleetemperedblade" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleeweightedhead" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleeweightedhead" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modmeleewoodsplitter" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modmeleewoodsplitter" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modRoboticDroneArmorPlatingModSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modroboticdronearmorplatingmod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modroboticdronearmorplatingmod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modRoboticDroneCargoModSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modroboticdronecargomod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modroboticdronecargomod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modRoboticDroneHeadlampModSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modroboticdroneheadlampmod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modroboticdroneheadlampmod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modRoboticDroneMedicModSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modroboticdronemedicmod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modroboticdronemedicmod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modRoboticDroneMoraleBoosterModSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modroboticdronemoraleboostermod" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modroboticdronemoraleboostermod" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modshotgunsawedoffbarrel" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modshotgunsawedoffbarrel" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleArmorSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehiclearmor" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehiclearmor" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleExpandedSeatSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehicleexpandedseat" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehicleexpandedseat" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleFuelSaverSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehiclefuelsaver" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehiclefuelsaver" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleOffRoadHeadlightsSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehicleoffroadheadlights" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehicleoffroadheadlights" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehiclePlowSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehicleplow" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehicleplow" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleReserveFuelTankSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehiclereservefueltank" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehiclereservefueltank" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleStorageSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehiclestorage" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehiclestorage" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='modVehicleSuperChargerSchematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_modvehiclesupercharger" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_modvehiclesupercharger" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+    <append xpath="/items/item[@name='plantedGraceCorn1Schematic']">
+        <effect_group>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUT_plantedgracecorn1" level="-1">
+                <requirement name="ProgressionLevel" progression_name="perkUT_plantedgracecorn1" operation="LT" value="1"/>
+            </triggered_effect>
+        </effect_group>
+    </append>
+</config>

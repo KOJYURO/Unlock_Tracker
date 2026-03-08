@@ -1,13 +1,13 @@
-Key,English
-attUnlocksDesc,Check items what you unlocked.
-attUnlocksDescRank1Desc,Unlock crafting
-attUnlocksName,Unlock Tracker
-skillunlocksModsName,Mod
-skillunlocksFoodsName,Food
-skillunlocksArmorsName,Armor
-skillunlocksApparelsName,Apparel
-skillunlocksAmmosName,Ammo
-skillunlocksResourcesName,Resource
+Key,English,Japanese
+attUnlocksDesc,Track unlocked recipes and quality. ,解放済みレシピと品質を追跡します。
+attUnlocksDescRank1Desc,Unlock crafting ,クラフトを解放
+attUnlocksName,Unlock Tracker ,アンロックトラッカー
+skillunlocksModsName,Mods ,MOD
+skillunlocksFoodsName,Food ,食料
+skillunlocksArmorsName,Armor ,防具
+skillunlocksApparelsName,Apparel ,衣服
+skillunlocksAmmosName,Ammo ,弾薬
+skillunlocksResourcesName,Resources ,資源
 apparelLongShirtGroupDesc,N/A
 modRoboticDroneCargoDesc,N/A
 modRoboticDroneMedicDesc,N/A
@@ -15,3 +15,1558 @@ modRoboticDroneHeadlampDesc,N/A
 modRoboticDroneArmorPlatingDesc,N/A
 modRoboticMoraleBoosterDesc,N/A
 plantedGraceCorn1Desc,N/A
+skillunlocksQualityName,Quality ,品質
+attUnlocksQualityQ2Desc,Unlock quality level 2 crafting ,品質2のクラフトを解放
+attUnlocksQualityQ3Desc,Unlock quality level 3 crafting ,品質3のクラフトを解放
+attUnlocksQualityQ4Desc,Unlock quality level 4 crafting ,品質4のクラフトを解放
+attUnlocksQualityQ5Desc,Unlock quality level 5 crafting ,品質5のクラフトを解放
+attUnlocksQualityQ6Desc,Unlock quality level 6 crafting ,品質6のクラフトを解放
+attUnlocksQualityQ1Desc,Unlock quality level 1 crafting ,品質1のクラフトを解放
+skillunlocksQuality_armorAssassinBootsName,Assassin Boots ,アサシンブーツ
+skillunlocksQuality_armorAssassinGlovesName,Assassin Gloves ,アサシングローブ
+skillunlocksQuality_armorAssassinHelmetName,Assassin Hood ,アサシンフード
+skillunlocksQuality_armorAssassinOutfitName,Assassin Outfit ,アサシン衣装
+skillunlocksQuality_armorAthleticBootsName,Athletic Shoes ,アスリートシューズ
+skillunlocksQuality_armorAthleticGlovesName,Athletic Gloves ,アスリートグローブ
+skillunlocksQuality_armorAthleticHelmetName,Athletic Hat ,アスリートハット
+skillunlocksQuality_armorAthleticOutfitName,Athletic Outfit ,アスリート衣装
+skillunlocksQuality_armorBikerBootsName,Biker Boots ,バイカーブーツ
+skillunlocksQuality_armorBikerGlovesName,Biker Gloves ,バイカーグローブ
+skillunlocksQuality_armorBikerHelmetName,Biker Helmet ,バイカーヘルメット
+skillunlocksQuality_armorBikerOutfitName,Biker Outfit ,バイカー衣装
+skillunlocksQuality_armorCommandoBootsName,Commando Boots ,コマンドーブーツ
+skillunlocksQuality_armorCommandoGlovesName,Commando Gloves ,コマンドーグローブ
+skillunlocksQuality_armorCommandoHelmetName,Commando Helmet ,コマンドーヘルメット
+skillunlocksQuality_armorCommandoOutfitName,Commando Outfit ,コマンドー衣装
+skillunlocksQuality_armorEnforcerBootsName,Enforcer Shoes ,執行者靴
+skillunlocksQuality_armorEnforcerGlovesName,Enforcer Gloves ,執行者グローブ
+skillunlocksQuality_armorEnforcerHelmetName,Enforcer Sunglasses ,執行者サングラス
+skillunlocksQuality_armorEnforcerOutfitName,Enforcer Outfit ,執行者衣装
+skillunlocksQuality_armorFarmerBootsName,Farmer Boots ,農夫ブーツ
+skillunlocksQuality_armorFarmerGlovesName,Farmer Gloves ,農夫グローブ
+skillunlocksQuality_armorFarmerHelmetName,Farmer Hat ,農夫ハット
+skillunlocksQuality_armorFarmerOutfitName,Farmer Outfit ,農夫衣装
+skillunlocksQuality_armorHeavyMasterName,armor Heavy Master
+skillunlocksQuality_armorLightMasterName,armor Light Master
+skillunlocksQuality_armorLumberjackBootsName,Lumberjack Boots ,木こりブーツ
+skillunlocksQuality_armorLumberjackGlovesName,Lumberjack Gloves ,木こりグローブ
+skillunlocksQuality_armorLumberjackHelmetName,Lumberjack Hat ,木こりハット
+skillunlocksQuality_armorLumberjackOutfitName,Lumberjack Outfit ,木こり衣装
+skillunlocksQuality_armorMediumMasterName,armor Medium Master
+skillunlocksQuality_armorMinerBootsName,Miner Boots ,鉱夫ブーツ
+skillunlocksQuality_armorMinerGlovesName,Miner Gloves ,鉱夫グローブ
+skillunlocksQuality_armorMinerHelmetName,Miner Helmet ,鉱夫ヘルメット
+skillunlocksQuality_armorMinerOutfitName,Miner Outfit ,鉱夫衣装
+skillunlocksQuality_armorNerdBootsName,Nerd Boots ,オタクブーツ
+skillunlocksQuality_armorNerdGlovesName,Nerd Gloves ,オタクグローブ
+skillunlocksQuality_armorNerdHelmetName,Nerd Goggles ,オタクゴーグル
+skillunlocksQuality_armorNerdOutfitName,Nerd Outfit ,オタク衣装
+skillunlocksQuality_armorNomadBootsName,Nomad Boots ,遊牧民ブーツ
+skillunlocksQuality_armorNomadGlovesName,Nomad Gloves ,遊牧民グローブ
+skillunlocksQuality_armorNomadHelmetName,Nomad Headgear ,遊牧民ヘッドギア
+skillunlocksQuality_armorNomadOutfitName,Nomad Outfit ,遊牧民衣装
+skillunlocksQuality_armorPreacherBootsName,Preacher Boots ,説教者ブーツ
+skillunlocksQuality_armorPreacherGlovesName,Preacher Gloves ,説教者グローブ
+skillunlocksQuality_armorPreacherHelmetName,Preacher Hat ,説教者ハット
+skillunlocksQuality_armorPreacherOutfitName,Preacher Outfit ,説教者衣装
+skillunlocksQuality_armorPrimitiveBootsName,Primitive Shoes ,原始的な靴
+skillunlocksQuality_armorPrimitiveGlovesName,Primitive Gloves ,原始的なグローブ
+skillunlocksQuality_armorPrimitiveHelmetName,Primitive Hood ,原始的なフード
+skillunlocksQuality_armorPrimitiveMasterName,armor Primitive Master
+skillunlocksQuality_armorPrimitiveOutfitName,Primitive Outfit ,原始的な衣装
+skillunlocksQuality_armorRaiderBootsName,Raider Boots ,レイダーブーツ
+skillunlocksQuality_armorRaiderGlovesName,Raider Gloves ,レイダーグローブ
+skillunlocksQuality_armorRaiderHelmetName,Raider Helmet ,レイダーヘルメット
+skillunlocksQuality_armorRaiderOutfitName,Raider Outfit ,レイダー衣装
+skillunlocksQuality_armorRangerBootsName,Ranger Boots ,レンジャーブーツ
+skillunlocksQuality_armorRangerGlovesName,Ranger Gloves ,レンジャーグローブ
+skillunlocksQuality_armorRangerHelmetName,Ranger Hat ,レンジャーハット
+skillunlocksQuality_armorRangerOutfitName,Ranger Outfit ,レンジャー衣装
+skillunlocksQuality_armorRogueBootsName,Rogue Boots ,ローグブーツ
+skillunlocksQuality_armorRogueGlovesName,Rogue Gloves ,ローググローブ
+skillunlocksQuality_armorRogueHelmetName,Rogue Hood ,ローグフード
+skillunlocksQuality_armorRogueOutfitName,Rogue Outfit ,ローグ衣装
+skillunlocksQuality_armorScavengerBootsName,Scavenger Boots ,スカベンジャーブーツ
+skillunlocksQuality_armorScavengerGlovesName,Scavenger Gloves ,スカベンジャーグローブ
+skillunlocksQuality_armorScavengerHelmetName,Scavenger Hat ,スカベンジャーハット
+skillunlocksQuality_armorScavengerOutfitName,Scavenger Outfit ,スカベンジャー衣装
+skillunlocksQuality_carBatteryName,Lead Car Battery ,バッテリー
+skillunlocksQuality_gunBotT1JunkSledgeName,Robotic Sledge ,ロボットスレッジ
+skillunlocksQuality_gunBotT2JunkTurretName,Robotic Turret ,ロボット砲台
+skillunlocksQuality_gunBotT3JunkDroneName,Robotic Drone ,ロボットドローン
+skillunlocksQuality_gunBowT0PrimitiveBowName,Primitive Bow ,粗末な弓
+skillunlocksQuality_gunBowT1IronCrossbowName,Iron Crossbow ,鉄製クロスボウ
+skillunlocksQuality_gunBowT1WoodenBowName,Wooden Bow ,木の弓
+skillunlocksQuality_gunBowT3CompoundBowName,Compound Bow ,複合弓
+skillunlocksQuality_gunBowT3CompoundCrossbowName,Compound Crossbow ,複合クロスボウ
+skillunlocksQuality_gunExplosivesT3RocketLauncherName,Rocket Launcher ,ロケットランチャー
+skillunlocksQuality_gunHandgunT0PipePistolName,Pipe Pistol ,パイプピストル
+skillunlocksQuality_gunHandgunT1PistolName,Pistol ,ピストル
+skillunlocksQuality_gunHandgunT2Magnum44Name,.44 Magnum ,.44マグナム
+skillunlocksQuality_gunHandgunT3DesertVultureName,.44 Desert Vulture ,.44 デザートヴァルチャー
+skillunlocksQuality_gunHandgunT3SMG5Name,SMG-5
+skillunlocksQuality_gunMGT0PipeMachineGunName,Pipe Machine Gun ,パイプマシンガン
+skillunlocksQuality_gunMGT1AK47Name,AK-47 Machine Gun ,AK-47マシンガン
+skillunlocksQuality_gunMGT2TacticalARName,Tactical Assault Rifle ,タクティカルアサルトライフル
+skillunlocksQuality_gunMGT3M60Name,M60 Machine Gun ,M60マシンガン
+skillunlocksQuality_gunRifleT0PipeRifleName,Pipe Rifle ,パイプライフル
+skillunlocksQuality_gunRifleT1HuntingRifleName,Hunting Rifle ,狩猟ライフル
+skillunlocksQuality_gunRifleT2LeverActionRifleName,Lever Action Rifle ,レバーアクションライフル
+skillunlocksQuality_gunRifleT3SniperRifleName,Sniper Rifle ,スナイパーライフル
+skillunlocksQuality_gunShotgunT0PipeShotgunName,Pipe Shotgun ,パイプショットガン
+skillunlocksQuality_gunShotgunT1DoubleBarrelName,Double Barrel Shotgun ,2連ショットガン
+skillunlocksQuality_gunShotgunT2PumpShotgunName,Pump Shotgun ,ポンプアクション式ショットガン
+skillunlocksQuality_gunShotgunT3AutoShotgunName,Auto Shotgun ,オートショットガン
+skillunlocksQuality_meleeToolAxeT1IronFireaxeName,Iron Fireaxe ,鉄製消防斧
+skillunlocksQuality_meleeToolAxeT2SteelAxeName,Steel Axe ,鉄鋼斧
+skillunlocksQuality_meleeToolAxeT3ChainsawName,Chainsaw ,チェーンソー
+skillunlocksQuality_meleeToolPickT1IronPickaxeName,Iron Pickaxe ,鉄つるはし
+skillunlocksQuality_meleeToolPickT2SteelPickaxeName,Steel Pickaxe ,鉄鋼つるはし
+skillunlocksQuality_meleeToolPickT3AugerName,Auger ,オーガー
+skillunlocksQuality_meleeToolRepairT0StoneAxeName,Stone Axe ,石斧
+skillunlocksQuality_meleeToolRepairT1ClawHammerName,Claw Hammer ,くぎ抜きハンマー
+skillunlocksQuality_meleeToolRepairT3NailgunName,Nailgun ,ネイルガン
+skillunlocksQuality_meleeToolSalvageT1WrenchName,Wrench ,レンチ
+skillunlocksQuality_meleeToolSalvageT2RatchetName,Ratchet ,ラチェット
+skillunlocksQuality_meleeToolSalvageT3ImpactDriverName,Impact Driver ,衝撃ドライバー
+skillunlocksQuality_meleeToolShovelT0StoneShovelName,Stone Shovel ,石ショベル
+skillunlocksQuality_meleeToolShovelT1IronShovelName,Iron Shovel ,鉄ショベル
+skillunlocksQuality_meleeToolShovelT2SteelShovelName,Steel Shovel ,鉄鋼ショベル
+skillunlocksQuality_meleeWpnBatonT0PipeBatonName,Pipe Baton ,パイプバトン
+skillunlocksQuality_meleeWpnBatonT2StunBatonName,Stun Baton ,スタンバトン
+skillunlocksQuality_meleeWpnBladeT0BoneKnifeName,Bone Knife ,骨ナイフ
+skillunlocksQuality_meleeWpnBladeT1HuntingKnifeName,Hunting Knife ,狩猟ナイフ
+skillunlocksQuality_meleeWpnBladeT3MacheteName,Machete ,マチェーテ
+skillunlocksQuality_meleeWpnClubT0WoodenClubName,Wooden Club ,木製棍棒
+skillunlocksQuality_meleeWpnClubT1BaseballBatName,Baseball Bat ,ベースボールバット
+skillunlocksQuality_meleeWpnClubT3SteelClubName,Steel Club ,鉄鋼製棍棒
+skillunlocksQuality_meleeWpnKnucklesT0LeatherKnucklesName,Knuckle Wraps ,ナックルラップ
+skillunlocksQuality_meleeWpnKnucklesT1IronKnucklesName,Iron Knuckles ,鉄ナックル
+skillunlocksQuality_meleeWpnKnucklesT3SteelKnucklesName,Steel Knuckles ,鉄鋼ナックル
+skillunlocksQuality_meleeWpnSledgeT0StoneSledgehammerName,Stone Sledgehammer ,石製スレッジハンマー
+skillunlocksQuality_meleeWpnSledgeT1IronSledgehammerName,Iron Sledgehammer ,鉄製スレッジハンマー
+skillunlocksQuality_meleeWpnSledgeT3SteelSledgehammerName,Steel Sledgehammer ,鉄鋼製スレッジハンマー
+skillunlocksQuality_meleeWpnSpearT0StoneSpearName,Stone Spear ,石槍
+skillunlocksQuality_meleeWpnSpearT1IronSpearName,Iron Spear ,鉄槍
+skillunlocksQuality_meleeWpnSpearT3SteelSpearName,Steel Spear ,鉄鋼槍
+perkUTQI_armorAssassinBoots_q2,Assassin Boots (Q2) ,アサシンブーツ (品質2)
+perkUTQI_armorAssassinBoots_q3,Assassin Boots (Q3) ,アサシンブーツ (品質3)
+perkUTQI_armorAssassinBoots_q4,Assassin Boots (Q4) ,アサシンブーツ (品質4)
+perkUTQI_armorAssassinBoots_q5,Assassin Boots (Q5) ,アサシンブーツ (品質5)
+perkUTQI_armorAssassinBoots_q6,Assassin Boots (Q6) ,アサシンブーツ (品質6)
+perkUTQI_armorAssassinGloves_q2,Assassin Gloves (Q2) ,アサシングローブ (品質2)
+perkUTQI_armorAssassinGloves_q3,Assassin Gloves (Q3) ,アサシングローブ (品質3)
+perkUTQI_armorAssassinGloves_q4,Assassin Gloves (Q4) ,アサシングローブ (品質4)
+perkUTQI_armorAssassinGloves_q5,Assassin Gloves (Q5) ,アサシングローブ (品質5)
+perkUTQI_armorAssassinGloves_q6,Assassin Gloves (Q6) ,アサシングローブ (品質6)
+perkUTQI_armorAssassinHelmet_q2,Assassin Hood (Q2) ,アサシンフード (品質2)
+perkUTQI_armorAssassinHelmet_q3,Assassin Hood (Q3) ,アサシンフード (品質3)
+perkUTQI_armorAssassinHelmet_q4,Assassin Hood (Q4) ,アサシンフード (品質4)
+perkUTQI_armorAssassinHelmet_q5,Assassin Hood (Q5) ,アサシンフード (品質5)
+perkUTQI_armorAssassinHelmet_q6,Assassin Hood (Q6) ,アサシンフード (品質6)
+perkUTQI_armorAssassinOutfit_q2,Assassin Outfit (Q2) ,アサシン衣装 (品質2)
+perkUTQI_armorAssassinOutfit_q3,Assassin Outfit (Q3) ,アサシン衣装 (品質3)
+perkUTQI_armorAssassinOutfit_q4,Assassin Outfit (Q4) ,アサシン衣装 (品質4)
+perkUTQI_armorAssassinOutfit_q5,Assassin Outfit (Q5) ,アサシン衣装 (品質5)
+perkUTQI_armorAssassinOutfit_q6,Assassin Outfit (Q6) ,アサシン衣装 (品質6)
+perkUTQI_armorAthleticBoots_q2,Athletic Shoes (Q2) ,アスリートシューズ (品質2)
+perkUTQI_armorAthleticBoots_q3,Athletic Shoes (Q3) ,アスリートシューズ (品質3)
+perkUTQI_armorAthleticBoots_q4,Athletic Shoes (Q4) ,アスリートシューズ (品質4)
+perkUTQI_armorAthleticBoots_q5,Athletic Shoes (Q5) ,アスリートシューズ (品質5)
+perkUTQI_armorAthleticBoots_q6,Athletic Shoes (Q6) ,アスリートシューズ (品質6)
+perkUTQI_armorAthleticGloves_q2,Athletic Gloves (Q2) ,アスリートグローブ (品質2)
+perkUTQI_armorAthleticGloves_q3,Athletic Gloves (Q3) ,アスリートグローブ (品質3)
+perkUTQI_armorAthleticGloves_q4,Athletic Gloves (Q4) ,アスリートグローブ (品質4)
+perkUTQI_armorAthleticGloves_q5,Athletic Gloves (Q5) ,アスリートグローブ (品質5)
+perkUTQI_armorAthleticGloves_q6,Athletic Gloves (Q6) ,アスリートグローブ (品質6)
+perkUTQI_armorAthleticHelmet_q2,Athletic Hat (Q2) ,アスリートハット (品質2)
+perkUTQI_armorAthleticHelmet_q3,Athletic Hat (Q3) ,アスリートハット (品質3)
+perkUTQI_armorAthleticHelmet_q4,Athletic Hat (Q4) ,アスリートハット (品質4)
+perkUTQI_armorAthleticHelmet_q5,Athletic Hat (Q5) ,アスリートハット (品質5)
+perkUTQI_armorAthleticHelmet_q6,Athletic Hat (Q6) ,アスリートハット (品質6)
+perkUTQI_armorAthleticOutfit_q2,Athletic Outfit (Q2) ,アスリート衣装 (品質2)
+perkUTQI_armorAthleticOutfit_q3,Athletic Outfit (Q3) ,アスリート衣装 (品質3)
+perkUTQI_armorAthleticOutfit_q4,Athletic Outfit (Q4) ,アスリート衣装 (品質4)
+perkUTQI_armorAthleticOutfit_q5,Athletic Outfit (Q5) ,アスリート衣装 (品質5)
+perkUTQI_armorAthleticOutfit_q6,Athletic Outfit (Q6) ,アスリート衣装 (品質6)
+perkUTQI_armorBikerBoots_q2,Biker Boots (Q2) ,バイカーブーツ (品質2)
+perkUTQI_armorBikerBoots_q3,Biker Boots (Q3) ,バイカーブーツ (品質3)
+perkUTQI_armorBikerBoots_q4,Biker Boots (Q4) ,バイカーブーツ (品質4)
+perkUTQI_armorBikerBoots_q5,Biker Boots (Q5) ,バイカーブーツ (品質5)
+perkUTQI_armorBikerBoots_q6,Biker Boots (Q6) ,バイカーブーツ (品質6)
+perkUTQI_armorBikerGloves_q2,Biker Gloves (Q2) ,バイカーグローブ (品質2)
+perkUTQI_armorBikerGloves_q3,Biker Gloves (Q3) ,バイカーグローブ (品質3)
+perkUTQI_armorBikerGloves_q4,Biker Gloves (Q4) ,バイカーグローブ (品質4)
+perkUTQI_armorBikerGloves_q5,Biker Gloves (Q5) ,バイカーグローブ (品質5)
+perkUTQI_armorBikerGloves_q6,Biker Gloves (Q6) ,バイカーグローブ (品質6)
+perkUTQI_armorBikerHelmet_q2,Biker Helmet (Q2) ,バイカーヘルメット (品質2)
+perkUTQI_armorBikerHelmet_q3,Biker Helmet (Q3) ,バイカーヘルメット (品質3)
+perkUTQI_armorBikerHelmet_q4,Biker Helmet (Q4) ,バイカーヘルメット (品質4)
+perkUTQI_armorBikerHelmet_q5,Biker Helmet (Q5) ,バイカーヘルメット (品質5)
+perkUTQI_armorBikerHelmet_q6,Biker Helmet (Q6) ,バイカーヘルメット (品質6)
+perkUTQI_armorBikerOutfit_q2,Biker Outfit (Q2) ,バイカー衣装 (品質2)
+perkUTQI_armorBikerOutfit_q3,Biker Outfit (Q3) ,バイカー衣装 (品質3)
+perkUTQI_armorBikerOutfit_q4,Biker Outfit (Q4) ,バイカー衣装 (品質4)
+perkUTQI_armorBikerOutfit_q5,Biker Outfit (Q5) ,バイカー衣装 (品質5)
+perkUTQI_armorBikerOutfit_q6,Biker Outfit (Q6) ,バイカー衣装 (品質6)
+perkUTQI_armorCommandoBoots_q2,Commando Boots (Q2) ,コマンドーブーツ (品質2)
+perkUTQI_armorCommandoBoots_q3,Commando Boots (Q3) ,コマンドーブーツ (品質3)
+perkUTQI_armorCommandoBoots_q4,Commando Boots (Q4) ,コマンドーブーツ (品質4)
+perkUTQI_armorCommandoBoots_q5,Commando Boots (Q5) ,コマンドーブーツ (品質5)
+perkUTQI_armorCommandoBoots_q6,Commando Boots (Q6) ,コマンドーブーツ (品質6)
+perkUTQI_armorCommandoGloves_q2,Commando Gloves (Q2) ,コマンドーグローブ (品質2)
+perkUTQI_armorCommandoGloves_q3,Commando Gloves (Q3) ,コマンドーグローブ (品質3)
+perkUTQI_armorCommandoGloves_q4,Commando Gloves (Q4) ,コマンドーグローブ (品質4)
+perkUTQI_armorCommandoGloves_q5,Commando Gloves (Q5) ,コマンドーグローブ (品質5)
+perkUTQI_armorCommandoGloves_q6,Commando Gloves (Q6) ,コマンドーグローブ (品質6)
+perkUTQI_armorCommandoHelmet_q2,Commando Helmet (Q2) ,コマンドーヘルメット (品質2)
+perkUTQI_armorCommandoHelmet_q3,Commando Helmet (Q3) ,コマンドーヘルメット (品質3)
+perkUTQI_armorCommandoHelmet_q4,Commando Helmet (Q4) ,コマンドーヘルメット (品質4)
+perkUTQI_armorCommandoHelmet_q5,Commando Helmet (Q5) ,コマンドーヘルメット (品質5)
+perkUTQI_armorCommandoHelmet_q6,Commando Helmet (Q6) ,コマンドーヘルメット (品質6)
+perkUTQI_armorCommandoOutfit_q2,Commando Outfit (Q2) ,コマンドー衣装 (品質2)
+perkUTQI_armorCommandoOutfit_q3,Commando Outfit (Q3) ,コマンドー衣装 (品質3)
+perkUTQI_armorCommandoOutfit_q4,Commando Outfit (Q4) ,コマンドー衣装 (品質4)
+perkUTQI_armorCommandoOutfit_q5,Commando Outfit (Q5) ,コマンドー衣装 (品質5)
+perkUTQI_armorCommandoOutfit_q6,Commando Outfit (Q6) ,コマンドー衣装 (品質6)
+perkUTQI_armorEnforcerBoots_q2,Enforcer Shoes (Q2) ,執行者靴 (品質2)
+perkUTQI_armorEnforcerBoots_q3,Enforcer Shoes (Q3) ,執行者靴 (品質3)
+perkUTQI_armorEnforcerBoots_q4,Enforcer Shoes (Q4) ,執行者靴 (品質4)
+perkUTQI_armorEnforcerBoots_q5,Enforcer Shoes (Q5) ,執行者靴 (品質5)
+perkUTQI_armorEnforcerBoots_q6,Enforcer Shoes (Q6) ,執行者靴 (品質6)
+perkUTQI_armorEnforcerGloves_q2,Enforcer Gloves (Q2) ,執行者グローブ (品質2)
+perkUTQI_armorEnforcerGloves_q3,Enforcer Gloves (Q3) ,執行者グローブ (品質3)
+perkUTQI_armorEnforcerGloves_q4,Enforcer Gloves (Q4) ,執行者グローブ (品質4)
+perkUTQI_armorEnforcerGloves_q5,Enforcer Gloves (Q5) ,執行者グローブ (品質5)
+perkUTQI_armorEnforcerGloves_q6,Enforcer Gloves (Q6) ,執行者グローブ (品質6)
+perkUTQI_armorEnforcerHelmet_q2,Enforcer Sunglasses (Q2) ,執行者サングラス (品質2)
+perkUTQI_armorEnforcerHelmet_q3,Enforcer Sunglasses (Q3) ,執行者サングラス (品質3)
+perkUTQI_armorEnforcerHelmet_q4,Enforcer Sunglasses (Q4) ,執行者サングラス (品質4)
+perkUTQI_armorEnforcerHelmet_q5,Enforcer Sunglasses (Q5) ,執行者サングラス (品質5)
+perkUTQI_armorEnforcerHelmet_q6,Enforcer Sunglasses (Q6) ,執行者サングラス (品質6)
+perkUTQI_armorEnforcerOutfit_q2,Enforcer Outfit (Q2) ,執行者衣装 (品質2)
+perkUTQI_armorEnforcerOutfit_q3,Enforcer Outfit (Q3) ,執行者衣装 (品質3)
+perkUTQI_armorEnforcerOutfit_q4,Enforcer Outfit (Q4) ,執行者衣装 (品質4)
+perkUTQI_armorEnforcerOutfit_q5,Enforcer Outfit (Q5) ,執行者衣装 (品質5)
+perkUTQI_armorEnforcerOutfit_q6,Enforcer Outfit (Q6) ,執行者衣装 (品質6)
+perkUTQI_armorFarmerBoots_q2,Farmer Boots (Q2) ,農夫ブーツ (品質2)
+perkUTQI_armorFarmerBoots_q3,Farmer Boots (Q3) ,農夫ブーツ (品質3)
+perkUTQI_armorFarmerBoots_q4,Farmer Boots (Q4) ,農夫ブーツ (品質4)
+perkUTQI_armorFarmerBoots_q5,Farmer Boots (Q5) ,農夫ブーツ (品質5)
+perkUTQI_armorFarmerBoots_q6,Farmer Boots (Q6) ,農夫ブーツ (品質6)
+perkUTQI_armorFarmerGloves_q2,Farmer Gloves (Q2) ,農夫グローブ (品質2)
+perkUTQI_armorFarmerGloves_q3,Farmer Gloves (Q3) ,農夫グローブ (品質3)
+perkUTQI_armorFarmerGloves_q4,Farmer Gloves (Q4) ,農夫グローブ (品質4)
+perkUTQI_armorFarmerGloves_q5,Farmer Gloves (Q5) ,農夫グローブ (品質5)
+perkUTQI_armorFarmerGloves_q6,Farmer Gloves (Q6) ,農夫グローブ (品質6)
+perkUTQI_armorFarmerHelmet_q2,Farmer Hat (Q2) ,農夫ハット (品質2)
+perkUTQI_armorFarmerHelmet_q3,Farmer Hat (Q3) ,農夫ハット (品質3)
+perkUTQI_armorFarmerHelmet_q4,Farmer Hat (Q4) ,農夫ハット (品質4)
+perkUTQI_armorFarmerHelmet_q5,Farmer Hat (Q5) ,農夫ハット (品質5)
+perkUTQI_armorFarmerHelmet_q6,Farmer Hat (Q6) ,農夫ハット (品質6)
+perkUTQI_armorFarmerOutfit_q2,Farmer Outfit (Q2) ,農夫衣装 (品質2)
+perkUTQI_armorFarmerOutfit_q3,Farmer Outfit (Q3) ,農夫衣装 (品質3)
+perkUTQI_armorFarmerOutfit_q4,Farmer Outfit (Q4) ,農夫衣装 (品質4)
+perkUTQI_armorFarmerOutfit_q5,Farmer Outfit (Q5) ,農夫衣装 (品質5)
+perkUTQI_armorFarmerOutfit_q6,Farmer Outfit (Q6) ,農夫衣装 (品質6)
+perkUTQI_armorHeavyMaster_q2,armor Heavy Master (Q2) ,armor Heavy Master (品質2)
+perkUTQI_armorHeavyMaster_q3,armor Heavy Master (Q3) ,armor Heavy Master (品質3)
+perkUTQI_armorHeavyMaster_q4,armor Heavy Master (Q4) ,armor Heavy Master (品質4)
+perkUTQI_armorHeavyMaster_q5,armor Heavy Master (Q5) ,armor Heavy Master (品質5)
+perkUTQI_armorHeavyMaster_q6,armor Heavy Master (Q6) ,armor Heavy Master (品質6)
+perkUTQI_armorLightMaster_q2,armor Light Master (Q2) ,armor Light Master (品質2)
+perkUTQI_armorLightMaster_q3,armor Light Master (Q3) ,armor Light Master (品質3)
+perkUTQI_armorLightMaster_q4,armor Light Master (Q4) ,armor Light Master (品質4)
+perkUTQI_armorLightMaster_q5,armor Light Master (Q5) ,armor Light Master (品質5)
+perkUTQI_armorLightMaster_q6,armor Light Master (Q6) ,armor Light Master (品質6)
+perkUTQI_armorLumberjackBoots_q2,Lumberjack Boots (Q2) ,木こりブーツ (品質2)
+perkUTQI_armorLumberjackBoots_q3,Lumberjack Boots (Q3) ,木こりブーツ (品質3)
+perkUTQI_armorLumberjackBoots_q4,Lumberjack Boots (Q4) ,木こりブーツ (品質4)
+perkUTQI_armorLumberjackBoots_q5,Lumberjack Boots (Q5) ,木こりブーツ (品質5)
+perkUTQI_armorLumberjackBoots_q6,Lumberjack Boots (Q6) ,木こりブーツ (品質6)
+perkUTQI_armorLumberjackGloves_q2,Lumberjack Gloves (Q2) ,木こりグローブ (品質2)
+perkUTQI_armorLumberjackGloves_q3,Lumberjack Gloves (Q3) ,木こりグローブ (品質3)
+perkUTQI_armorLumberjackGloves_q4,Lumberjack Gloves (Q4) ,木こりグローブ (品質4)
+perkUTQI_armorLumberjackGloves_q5,Lumberjack Gloves (Q5) ,木こりグローブ (品質5)
+perkUTQI_armorLumberjackGloves_q6,Lumberjack Gloves (Q6) ,木こりグローブ (品質6)
+perkUTQI_armorLumberjackHelmet_q2,Lumberjack Hat (Q2) ,木こりハット (品質2)
+perkUTQI_armorLumberjackHelmet_q3,Lumberjack Hat (Q3) ,木こりハット (品質3)
+perkUTQI_armorLumberjackHelmet_q4,Lumberjack Hat (Q4) ,木こりハット (品質4)
+perkUTQI_armorLumberjackHelmet_q5,Lumberjack Hat (Q5) ,木こりハット (品質5)
+perkUTQI_armorLumberjackHelmet_q6,Lumberjack Hat (Q6) ,木こりハット (品質6)
+perkUTQI_armorLumberjackOutfit_q2,Lumberjack Outfit (Q2) ,木こり衣装 (品質2)
+perkUTQI_armorLumberjackOutfit_q3,Lumberjack Outfit (Q3) ,木こり衣装 (品質3)
+perkUTQI_armorLumberjackOutfit_q4,Lumberjack Outfit (Q4) ,木こり衣装 (品質4)
+perkUTQI_armorLumberjackOutfit_q5,Lumberjack Outfit (Q5) ,木こり衣装 (品質5)
+perkUTQI_armorLumberjackOutfit_q6,Lumberjack Outfit (Q6) ,木こり衣装 (品質6)
+perkUTQI_armorMediumMaster_q2,armor Medium Master (Q2) ,armor Medium Master (品質2)
+perkUTQI_armorMediumMaster_q3,armor Medium Master (Q3) ,armor Medium Master (品質3)
+perkUTQI_armorMediumMaster_q4,armor Medium Master (Q4) ,armor Medium Master (品質4)
+perkUTQI_armorMediumMaster_q5,armor Medium Master (Q5) ,armor Medium Master (品質5)
+perkUTQI_armorMediumMaster_q6,armor Medium Master (Q6) ,armor Medium Master (品質6)
+perkUTQI_armorMinerBoots_q2,Miner Boots (Q2) ,鉱夫ブーツ (品質2)
+perkUTQI_armorMinerBoots_q3,Miner Boots (Q3) ,鉱夫ブーツ (品質3)
+perkUTQI_armorMinerBoots_q4,Miner Boots (Q4) ,鉱夫ブーツ (品質4)
+perkUTQI_armorMinerBoots_q5,Miner Boots (Q5) ,鉱夫ブーツ (品質5)
+perkUTQI_armorMinerBoots_q6,Miner Boots (Q6) ,鉱夫ブーツ (品質6)
+perkUTQI_armorMinerGloves_q2,Miner Gloves (Q2) ,鉱夫グローブ (品質2)
+perkUTQI_armorMinerGloves_q3,Miner Gloves (Q3) ,鉱夫グローブ (品質3)
+perkUTQI_armorMinerGloves_q4,Miner Gloves (Q4) ,鉱夫グローブ (品質4)
+perkUTQI_armorMinerGloves_q5,Miner Gloves (Q5) ,鉱夫グローブ (品質5)
+perkUTQI_armorMinerGloves_q6,Miner Gloves (Q6) ,鉱夫グローブ (品質6)
+perkUTQI_armorMinerHelmet_q2,Miner Helmet (Q2) ,鉱夫ヘルメット (品質2)
+perkUTQI_armorMinerHelmet_q3,Miner Helmet (Q3) ,鉱夫ヘルメット (品質3)
+perkUTQI_armorMinerHelmet_q4,Miner Helmet (Q4) ,鉱夫ヘルメット (品質4)
+perkUTQI_armorMinerHelmet_q5,Miner Helmet (Q5) ,鉱夫ヘルメット (品質5)
+perkUTQI_armorMinerHelmet_q6,Miner Helmet (Q6) ,鉱夫ヘルメット (品質6)
+perkUTQI_armorMinerOutfit_q2,Miner Outfit (Q2) ,鉱夫衣装 (品質2)
+perkUTQI_armorMinerOutfit_q3,Miner Outfit (Q3) ,鉱夫衣装 (品質3)
+perkUTQI_armorMinerOutfit_q4,Miner Outfit (Q4) ,鉱夫衣装 (品質4)
+perkUTQI_armorMinerOutfit_q5,Miner Outfit (Q5) ,鉱夫衣装 (品質5)
+perkUTQI_armorMinerOutfit_q6,Miner Outfit (Q6) ,鉱夫衣装 (品質6)
+perkUTQI_armorNerdBoots_q2,Nerd Boots (Q2) ,オタクブーツ (品質2)
+perkUTQI_armorNerdBoots_q3,Nerd Boots (Q3) ,オタクブーツ (品質3)
+perkUTQI_armorNerdBoots_q4,Nerd Boots (Q4) ,オタクブーツ (品質4)
+perkUTQI_armorNerdBoots_q5,Nerd Boots (Q5) ,オタクブーツ (品質5)
+perkUTQI_armorNerdBoots_q6,Nerd Boots (Q6) ,オタクブーツ (品質6)
+perkUTQI_armorNerdGloves_q2,Nerd Gloves (Q2) ,オタクグローブ (品質2)
+perkUTQI_armorNerdGloves_q3,Nerd Gloves (Q3) ,オタクグローブ (品質3)
+perkUTQI_armorNerdGloves_q4,Nerd Gloves (Q4) ,オタクグローブ (品質4)
+perkUTQI_armorNerdGloves_q5,Nerd Gloves (Q5) ,オタクグローブ (品質5)
+perkUTQI_armorNerdGloves_q6,Nerd Gloves (Q6) ,オタクグローブ (品質6)
+perkUTQI_armorNerdHelmet_q2,Nerd Goggles (Q2) ,オタクゴーグル (品質2)
+perkUTQI_armorNerdHelmet_q3,Nerd Goggles (Q3) ,オタクゴーグル (品質3)
+perkUTQI_armorNerdHelmet_q4,Nerd Goggles (Q4) ,オタクゴーグル (品質4)
+perkUTQI_armorNerdHelmet_q5,Nerd Goggles (Q5) ,オタクゴーグル (品質5)
+perkUTQI_armorNerdHelmet_q6,Nerd Goggles (Q6) ,オタクゴーグル (品質6)
+perkUTQI_armorNerdOutfit_q2,Nerd Outfit (Q2) ,オタク衣装 (品質2)
+perkUTQI_armorNerdOutfit_q3,Nerd Outfit (Q3) ,オタク衣装 (品質3)
+perkUTQI_armorNerdOutfit_q4,Nerd Outfit (Q4) ,オタク衣装 (品質4)
+perkUTQI_armorNerdOutfit_q5,Nerd Outfit (Q5) ,オタク衣装 (品質5)
+perkUTQI_armorNerdOutfit_q6,Nerd Outfit (Q6) ,オタク衣装 (品質6)
+perkUTQI_armorNomadBoots_q2,Nomad Boots (Q2) ,遊牧民ブーツ (品質2)
+perkUTQI_armorNomadBoots_q3,Nomad Boots (Q3) ,遊牧民ブーツ (品質3)
+perkUTQI_armorNomadBoots_q4,Nomad Boots (Q4) ,遊牧民ブーツ (品質4)
+perkUTQI_armorNomadBoots_q5,Nomad Boots (Q5) ,遊牧民ブーツ (品質5)
+perkUTQI_armorNomadBoots_q6,Nomad Boots (Q6) ,遊牧民ブーツ (品質6)
+perkUTQI_armorNomadGloves_q2,Nomad Gloves (Q2) ,遊牧民グローブ (品質2)
+perkUTQI_armorNomadGloves_q3,Nomad Gloves (Q3) ,遊牧民グローブ (品質3)
+perkUTQI_armorNomadGloves_q4,Nomad Gloves (Q4) ,遊牧民グローブ (品質4)
+perkUTQI_armorNomadGloves_q5,Nomad Gloves (Q5) ,遊牧民グローブ (品質5)
+perkUTQI_armorNomadGloves_q6,Nomad Gloves (Q6) ,遊牧民グローブ (品質6)
+perkUTQI_armorNomadHelmet_q2,Nomad Headgear (Q2) ,遊牧民ヘッドギア (品質2)
+perkUTQI_armorNomadHelmet_q3,Nomad Headgear (Q3) ,遊牧民ヘッドギア (品質3)
+perkUTQI_armorNomadHelmet_q4,Nomad Headgear (Q4) ,遊牧民ヘッドギア (品質4)
+perkUTQI_armorNomadHelmet_q5,Nomad Headgear (Q5) ,遊牧民ヘッドギア (品質5)
+perkUTQI_armorNomadHelmet_q6,Nomad Headgear (Q6) ,遊牧民ヘッドギア (品質6)
+perkUTQI_armorNomadOutfit_q2,Nomad Outfit (Q2) ,遊牧民衣装 (品質2)
+perkUTQI_armorNomadOutfit_q3,Nomad Outfit (Q3) ,遊牧民衣装 (品質3)
+perkUTQI_armorNomadOutfit_q4,Nomad Outfit (Q4) ,遊牧民衣装 (品質4)
+perkUTQI_armorNomadOutfit_q5,Nomad Outfit (Q5) ,遊牧民衣装 (品質5)
+perkUTQI_armorNomadOutfit_q6,Nomad Outfit (Q6) ,遊牧民衣装 (品質6)
+perkUTQI_armorPreacherBoots_q2,Preacher Boots (Q2) ,説教者ブーツ (品質2)
+perkUTQI_armorPreacherBoots_q3,Preacher Boots (Q3) ,説教者ブーツ (品質3)
+perkUTQI_armorPreacherBoots_q4,Preacher Boots (Q4) ,説教者ブーツ (品質4)
+perkUTQI_armorPreacherBoots_q5,Preacher Boots (Q5) ,説教者ブーツ (品質5)
+perkUTQI_armorPreacherBoots_q6,Preacher Boots (Q6) ,説教者ブーツ (品質6)
+perkUTQI_armorPreacherGloves_q2,Preacher Gloves (Q2) ,説教者グローブ (品質2)
+perkUTQI_armorPreacherGloves_q3,Preacher Gloves (Q3) ,説教者グローブ (品質3)
+perkUTQI_armorPreacherGloves_q4,Preacher Gloves (Q4) ,説教者グローブ (品質4)
+perkUTQI_armorPreacherGloves_q5,Preacher Gloves (Q5) ,説教者グローブ (品質5)
+perkUTQI_armorPreacherGloves_q6,Preacher Gloves (Q6) ,説教者グローブ (品質6)
+perkUTQI_armorPreacherHelmet_q2,Preacher Hat (Q2) ,説教者ハット (品質2)
+perkUTQI_armorPreacherHelmet_q3,Preacher Hat (Q3) ,説教者ハット (品質3)
+perkUTQI_armorPreacherHelmet_q4,Preacher Hat (Q4) ,説教者ハット (品質4)
+perkUTQI_armorPreacherHelmet_q5,Preacher Hat (Q5) ,説教者ハット (品質5)
+perkUTQI_armorPreacherHelmet_q6,Preacher Hat (Q6) ,説教者ハット (品質6)
+perkUTQI_armorPreacherOutfit_q2,Preacher Outfit (Q2) ,説教者衣装 (品質2)
+perkUTQI_armorPreacherOutfit_q3,Preacher Outfit (Q3) ,説教者衣装 (品質3)
+perkUTQI_armorPreacherOutfit_q4,Preacher Outfit (Q4) ,説教者衣装 (品質4)
+perkUTQI_armorPreacherOutfit_q5,Preacher Outfit (Q5) ,説教者衣装 (品質5)
+perkUTQI_armorPreacherOutfit_q6,Preacher Outfit (Q6) ,説教者衣装 (品質6)
+perkUTQI_armorPrimitiveBoots_q2,Primitive Shoes (Q2) ,原始的な靴 (品質2)
+perkUTQI_armorPrimitiveBoots_q3,Primitive Shoes (Q3) ,原始的な靴 (品質3)
+perkUTQI_armorPrimitiveBoots_q4,Primitive Shoes (Q4) ,原始的な靴 (品質4)
+perkUTQI_armorPrimitiveBoots_q5,Primitive Shoes (Q5) ,原始的な靴 (品質5)
+perkUTQI_armorPrimitiveBoots_q6,Primitive Shoes (Q6) ,原始的な靴 (品質6)
+perkUTQI_armorPrimitiveGloves_q2,Primitive Gloves (Q2) ,原始的なグローブ (品質2)
+perkUTQI_armorPrimitiveGloves_q3,Primitive Gloves (Q3) ,原始的なグローブ (品質3)
+perkUTQI_armorPrimitiveGloves_q4,Primitive Gloves (Q4) ,原始的なグローブ (品質4)
+perkUTQI_armorPrimitiveGloves_q5,Primitive Gloves (Q5) ,原始的なグローブ (品質5)
+perkUTQI_armorPrimitiveGloves_q6,Primitive Gloves (Q6) ,原始的なグローブ (品質6)
+perkUTQI_armorPrimitiveHelmet_q2,Primitive Hood (Q2) ,原始的なフード (品質2)
+perkUTQI_armorPrimitiveHelmet_q3,Primitive Hood (Q3) ,原始的なフード (品質3)
+perkUTQI_armorPrimitiveHelmet_q4,Primitive Hood (Q4) ,原始的なフード (品質4)
+perkUTQI_armorPrimitiveHelmet_q5,Primitive Hood (Q5) ,原始的なフード (品質5)
+perkUTQI_armorPrimitiveHelmet_q6,Primitive Hood (Q6) ,原始的なフード (品質6)
+perkUTQI_armorPrimitiveMaster_q2,armor Primitive Master (Q2) ,armor Primitive Master (品質2)
+perkUTQI_armorPrimitiveMaster_q3,armor Primitive Master (Q3) ,armor Primitive Master (品質3)
+perkUTQI_armorPrimitiveMaster_q4,armor Primitive Master (Q4) ,armor Primitive Master (品質4)
+perkUTQI_armorPrimitiveMaster_q5,armor Primitive Master (Q5) ,armor Primitive Master (品質5)
+perkUTQI_armorPrimitiveMaster_q6,armor Primitive Master (Q6) ,armor Primitive Master (品質6)
+perkUTQI_armorPrimitiveOutfit_q2,Primitive Outfit (Q2) ,原始的な衣装 (品質2)
+perkUTQI_armorPrimitiveOutfit_q3,Primitive Outfit (Q3) ,原始的な衣装 (品質3)
+perkUTQI_armorPrimitiveOutfit_q4,Primitive Outfit (Q4) ,原始的な衣装 (品質4)
+perkUTQI_armorPrimitiveOutfit_q5,Primitive Outfit (Q5) ,原始的な衣装 (品質5)
+perkUTQI_armorPrimitiveOutfit_q6,Primitive Outfit (Q6) ,原始的な衣装 (品質6)
+perkUTQI_armorRaiderBoots_q2,Raider Boots (Q2) ,レイダーブーツ (品質2)
+perkUTQI_armorRaiderBoots_q3,Raider Boots (Q3) ,レイダーブーツ (品質3)
+perkUTQI_armorRaiderBoots_q4,Raider Boots (Q4) ,レイダーブーツ (品質4)
+perkUTQI_armorRaiderBoots_q5,Raider Boots (Q5) ,レイダーブーツ (品質5)
+perkUTQI_armorRaiderBoots_q6,Raider Boots (Q6) ,レイダーブーツ (品質6)
+perkUTQI_armorRaiderGloves_q2,Raider Gloves (Q2) ,レイダーグローブ (品質2)
+perkUTQI_armorRaiderGloves_q3,Raider Gloves (Q3) ,レイダーグローブ (品質3)
+perkUTQI_armorRaiderGloves_q4,Raider Gloves (Q4) ,レイダーグローブ (品質4)
+perkUTQI_armorRaiderGloves_q5,Raider Gloves (Q5) ,レイダーグローブ (品質5)
+perkUTQI_armorRaiderGloves_q6,Raider Gloves (Q6) ,レイダーグローブ (品質6)
+perkUTQI_armorRaiderHelmet_q2,Raider Helmet (Q2) ,レイダーヘルメット (品質2)
+perkUTQI_armorRaiderHelmet_q3,Raider Helmet (Q3) ,レイダーヘルメット (品質3)
+perkUTQI_armorRaiderHelmet_q4,Raider Helmet (Q4) ,レイダーヘルメット (品質4)
+perkUTQI_armorRaiderHelmet_q5,Raider Helmet (Q5) ,レイダーヘルメット (品質5)
+perkUTQI_armorRaiderHelmet_q6,Raider Helmet (Q6) ,レイダーヘルメット (品質6)
+perkUTQI_armorRaiderOutfit_q2,Raider Outfit (Q2) ,レイダー衣装 (品質2)
+perkUTQI_armorRaiderOutfit_q3,Raider Outfit (Q3) ,レイダー衣装 (品質3)
+perkUTQI_armorRaiderOutfit_q4,Raider Outfit (Q4) ,レイダー衣装 (品質4)
+perkUTQI_armorRaiderOutfit_q5,Raider Outfit (Q5) ,レイダー衣装 (品質5)
+perkUTQI_armorRaiderOutfit_q6,Raider Outfit (Q6) ,レイダー衣装 (品質6)
+perkUTQI_armorRangerBoots_q2,Ranger Boots (Q2) ,レンジャーブーツ (品質2)
+perkUTQI_armorRangerBoots_q3,Ranger Boots (Q3) ,レンジャーブーツ (品質3)
+perkUTQI_armorRangerBoots_q4,Ranger Boots (Q4) ,レンジャーブーツ (品質4)
+perkUTQI_armorRangerBoots_q5,Ranger Boots (Q5) ,レンジャーブーツ (品質5)
+perkUTQI_armorRangerBoots_q6,Ranger Boots (Q6) ,レンジャーブーツ (品質6)
+perkUTQI_armorRangerGloves_q2,Ranger Gloves (Q2) ,レンジャーグローブ (品質2)
+perkUTQI_armorRangerGloves_q3,Ranger Gloves (Q3) ,レンジャーグローブ (品質3)
+perkUTQI_armorRangerGloves_q4,Ranger Gloves (Q4) ,レンジャーグローブ (品質4)
+perkUTQI_armorRangerGloves_q5,Ranger Gloves (Q5) ,レンジャーグローブ (品質5)
+perkUTQI_armorRangerGloves_q6,Ranger Gloves (Q6) ,レンジャーグローブ (品質6)
+perkUTQI_armorRangerHelmet_q2,Ranger Hat (Q2) ,レンジャーハット (品質2)
+perkUTQI_armorRangerHelmet_q3,Ranger Hat (Q3) ,レンジャーハット (品質3)
+perkUTQI_armorRangerHelmet_q4,Ranger Hat (Q4) ,レンジャーハット (品質4)
+perkUTQI_armorRangerHelmet_q5,Ranger Hat (Q5) ,レンジャーハット (品質5)
+perkUTQI_armorRangerHelmet_q6,Ranger Hat (Q6) ,レンジャーハット (品質6)
+perkUTQI_armorRangerOutfit_q2,Ranger Outfit (Q2) ,レンジャー衣装 (品質2)
+perkUTQI_armorRangerOutfit_q3,Ranger Outfit (Q3) ,レンジャー衣装 (品質3)
+perkUTQI_armorRangerOutfit_q4,Ranger Outfit (Q4) ,レンジャー衣装 (品質4)
+perkUTQI_armorRangerOutfit_q5,Ranger Outfit (Q5) ,レンジャー衣装 (品質5)
+perkUTQI_armorRangerOutfit_q6,Ranger Outfit (Q6) ,レンジャー衣装 (品質6)
+perkUTQI_armorRogueBoots_q2,Rogue Boots (Q2) ,ローグブーツ (品質2)
+perkUTQI_armorRogueBoots_q3,Rogue Boots (Q3) ,ローグブーツ (品質3)
+perkUTQI_armorRogueBoots_q4,Rogue Boots (Q4) ,ローグブーツ (品質4)
+perkUTQI_armorRogueBoots_q5,Rogue Boots (Q5) ,ローグブーツ (品質5)
+perkUTQI_armorRogueBoots_q6,Rogue Boots (Q6) ,ローグブーツ (品質6)
+perkUTQI_armorRogueGloves_q2,Rogue Gloves (Q2) ,ローググローブ (品質2)
+perkUTQI_armorRogueGloves_q3,Rogue Gloves (Q3) ,ローググローブ (品質3)
+perkUTQI_armorRogueGloves_q4,Rogue Gloves (Q4) ,ローググローブ (品質4)
+perkUTQI_armorRogueGloves_q5,Rogue Gloves (Q5) ,ローググローブ (品質5)
+perkUTQI_armorRogueGloves_q6,Rogue Gloves (Q6) ,ローググローブ (品質6)
+perkUTQI_armorRogueHelmet_q2,Rogue Hood (Q2) ,ローグフード (品質2)
+perkUTQI_armorRogueHelmet_q3,Rogue Hood (Q3) ,ローグフード (品質3)
+perkUTQI_armorRogueHelmet_q4,Rogue Hood (Q4) ,ローグフード (品質4)
+perkUTQI_armorRogueHelmet_q5,Rogue Hood (Q5) ,ローグフード (品質5)
+perkUTQI_armorRogueHelmet_q6,Rogue Hood (Q6) ,ローグフード (品質6)
+perkUTQI_armorRogueOutfit_q2,Rogue Outfit (Q2) ,ローグ衣装 (品質2)
+perkUTQI_armorRogueOutfit_q3,Rogue Outfit (Q3) ,ローグ衣装 (品質3)
+perkUTQI_armorRogueOutfit_q4,Rogue Outfit (Q4) ,ローグ衣装 (品質4)
+perkUTQI_armorRogueOutfit_q5,Rogue Outfit (Q5) ,ローグ衣装 (品質5)
+perkUTQI_armorRogueOutfit_q6,Rogue Outfit (Q6) ,ローグ衣装 (品質6)
+perkUTQI_armorScavengerBoots_q2,Scavenger Boots (Q2) ,スカベンジャーブーツ (品質2)
+perkUTQI_armorScavengerBoots_q3,Scavenger Boots (Q3) ,スカベンジャーブーツ (品質3)
+perkUTQI_armorScavengerBoots_q4,Scavenger Boots (Q4) ,スカベンジャーブーツ (品質4)
+perkUTQI_armorScavengerBoots_q5,Scavenger Boots (Q5) ,スカベンジャーブーツ (品質5)
+perkUTQI_armorScavengerBoots_q6,Scavenger Boots (Q6) ,スカベンジャーブーツ (品質6)
+perkUTQI_armorScavengerGloves_q2,Scavenger Gloves (Q2) ,スカベンジャーグローブ (品質2)
+perkUTQI_armorScavengerGloves_q3,Scavenger Gloves (Q3) ,スカベンジャーグローブ (品質3)
+perkUTQI_armorScavengerGloves_q4,Scavenger Gloves (Q4) ,スカベンジャーグローブ (品質4)
+perkUTQI_armorScavengerGloves_q5,Scavenger Gloves (Q5) ,スカベンジャーグローブ (品質5)
+perkUTQI_armorScavengerGloves_q6,Scavenger Gloves (Q6) ,スカベンジャーグローブ (品質6)
+perkUTQI_armorScavengerHelmet_q2,Scavenger Hat (Q2) ,スカベンジャーハット (品質2)
+perkUTQI_armorScavengerHelmet_q3,Scavenger Hat (Q3) ,スカベンジャーハット (品質3)
+perkUTQI_armorScavengerHelmet_q4,Scavenger Hat (Q4) ,スカベンジャーハット (品質4)
+perkUTQI_armorScavengerHelmet_q5,Scavenger Hat (Q5) ,スカベンジャーハット (品質5)
+perkUTQI_armorScavengerHelmet_q6,Scavenger Hat (Q6) ,スカベンジャーハット (品質6)
+perkUTQI_armorScavengerOutfit_q2,Scavenger Outfit (Q2) ,スカベンジャー衣装 (品質2)
+perkUTQI_armorScavengerOutfit_q3,Scavenger Outfit (Q3) ,スカベンジャー衣装 (品質3)
+perkUTQI_armorScavengerOutfit_q4,Scavenger Outfit (Q4) ,スカベンジャー衣装 (品質4)
+perkUTQI_armorScavengerOutfit_q5,Scavenger Outfit (Q5) ,スカベンジャー衣装 (品質5)
+perkUTQI_armorScavengerOutfit_q6,Scavenger Outfit (Q6) ,スカベンジャー衣装 (品質6)
+perkUTQI_carBattery_q2,Lead Car Battery (Q2) ,バッテリー (品質2)
+perkUTQI_carBattery_q3,Lead Car Battery (Q3) ,バッテリー (品質3)
+perkUTQI_carBattery_q4,Lead Car Battery (Q4) ,バッテリー (品質4)
+perkUTQI_carBattery_q5,Lead Car Battery (Q5) ,バッテリー (品質5)
+perkUTQI_carBattery_q6,Lead Car Battery (Q6) ,バッテリー (品質6)
+perkUTQI_gunBotT1JunkSledge_q2,Robotic Sledge (Q2) ,ロボットスレッジ (品質2)
+perkUTQI_gunBotT1JunkSledge_q3,Robotic Sledge (Q3) ,ロボットスレッジ (品質3)
+perkUTQI_gunBotT1JunkSledge_q4,Robotic Sledge (Q4) ,ロボットスレッジ (品質4)
+perkUTQI_gunBotT1JunkSledge_q5,Robotic Sledge (Q5) ,ロボットスレッジ (品質5)
+perkUTQI_gunBotT1JunkSledge_q6,Robotic Sledge (Q6) ,ロボットスレッジ (品質6)
+perkUTQI_gunBotT2JunkTurret_q2,Robotic Turret (Q2) ,ロボット砲台 (品質2)
+perkUTQI_gunBotT2JunkTurret_q3,Robotic Turret (Q3) ,ロボット砲台 (品質3)
+perkUTQI_gunBotT2JunkTurret_q4,Robotic Turret (Q4) ,ロボット砲台 (品質4)
+perkUTQI_gunBotT2JunkTurret_q5,Robotic Turret (Q5) ,ロボット砲台 (品質5)
+perkUTQI_gunBotT2JunkTurret_q6,Robotic Turret (Q6) ,ロボット砲台 (品質6)
+perkUTQI_gunBotT3JunkDrone_q2,Robotic Drone (Q2) ,ロボットドローン (品質2)
+perkUTQI_gunBotT3JunkDrone_q3,Robotic Drone (Q3) ,ロボットドローン (品質3)
+perkUTQI_gunBotT3JunkDrone_q4,Robotic Drone (Q4) ,ロボットドローン (品質4)
+perkUTQI_gunBotT3JunkDrone_q5,Robotic Drone (Q5) ,ロボットドローン (品質5)
+perkUTQI_gunBotT3JunkDrone_q6,Robotic Drone (Q6) ,ロボットドローン (品質6)
+perkUTQI_gunBowT0PrimitiveBow_q2,Primitive Bow (Q2) ,粗末な弓 (品質2)
+perkUTQI_gunBowT0PrimitiveBow_q3,Primitive Bow (Q3) ,粗末な弓 (品質3)
+perkUTQI_gunBowT0PrimitiveBow_q4,Primitive Bow (Q4) ,粗末な弓 (品質4)
+perkUTQI_gunBowT0PrimitiveBow_q5,Primitive Bow (Q5) ,粗末な弓 (品質5)
+perkUTQI_gunBowT0PrimitiveBow_q6,Primitive Bow (Q6) ,粗末な弓 (品質6)
+perkUTQI_gunBowT1IronCrossbow_q2,Iron Crossbow (Q2) ,鉄製クロスボウ (品質2)
+perkUTQI_gunBowT1IronCrossbow_q3,Iron Crossbow (Q3) ,鉄製クロスボウ (品質3)
+perkUTQI_gunBowT1IronCrossbow_q4,Iron Crossbow (Q4) ,鉄製クロスボウ (品質4)
+perkUTQI_gunBowT1IronCrossbow_q5,Iron Crossbow (Q5) ,鉄製クロスボウ (品質5)
+perkUTQI_gunBowT1IronCrossbow_q6,Iron Crossbow (Q6) ,鉄製クロスボウ (品質6)
+perkUTQI_gunBowT1WoodenBow_q2,Wooden Bow (Q2) ,木の弓 (品質2)
+perkUTQI_gunBowT1WoodenBow_q3,Wooden Bow (Q3) ,木の弓 (品質3)
+perkUTQI_gunBowT1WoodenBow_q4,Wooden Bow (Q4) ,木の弓 (品質4)
+perkUTQI_gunBowT1WoodenBow_q5,Wooden Bow (Q5) ,木の弓 (品質5)
+perkUTQI_gunBowT1WoodenBow_q6,Wooden Bow (Q6) ,木の弓 (品質6)
+perkUTQI_gunBowT3CompoundBow_q2,Compound Bow (Q2) ,複合弓 (品質2)
+perkUTQI_gunBowT3CompoundBow_q3,Compound Bow (Q3) ,複合弓 (品質3)
+perkUTQI_gunBowT3CompoundBow_q4,Compound Bow (Q4) ,複合弓 (品質4)
+perkUTQI_gunBowT3CompoundBow_q5,Compound Bow (Q5) ,複合弓 (品質5)
+perkUTQI_gunBowT3CompoundBow_q6,Compound Bow (Q6) ,複合弓 (品質6)
+perkUTQI_gunBowT3CompoundCrossbow_q2,Compound Crossbow (Q2) ,複合クロスボウ (品質2)
+perkUTQI_gunBowT3CompoundCrossbow_q3,Compound Crossbow (Q3) ,複合クロスボウ (品質3)
+perkUTQI_gunBowT3CompoundCrossbow_q4,Compound Crossbow (Q4) ,複合クロスボウ (品質4)
+perkUTQI_gunBowT3CompoundCrossbow_q5,Compound Crossbow (Q5) ,複合クロスボウ (品質5)
+perkUTQI_gunBowT3CompoundCrossbow_q6,Compound Crossbow (Q6) ,複合クロスボウ (品質6)
+perkUTQI_gunExplosivesT3RocketLauncher_q2,Rocket Launcher (Q2) ,ロケットランチャー (品質2)
+perkUTQI_gunExplosivesT3RocketLauncher_q3,Rocket Launcher (Q3) ,ロケットランチャー (品質3)
+perkUTQI_gunExplosivesT3RocketLauncher_q4,Rocket Launcher (Q4) ,ロケットランチャー (品質4)
+perkUTQI_gunExplosivesT3RocketLauncher_q5,Rocket Launcher (Q5) ,ロケットランチャー (品質5)
+perkUTQI_gunExplosivesT3RocketLauncher_q6,Rocket Launcher (Q6) ,ロケットランチャー (品質6)
+perkUTQI_gunHandgunT0PipePistol_q2,Pipe Pistol (Q2) ,パイプピストル (品質2)
+perkUTQI_gunHandgunT0PipePistol_q3,Pipe Pistol (Q3) ,パイプピストル (品質3)
+perkUTQI_gunHandgunT0PipePistol_q4,Pipe Pistol (Q4) ,パイプピストル (品質4)
+perkUTQI_gunHandgunT0PipePistol_q5,Pipe Pistol (Q5) ,パイプピストル (品質5)
+perkUTQI_gunHandgunT0PipePistol_q6,Pipe Pistol (Q6) ,パイプピストル (品質6)
+perkUTQI_gunHandgunT1Pistol_q2,Pistol (Q2) ,ピストル (品質2)
+perkUTQI_gunHandgunT1Pistol_q3,Pistol (Q3) ,ピストル (品質3)
+perkUTQI_gunHandgunT1Pistol_q4,Pistol (Q4) ,ピストル (品質4)
+perkUTQI_gunHandgunT1Pistol_q5,Pistol (Q5) ,ピストル (品質5)
+perkUTQI_gunHandgunT1Pistol_q6,Pistol (Q6) ,ピストル (品質6)
+perkUTQI_gunHandgunT2Magnum44_q2,.44 Magnum (Q2) ,.44マグナム (品質2)
+perkUTQI_gunHandgunT2Magnum44_q3,.44 Magnum (Q3) ,.44マグナム (品質3)
+perkUTQI_gunHandgunT2Magnum44_q4,.44 Magnum (Q4) ,.44マグナム (品質4)
+perkUTQI_gunHandgunT2Magnum44_q5,.44 Magnum (Q5) ,.44マグナム (品質5)
+perkUTQI_gunHandgunT2Magnum44_q6,.44 Magnum (Q6) ,.44マグナム (品質6)
+perkUTQI_gunHandgunT3DesertVulture_q2,.44 Desert Vulture (Q2) ,.44 デザートヴァルチャー (品質2)
+perkUTQI_gunHandgunT3DesertVulture_q3,.44 Desert Vulture (Q3) ,.44 デザートヴァルチャー (品質3)
+perkUTQI_gunHandgunT3DesertVulture_q4,.44 Desert Vulture (Q4) ,.44 デザートヴァルチャー (品質4)
+perkUTQI_gunHandgunT3DesertVulture_q5,.44 Desert Vulture (Q5) ,.44 デザートヴァルチャー (品質5)
+perkUTQI_gunHandgunT3DesertVulture_q6,.44 Desert Vulture (Q6) ,.44 デザートヴァルチャー (品質6)
+perkUTQI_gunHandgunT3SMG5_q2,SMG-5 (Q2) ,SMG-5 (品質2)
+perkUTQI_gunHandgunT3SMG5_q3,SMG-5 (Q3) ,SMG-5 (品質3)
+perkUTQI_gunHandgunT3SMG5_q4,SMG-5 (Q4) ,SMG-5 (品質4)
+perkUTQI_gunHandgunT3SMG5_q5,SMG-5 (Q5) ,SMG-5 (品質5)
+perkUTQI_gunHandgunT3SMG5_q6,SMG-5 (Q6) ,SMG-5 (品質6)
+perkUTQI_gunMGT0PipeMachineGun_q2,Pipe Machine Gun (Q2) ,パイプマシンガン (品質2)
+perkUTQI_gunMGT0PipeMachineGun_q3,Pipe Machine Gun (Q3) ,パイプマシンガン (品質3)
+perkUTQI_gunMGT0PipeMachineGun_q4,Pipe Machine Gun (Q4) ,パイプマシンガン (品質4)
+perkUTQI_gunMGT0PipeMachineGun_q5,Pipe Machine Gun (Q5) ,パイプマシンガン (品質5)
+perkUTQI_gunMGT0PipeMachineGun_q6,Pipe Machine Gun (Q6) ,パイプマシンガン (品質6)
+perkUTQI_gunMGT1AK47_q2,AK-47 Machine Gun (Q2) ,AK-47マシンガン (品質2)
+perkUTQI_gunMGT1AK47_q3,AK-47 Machine Gun (Q3) ,AK-47マシンガン (品質3)
+perkUTQI_gunMGT1AK47_q4,AK-47 Machine Gun (Q4) ,AK-47マシンガン (品質4)
+perkUTQI_gunMGT1AK47_q5,AK-47 Machine Gun (Q5) ,AK-47マシンガン (品質5)
+perkUTQI_gunMGT1AK47_q6,AK-47 Machine Gun (Q6) ,AK-47マシンガン (品質6)
+perkUTQI_gunMGT2TacticalAR_q2,Tactical Assault Rifle (Q2) ,タクティカルアサルトライフル (品質2)
+perkUTQI_gunMGT2TacticalAR_q3,Tactical Assault Rifle (Q3) ,タクティカルアサルトライフル (品質3)
+perkUTQI_gunMGT2TacticalAR_q4,Tactical Assault Rifle (Q4) ,タクティカルアサルトライフル (品質4)
+perkUTQI_gunMGT2TacticalAR_q5,Tactical Assault Rifle (Q5) ,タクティカルアサルトライフル (品質5)
+perkUTQI_gunMGT2TacticalAR_q6,Tactical Assault Rifle (Q6) ,タクティカルアサルトライフル (品質6)
+perkUTQI_gunMGT3M60_q2,M60 Machine Gun (Q2) ,M60マシンガン (品質2)
+perkUTQI_gunMGT3M60_q3,M60 Machine Gun (Q3) ,M60マシンガン (品質3)
+perkUTQI_gunMGT3M60_q4,M60 Machine Gun (Q4) ,M60マシンガン (品質4)
+perkUTQI_gunMGT3M60_q5,M60 Machine Gun (Q5) ,M60マシンガン (品質5)
+perkUTQI_gunMGT3M60_q6,M60 Machine Gun (Q6) ,M60マシンガン (品質6)
+perkUTQI_gunRifleT0PipeRifle_q2,Pipe Rifle (Q2) ,パイプライフル (品質2)
+perkUTQI_gunRifleT0PipeRifle_q3,Pipe Rifle (Q3) ,パイプライフル (品質3)
+perkUTQI_gunRifleT0PipeRifle_q4,Pipe Rifle (Q4) ,パイプライフル (品質4)
+perkUTQI_gunRifleT0PipeRifle_q5,Pipe Rifle (Q5) ,パイプライフル (品質5)
+perkUTQI_gunRifleT0PipeRifle_q6,Pipe Rifle (Q6) ,パイプライフル (品質6)
+perkUTQI_gunRifleT1HuntingRifle_q2,Hunting Rifle (Q2) ,狩猟ライフル (品質2)
+perkUTQI_gunRifleT1HuntingRifle_q3,Hunting Rifle (Q3) ,狩猟ライフル (品質3)
+perkUTQI_gunRifleT1HuntingRifle_q4,Hunting Rifle (Q4) ,狩猟ライフル (品質4)
+perkUTQI_gunRifleT1HuntingRifle_q5,Hunting Rifle (Q5) ,狩猟ライフル (品質5)
+perkUTQI_gunRifleT1HuntingRifle_q6,Hunting Rifle (Q6) ,狩猟ライフル (品質6)
+perkUTQI_gunRifleT2LeverActionRifle_q2,Lever Action Rifle (Q2) ,レバーアクションライフル (品質2)
+perkUTQI_gunRifleT2LeverActionRifle_q3,Lever Action Rifle (Q3) ,レバーアクションライフル (品質3)
+perkUTQI_gunRifleT2LeverActionRifle_q4,Lever Action Rifle (Q4) ,レバーアクションライフル (品質4)
+perkUTQI_gunRifleT2LeverActionRifle_q5,Lever Action Rifle (Q5) ,レバーアクションライフル (品質5)
+perkUTQI_gunRifleT2LeverActionRifle_q6,Lever Action Rifle (Q6) ,レバーアクションライフル (品質6)
+perkUTQI_gunRifleT3SniperRifle_q2,Sniper Rifle (Q2) ,スナイパーライフル (品質2)
+perkUTQI_gunRifleT3SniperRifle_q3,Sniper Rifle (Q3) ,スナイパーライフル (品質3)
+perkUTQI_gunRifleT3SniperRifle_q4,Sniper Rifle (Q4) ,スナイパーライフル (品質4)
+perkUTQI_gunRifleT3SniperRifle_q5,Sniper Rifle (Q5) ,スナイパーライフル (品質5)
+perkUTQI_gunRifleT3SniperRifle_q6,Sniper Rifle (Q6) ,スナイパーライフル (品質6)
+perkUTQI_gunShotgunT0PipeShotgun_q2,Pipe Shotgun (Q2) ,パイプショットガン (品質2)
+perkUTQI_gunShotgunT0PipeShotgun_q3,Pipe Shotgun (Q3) ,パイプショットガン (品質3)
+perkUTQI_gunShotgunT0PipeShotgun_q4,Pipe Shotgun (Q4) ,パイプショットガン (品質4)
+perkUTQI_gunShotgunT0PipeShotgun_q5,Pipe Shotgun (Q5) ,パイプショットガン (品質5)
+perkUTQI_gunShotgunT0PipeShotgun_q6,Pipe Shotgun (Q6) ,パイプショットガン (品質6)
+perkUTQI_gunShotgunT1DoubleBarrel_q2,Double Barrel Shotgun (Q2) ,2連ショットガン (品質2)
+perkUTQI_gunShotgunT1DoubleBarrel_q3,Double Barrel Shotgun (Q3) ,2連ショットガン (品質3)
+perkUTQI_gunShotgunT1DoubleBarrel_q4,Double Barrel Shotgun (Q4) ,2連ショットガン (品質4)
+perkUTQI_gunShotgunT1DoubleBarrel_q5,Double Barrel Shotgun (Q5) ,2連ショットガン (品質5)
+perkUTQI_gunShotgunT1DoubleBarrel_q6,Double Barrel Shotgun (Q6) ,2連ショットガン (品質6)
+perkUTQI_gunShotgunT2PumpShotgun_q2,Pump Shotgun (Q2) ,ポンプアクション式ショットガン (品質2)
+perkUTQI_gunShotgunT2PumpShotgun_q3,Pump Shotgun (Q3) ,ポンプアクション式ショットガン (品質3)
+perkUTQI_gunShotgunT2PumpShotgun_q4,Pump Shotgun (Q4) ,ポンプアクション式ショットガン (品質4)
+perkUTQI_gunShotgunT2PumpShotgun_q5,Pump Shotgun (Q5) ,ポンプアクション式ショットガン (品質5)
+perkUTQI_gunShotgunT2PumpShotgun_q6,Pump Shotgun (Q6) ,ポンプアクション式ショットガン (品質6)
+perkUTQI_gunShotgunT3AutoShotgun_q2,Auto Shotgun (Q2) ,オートショットガン (品質2)
+perkUTQI_gunShotgunT3AutoShotgun_q3,Auto Shotgun (Q3) ,オートショットガン (品質3)
+perkUTQI_gunShotgunT3AutoShotgun_q4,Auto Shotgun (Q4) ,オートショットガン (品質4)
+perkUTQI_gunShotgunT3AutoShotgun_q5,Auto Shotgun (Q5) ,オートショットガン (品質5)
+perkUTQI_gunShotgunT3AutoShotgun_q6,Auto Shotgun (Q6) ,オートショットガン (品質6)
+perkUTQI_meleeToolAxeT1IronFireaxe_q2,Iron Fireaxe (Q2) ,鉄製消防斧 (品質2)
+perkUTQI_meleeToolAxeT1IronFireaxe_q3,Iron Fireaxe (Q3) ,鉄製消防斧 (品質3)
+perkUTQI_meleeToolAxeT1IronFireaxe_q4,Iron Fireaxe (Q4) ,鉄製消防斧 (品質4)
+perkUTQI_meleeToolAxeT1IronFireaxe_q5,Iron Fireaxe (Q5) ,鉄製消防斧 (品質5)
+perkUTQI_meleeToolAxeT1IronFireaxe_q6,Iron Fireaxe (Q6) ,鉄製消防斧 (品質6)
+perkUTQI_meleeToolAxeT2SteelAxe_q2,Steel Axe (Q2) ,鉄鋼斧 (品質2)
+perkUTQI_meleeToolAxeT2SteelAxe_q3,Steel Axe (Q3) ,鉄鋼斧 (品質3)
+perkUTQI_meleeToolAxeT2SteelAxe_q4,Steel Axe (Q4) ,鉄鋼斧 (品質4)
+perkUTQI_meleeToolAxeT2SteelAxe_q5,Steel Axe (Q5) ,鉄鋼斧 (品質5)
+perkUTQI_meleeToolAxeT2SteelAxe_q6,Steel Axe (Q6) ,鉄鋼斧 (品質6)
+perkUTQI_meleeToolAxeT3Chainsaw_q2,Chainsaw (Q2) ,チェーンソー (品質2)
+perkUTQI_meleeToolAxeT3Chainsaw_q3,Chainsaw (Q3) ,チェーンソー (品質3)
+perkUTQI_meleeToolAxeT3Chainsaw_q4,Chainsaw (Q4) ,チェーンソー (品質4)
+perkUTQI_meleeToolAxeT3Chainsaw_q5,Chainsaw (Q5) ,チェーンソー (品質5)
+perkUTQI_meleeToolAxeT3Chainsaw_q6,Chainsaw (Q6) ,チェーンソー (品質6)
+perkUTQI_meleeToolPickT1IronPickaxe_q2,Iron Pickaxe (Q2) ,鉄つるはし (品質2)
+perkUTQI_meleeToolPickT1IronPickaxe_q3,Iron Pickaxe (Q3) ,鉄つるはし (品質3)
+perkUTQI_meleeToolPickT1IronPickaxe_q4,Iron Pickaxe (Q4) ,鉄つるはし (品質4)
+perkUTQI_meleeToolPickT1IronPickaxe_q5,Iron Pickaxe (Q5) ,鉄つるはし (品質5)
+perkUTQI_meleeToolPickT1IronPickaxe_q6,Iron Pickaxe (Q6) ,鉄つるはし (品質6)
+perkUTQI_meleeToolPickT2SteelPickaxe_q2,Steel Pickaxe (Q2) ,鉄鋼つるはし (品質2)
+perkUTQI_meleeToolPickT2SteelPickaxe_q3,Steel Pickaxe (Q3) ,鉄鋼つるはし (品質3)
+perkUTQI_meleeToolPickT2SteelPickaxe_q4,Steel Pickaxe (Q4) ,鉄鋼つるはし (品質4)
+perkUTQI_meleeToolPickT2SteelPickaxe_q5,Steel Pickaxe (Q5) ,鉄鋼つるはし (品質5)
+perkUTQI_meleeToolPickT2SteelPickaxe_q6,Steel Pickaxe (Q6) ,鉄鋼つるはし (品質6)
+perkUTQI_meleeToolPickT3Auger_q2,Auger (Q2) ,オーガー (品質2)
+perkUTQI_meleeToolPickT3Auger_q3,Auger (Q3) ,オーガー (品質3)
+perkUTQI_meleeToolPickT3Auger_q4,Auger (Q4) ,オーガー (品質4)
+perkUTQI_meleeToolPickT3Auger_q5,Auger (Q5) ,オーガー (品質5)
+perkUTQI_meleeToolPickT3Auger_q6,Auger (Q6) ,オーガー (品質6)
+perkUTQI_meleeToolRepairT0StoneAxe_q2,Stone Axe (Q2) ,石斧 (品質2)
+perkUTQI_meleeToolRepairT0StoneAxe_q3,Stone Axe (Q3) ,石斧 (品質3)
+perkUTQI_meleeToolRepairT0StoneAxe_q4,Stone Axe (Q4) ,石斧 (品質4)
+perkUTQI_meleeToolRepairT0StoneAxe_q5,Stone Axe (Q5) ,石斧 (品質5)
+perkUTQI_meleeToolRepairT0StoneAxe_q6,Stone Axe (Q6) ,石斧 (品質6)
+perkUTQI_meleeToolRepairT1ClawHammer_q2,Claw Hammer (Q2) ,くぎ抜きハンマー (品質2)
+perkUTQI_meleeToolRepairT1ClawHammer_q3,Claw Hammer (Q3) ,くぎ抜きハンマー (品質3)
+perkUTQI_meleeToolRepairT1ClawHammer_q4,Claw Hammer (Q4) ,くぎ抜きハンマー (品質4)
+perkUTQI_meleeToolRepairT1ClawHammer_q5,Claw Hammer (Q5) ,くぎ抜きハンマー (品質5)
+perkUTQI_meleeToolRepairT1ClawHammer_q6,Claw Hammer (Q6) ,くぎ抜きハンマー (品質6)
+perkUTQI_meleeToolRepairT3Nailgun_q2,Nailgun (Q2) ,ネイルガン (品質2)
+perkUTQI_meleeToolRepairT3Nailgun_q3,Nailgun (Q3) ,ネイルガン (品質3)
+perkUTQI_meleeToolRepairT3Nailgun_q4,Nailgun (Q4) ,ネイルガン (品質4)
+perkUTQI_meleeToolRepairT3Nailgun_q5,Nailgun (Q5) ,ネイルガン (品質5)
+perkUTQI_meleeToolRepairT3Nailgun_q6,Nailgun (Q6) ,ネイルガン (品質6)
+perkUTQI_meleeToolSalvageT1Wrench_q2,Wrench (Q2) ,レンチ (品質2)
+perkUTQI_meleeToolSalvageT1Wrench_q3,Wrench (Q3) ,レンチ (品質3)
+perkUTQI_meleeToolSalvageT1Wrench_q4,Wrench (Q4) ,レンチ (品質4)
+perkUTQI_meleeToolSalvageT1Wrench_q5,Wrench (Q5) ,レンチ (品質5)
+perkUTQI_meleeToolSalvageT1Wrench_q6,Wrench (Q6) ,レンチ (品質6)
+perkUTQI_meleeToolSalvageT2Ratchet_q2,Ratchet (Q2) ,ラチェット (品質2)
+perkUTQI_meleeToolSalvageT2Ratchet_q3,Ratchet (Q3) ,ラチェット (品質3)
+perkUTQI_meleeToolSalvageT2Ratchet_q4,Ratchet (Q4) ,ラチェット (品質4)
+perkUTQI_meleeToolSalvageT2Ratchet_q5,Ratchet (Q5) ,ラチェット (品質5)
+perkUTQI_meleeToolSalvageT2Ratchet_q6,Ratchet (Q6) ,ラチェット (品質6)
+perkUTQI_meleeToolSalvageT3ImpactDriver_q2,Impact Driver (Q2) ,衝撃ドライバー (品質2)
+perkUTQI_meleeToolSalvageT3ImpactDriver_q3,Impact Driver (Q3) ,衝撃ドライバー (品質3)
+perkUTQI_meleeToolSalvageT3ImpactDriver_q4,Impact Driver (Q4) ,衝撃ドライバー (品質4)
+perkUTQI_meleeToolSalvageT3ImpactDriver_q5,Impact Driver (Q5) ,衝撃ドライバー (品質5)
+perkUTQI_meleeToolSalvageT3ImpactDriver_q6,Impact Driver (Q6) ,衝撃ドライバー (品質6)
+perkUTQI_meleeToolShovelT0StoneShovel_q2,Stone Shovel (Q2) ,石ショベル (品質2)
+perkUTQI_meleeToolShovelT0StoneShovel_q3,Stone Shovel (Q3) ,石ショベル (品質3)
+perkUTQI_meleeToolShovelT0StoneShovel_q4,Stone Shovel (Q4) ,石ショベル (品質4)
+perkUTQI_meleeToolShovelT0StoneShovel_q5,Stone Shovel (Q5) ,石ショベル (品質5)
+perkUTQI_meleeToolShovelT0StoneShovel_q6,Stone Shovel (Q6) ,石ショベル (品質6)
+perkUTQI_meleeToolShovelT1IronShovel_q2,Iron Shovel (Q2) ,鉄ショベル (品質2)
+perkUTQI_meleeToolShovelT1IronShovel_q3,Iron Shovel (Q3) ,鉄ショベル (品質3)
+perkUTQI_meleeToolShovelT1IronShovel_q4,Iron Shovel (Q4) ,鉄ショベル (品質4)
+perkUTQI_meleeToolShovelT1IronShovel_q5,Iron Shovel (Q5) ,鉄ショベル (品質5)
+perkUTQI_meleeToolShovelT1IronShovel_q6,Iron Shovel (Q6) ,鉄ショベル (品質6)
+perkUTQI_meleeToolShovelT2SteelShovel_q2,Steel Shovel (Q2) ,鉄鋼ショベル (品質2)
+perkUTQI_meleeToolShovelT2SteelShovel_q3,Steel Shovel (Q3) ,鉄鋼ショベル (品質3)
+perkUTQI_meleeToolShovelT2SteelShovel_q4,Steel Shovel (Q4) ,鉄鋼ショベル (品質4)
+perkUTQI_meleeToolShovelT2SteelShovel_q5,Steel Shovel (Q5) ,鉄鋼ショベル (品質5)
+perkUTQI_meleeToolShovelT2SteelShovel_q6,Steel Shovel (Q6) ,鉄鋼ショベル (品質6)
+perkUTQI_meleeWpnBatonT0PipeBaton_q2,Pipe Baton (Q2) ,パイプバトン (品質2)
+perkUTQI_meleeWpnBatonT0PipeBaton_q3,Pipe Baton (Q3) ,パイプバトン (品質3)
+perkUTQI_meleeWpnBatonT0PipeBaton_q4,Pipe Baton (Q4) ,パイプバトン (品質4)
+perkUTQI_meleeWpnBatonT0PipeBaton_q5,Pipe Baton (Q5) ,パイプバトン (品質5)
+perkUTQI_meleeWpnBatonT0PipeBaton_q6,Pipe Baton (Q6) ,パイプバトン (品質6)
+perkUTQI_meleeWpnBatonT2StunBaton_q2,Stun Baton (Q2) ,スタンバトン (品質2)
+perkUTQI_meleeWpnBatonT2StunBaton_q3,Stun Baton (Q3) ,スタンバトン (品質3)
+perkUTQI_meleeWpnBatonT2StunBaton_q4,Stun Baton (Q4) ,スタンバトン (品質4)
+perkUTQI_meleeWpnBatonT2StunBaton_q5,Stun Baton (Q5) ,スタンバトン (品質5)
+perkUTQI_meleeWpnBatonT2StunBaton_q6,Stun Baton (Q6) ,スタンバトン (品質6)
+perkUTQI_meleeWpnBladeT0BoneKnife_q2,Bone Knife (Q2) ,骨ナイフ (品質2)
+perkUTQI_meleeWpnBladeT0BoneKnife_q3,Bone Knife (Q3) ,骨ナイフ (品質3)
+perkUTQI_meleeWpnBladeT0BoneKnife_q4,Bone Knife (Q4) ,骨ナイフ (品質4)
+perkUTQI_meleeWpnBladeT0BoneKnife_q5,Bone Knife (Q5) ,骨ナイフ (品質5)
+perkUTQI_meleeWpnBladeT0BoneKnife_q6,Bone Knife (Q6) ,骨ナイフ (品質6)
+perkUTQI_meleeWpnBladeT1HuntingKnife_q2,Hunting Knife (Q2) ,狩猟ナイフ (品質2)
+perkUTQI_meleeWpnBladeT1HuntingKnife_q3,Hunting Knife (Q3) ,狩猟ナイフ (品質3)
+perkUTQI_meleeWpnBladeT1HuntingKnife_q4,Hunting Knife (Q4) ,狩猟ナイフ (品質4)
+perkUTQI_meleeWpnBladeT1HuntingKnife_q5,Hunting Knife (Q5) ,狩猟ナイフ (品質5)
+perkUTQI_meleeWpnBladeT1HuntingKnife_q6,Hunting Knife (Q6) ,狩猟ナイフ (品質6)
+perkUTQI_meleeWpnBladeT3Machete_q2,Machete (Q2) ,マチェーテ (品質2)
+perkUTQI_meleeWpnBladeT3Machete_q3,Machete (Q3) ,マチェーテ (品質3)
+perkUTQI_meleeWpnBladeT3Machete_q4,Machete (Q4) ,マチェーテ (品質4)
+perkUTQI_meleeWpnBladeT3Machete_q5,Machete (Q5) ,マチェーテ (品質5)
+perkUTQI_meleeWpnBladeT3Machete_q6,Machete (Q6) ,マチェーテ (品質6)
+perkUTQI_meleeWpnClubT0WoodenClub_q2,Wooden Club (Q2) ,木製棍棒 (品質2)
+perkUTQI_meleeWpnClubT0WoodenClub_q3,Wooden Club (Q3) ,木製棍棒 (品質3)
+perkUTQI_meleeWpnClubT0WoodenClub_q4,Wooden Club (Q4) ,木製棍棒 (品質4)
+perkUTQI_meleeWpnClubT0WoodenClub_q5,Wooden Club (Q5) ,木製棍棒 (品質5)
+perkUTQI_meleeWpnClubT0WoodenClub_q6,Wooden Club (Q6) ,木製棍棒 (品質6)
+perkUTQI_meleeWpnClubT1BaseballBat_q2,Baseball Bat (Q2) ,ベースボールバット (品質2)
+perkUTQI_meleeWpnClubT1BaseballBat_q3,Baseball Bat (Q3) ,ベースボールバット (品質3)
+perkUTQI_meleeWpnClubT1BaseballBat_q4,Baseball Bat (Q4) ,ベースボールバット (品質4)
+perkUTQI_meleeWpnClubT1BaseballBat_q5,Baseball Bat (Q5) ,ベースボールバット (品質5)
+perkUTQI_meleeWpnClubT1BaseballBat_q6,Baseball Bat (Q6) ,ベースボールバット (品質6)
+perkUTQI_meleeWpnClubT3SteelClub_q2,Steel Club (Q2) ,鉄鋼製棍棒 (品質2)
+perkUTQI_meleeWpnClubT3SteelClub_q3,Steel Club (Q3) ,鉄鋼製棍棒 (品質3)
+perkUTQI_meleeWpnClubT3SteelClub_q4,Steel Club (Q4) ,鉄鋼製棍棒 (品質4)
+perkUTQI_meleeWpnClubT3SteelClub_q5,Steel Club (Q5) ,鉄鋼製棍棒 (品質5)
+perkUTQI_meleeWpnClubT3SteelClub_q6,Steel Club (Q6) ,鉄鋼製棍棒 (品質6)
+perkUTQI_meleeWpnKnucklesT0LeatherKnuckles_q2,Knuckle Wraps (Q2) ,ナックルラップ (品質2)
+perkUTQI_meleeWpnKnucklesT0LeatherKnuckles_q3,Knuckle Wraps (Q3) ,ナックルラップ (品質3)
+perkUTQI_meleeWpnKnucklesT0LeatherKnuckles_q4,Knuckle Wraps (Q4) ,ナックルラップ (品質4)
+perkUTQI_meleeWpnKnucklesT0LeatherKnuckles_q5,Knuckle Wraps (Q5) ,ナックルラップ (品質5)
+perkUTQI_meleeWpnKnucklesT0LeatherKnuckles_q6,Knuckle Wraps (Q6) ,ナックルラップ (品質6)
+perkUTQI_meleeWpnKnucklesT1IronKnuckles_q2,Iron Knuckles (Q2) ,鉄ナックル (品質2)
+perkUTQI_meleeWpnKnucklesT1IronKnuckles_q3,Iron Knuckles (Q3) ,鉄ナックル (品質3)
+perkUTQI_meleeWpnKnucklesT1IronKnuckles_q4,Iron Knuckles (Q4) ,鉄ナックル (品質4)
+perkUTQI_meleeWpnKnucklesT1IronKnuckles_q5,Iron Knuckles (Q5) ,鉄ナックル (品質5)
+perkUTQI_meleeWpnKnucklesT1IronKnuckles_q6,Iron Knuckles (Q6) ,鉄ナックル (品質6)
+perkUTQI_meleeWpnKnucklesT3SteelKnuckles_q2,Steel Knuckles (Q2) ,鉄鋼ナックル (品質2)
+perkUTQI_meleeWpnKnucklesT3SteelKnuckles_q3,Steel Knuckles (Q3) ,鉄鋼ナックル (品質3)
+perkUTQI_meleeWpnKnucklesT3SteelKnuckles_q4,Steel Knuckles (Q4) ,鉄鋼ナックル (品質4)
+perkUTQI_meleeWpnKnucklesT3SteelKnuckles_q5,Steel Knuckles (Q5) ,鉄鋼ナックル (品質5)
+perkUTQI_meleeWpnKnucklesT3SteelKnuckles_q6,Steel Knuckles (Q6) ,鉄鋼ナックル (品質6)
+perkUTQI_meleeWpnSledgeT0StoneSledgehammer_q2,Stone Sledgehammer (Q2) ,石製スレッジハンマー (品質2)
+perkUTQI_meleeWpnSledgeT0StoneSledgehammer_q3,Stone Sledgehammer (Q3) ,石製スレッジハンマー (品質3)
+perkUTQI_meleeWpnSledgeT0StoneSledgehammer_q4,Stone Sledgehammer (Q4) ,石製スレッジハンマー (品質4)
+perkUTQI_meleeWpnSledgeT0StoneSledgehammer_q5,Stone Sledgehammer (Q5) ,石製スレッジハンマー (品質5)
+perkUTQI_meleeWpnSledgeT0StoneSledgehammer_q6,Stone Sledgehammer (Q6) ,石製スレッジハンマー (品質6)
+perkUTQI_meleeWpnSledgeT1IronSledgehammer_q2,Iron Sledgehammer (Q2) ,鉄製スレッジハンマー (品質2)
+perkUTQI_meleeWpnSledgeT1IronSledgehammer_q3,Iron Sledgehammer (Q3) ,鉄製スレッジハンマー (品質3)
+perkUTQI_meleeWpnSledgeT1IronSledgehammer_q4,Iron Sledgehammer (Q4) ,鉄製スレッジハンマー (品質4)
+perkUTQI_meleeWpnSledgeT1IronSledgehammer_q5,Iron Sledgehammer (Q5) ,鉄製スレッジハンマー (品質5)
+perkUTQI_meleeWpnSledgeT1IronSledgehammer_q6,Iron Sledgehammer (Q6) ,鉄製スレッジハンマー (品質6)
+perkUTQI_meleeWpnSledgeT3SteelSledgehammer_q2,Steel Sledgehammer (Q2) ,鉄鋼製スレッジハンマー (品質2)
+perkUTQI_meleeWpnSledgeT3SteelSledgehammer_q3,Steel Sledgehammer (Q3) ,鉄鋼製スレッジハンマー (品質3)
+perkUTQI_meleeWpnSledgeT3SteelSledgehammer_q4,Steel Sledgehammer (Q4) ,鉄鋼製スレッジハンマー (品質4)
+perkUTQI_meleeWpnSledgeT3SteelSledgehammer_q5,Steel Sledgehammer (Q5) ,鉄鋼製スレッジハンマー (品質5)
+perkUTQI_meleeWpnSledgeT3SteelSledgehammer_q6,Steel Sledgehammer (Q6) ,鉄鋼製スレッジハンマー (品質6)
+perkUTQI_meleeWpnSpearT0StoneSpear_q2,Stone Spear (Q2) ,石槍 (品質2)
+perkUTQI_meleeWpnSpearT0StoneSpear_q3,Stone Spear (Q3) ,石槍 (品質3)
+perkUTQI_meleeWpnSpearT0StoneSpear_q4,Stone Spear (Q4) ,石槍 (品質4)
+perkUTQI_meleeWpnSpearT0StoneSpear_q5,Stone Spear (Q5) ,石槍 (品質5)
+perkUTQI_meleeWpnSpearT0StoneSpear_q6,Stone Spear (Q6) ,石槍 (品質6)
+perkUTQI_meleeWpnSpearT1IronSpear_q2,Iron Spear (Q2) ,鉄槍 (品質2)
+perkUTQI_meleeWpnSpearT1IronSpear_q3,Iron Spear (Q3) ,鉄槍 (品質3)
+perkUTQI_meleeWpnSpearT1IronSpear_q4,Iron Spear (Q4) ,鉄槍 (品質4)
+perkUTQI_meleeWpnSpearT1IronSpear_q5,Iron Spear (Q5) ,鉄槍 (品質5)
+perkUTQI_meleeWpnSpearT1IronSpear_q6,Iron Spear (Q6) ,鉄槍 (品質6)
+perkUTQI_meleeWpnSpearT3SteelSpear_q2,Steel Spear (Q2) ,鉄鋼槍 (品質2)
+perkUTQI_meleeWpnSpearT3SteelSpear_q3,Steel Spear (Q3) ,鉄鋼槍 (品質3)
+perkUTQI_meleeWpnSpearT3SteelSpear_q4,Steel Spear (Q4) ,鉄鋼槍 (品質4)
+perkUTQI_meleeWpnSpearT3SteelSpear_q5,Steel Spear (Q5) ,鉄鋼槍 (品質5)
+perkUTQI_meleeWpnSpearT3SteelSpear_q6,Steel Spear (Q6) ,鉄鋼槍 (品質6)
+armorassassinboots,Assassin Boots ,アサシンブーツ
+armorassassingloves,Assassin Gloves ,アサシングローブ
+armorassassinhelmet,Assassin Hood ,アサシンフード
+armorassassinoutfit,Assassin Outfit ,アサシン衣装
+armorathleticboots,Athletic Shoes ,アスリートシューズ
+armorathleticgloves,Athletic Gloves ,アスリートグローブ
+armorathletichelmet,Athletic Hat ,アスリートハット
+armorathleticoutfit,Athletic Outfit ,アスリート衣装
+armorbikerboots,Biker Boots ,バイカーブーツ
+armorbikergloves,Biker Gloves ,バイカーグローブ
+armorbikerhelmet,Biker Helmet ,バイカーヘルメット
+armorbikeroutfit,Biker Outfit ,バイカー衣装
+armorcommandoboots,Commando Boots ,コマンドーブーツ
+armorcommandogloves,Commando Gloves ,コマンドーグローブ
+armorcommandohelmet,Commando Helmet ,コマンドーヘルメット
+armorcommandooutfit,Commando Outfit ,コマンドー衣装
+armorenforcerboots,Enforcer Shoes ,執行者靴
+armorenforcergloves,Enforcer Gloves ,執行者グローブ
+armorenforcerhelmet,Enforcer Sunglasses ,執行者サングラス
+armorenforceroutfit,Enforcer Outfit ,執行者衣装
+armorfarmerboots,Farmer Boots ,農夫ブーツ
+armorfarmergloves,Farmer Gloves ,農夫グローブ
+armorfarmerhelmet,Farmer Hat ,農夫ハット
+armorfarmeroutfit,Farmer Outfit ,農夫衣装
+armorheavymaster,Heavy Armor Master ,重装防具マスター
+armorlightmaster,Light Armor Master ,軽装防具マスター
+armorlumberjackboots,Lumberjack Boots ,木こりブーツ
+armorlumberjackgloves,Lumberjack Gloves ,木こりグローブ
+armorlumberjackhelmet,Lumberjack Hat ,木こりハット
+armorlumberjackoutfit,Lumberjack Outfit ,木こり衣装
+armormediummaster,Medium Armor Master ,中装防具マスター
+armorminerboots,Miner Boots ,鉱夫ブーツ
+armorminergloves,Miner Gloves ,鉱夫グローブ
+armorminerhelmet,Miner Helmet ,鉱夫ヘルメット
+armormineroutfit,Miner Outfit ,鉱夫衣装
+armornerdboots,Nerd Boots ,オタクブーツ
+armornerdgloves,Nerd Gloves ,オタクグローブ
+armornerdhelmet,Nerd Goggles ,オタクゴーグル
+armornerdoutfit,Nerd Outfit ,オタク衣装
+armornomadboots,Nomad Boots ,遊牧民ブーツ
+armornomadgloves,Nomad Gloves ,遊牧民グローブ
+armornomadhelmet,Nomad Headgear ,遊牧民ヘッドギア
+armornomadoutfit,Nomad Outfit ,遊牧民衣装
+armorpreacherboots,Preacher Boots ,説教者ブーツ
+armorpreachergloves,Preacher Gloves ,説教者グローブ
+armorpreacherhelmet,Preacher Hat ,説教者ハット
+armorpreacheroutfit,Preacher Outfit ,説教者衣装
+armorprimitiveboots,Primitive Shoes ,原始的な靴
+armorprimitivegloves,Primitive Gloves ,原始的なグローブ
+armorprimitivehelmet,Primitive Hood ,原始的なフード
+armorprimitivemaster,Primitive Armor Master ,原始防具マスター
+armorprimitiveoutfit,Primitive Outfit ,原始的な衣装
+armorraiderboots,Raider Boots ,レイダーブーツ
+armorraidergloves,Raider Gloves ,レイダーグローブ
+armorraiderhelmet,Raider Helmet ,レイダーヘルメット
+armorraideroutfit,Raider Outfit ,レイダー衣装
+armorrangerboots,Ranger Boots ,レンジャーブーツ
+armorrangergloves,Ranger Gloves ,レンジャーグローブ
+armorrangerhelmet,Ranger Hat ,レンジャーハット
+armorrangeroutfit,Ranger Outfit ,レンジャー衣装
+armorrogueboots,Rogue Boots ,ローグブーツ
+armorroguegloves,Rogue Gloves ,ローググローブ
+armorroguehelmet,Rogue Hood ,ローグフード
+armorrogueoutfit,Rogue Outfit ,ローグ衣装
+armorscavengerboots,Scavenger Boots ,スカベンジャーブーツ
+armorscavengergloves,Scavenger Gloves ,スカベンジャーグローブ
+armorscavengerhelmet,Scavenger Hat ,スカベンジャーハット
+armorscavengeroutfit,Scavenger Outfit ,スカベンジャー衣装
+carbattery,Lead Car Battery ,バッテリー
+gunbott1junksledge,Robotic Sledge ,ロボットスレッジ
+gunbott2junkturret,Robotic Turret ,ロボット砲台
+gunbott3junkdrone,Robotic Drone ,ロボットドローン
+gunbowt0primitivebow,Primitive Bow ,粗末な弓
+gunbowt1ironcrossbow,Iron Crossbow ,鉄製クロスボウ
+gunbowt1woodenbow,Wooden Bow ,木の弓
+gunbowt3compoundbow,Compound Bow ,複合弓
+gunbowt3compoundcrossbow,Compound Crossbow ,複合クロスボウ
+gunexplosivest3rocketlauncher,Rocket Launcher ,ロケットランチャー
+gunhandgunt0pipepistol,Pipe Pistol ,パイプピストル
+gunhandgunt1pistol,Pistol ,ピストル
+gunhandgunt2magnum44,.44 Magnum ,.44マグナム
+gunhandgunt3desertvulture,.44 Desert Vulture ,.44 デザートヴァルチャー
+gunhandgunt3smg5,SMG-5
+gunmgt0pipemachinegun,Pipe Machine Gun ,パイプマシンガン
+gunmgt1ak47,AK-47 Machine Gun ,AK-47マシンガン
+gunmgt2tacticalar,Tactical Assault Rifle ,タクティカルアサルトライフル
+gunmgt3m60,M60 Machine Gun ,M60マシンガン
+gunriflet0piperifle,Pipe Rifle ,パイプライフル
+gunriflet1huntingrifle,Hunting Rifle ,狩猟ライフル
+gunriflet2leveractionrifle,Lever Action Rifle ,レバーアクションライフル
+gunriflet3sniperrifle,Sniper Rifle ,スナイパーライフル
+gunshotgunt0pipeshotgun,Pipe Shotgun ,パイプショットガン
+gunshotgunt1doublebarrel,Double Barrel Shotgun ,2連ショットガン
+gunshotgunt2pumpshotgun,Pump Shotgun ,ポンプアクション式ショットガン
+gunshotgunt3autoshotgun,Auto Shotgun ,オートショットガン
+meleetoolaxet1ironfireaxe,Iron Fireaxe ,鉄製消防斧
+meleetoolaxet2steelaxe,Steel Axe ,鉄鋼斧
+meleetoolaxet3chainsaw,Chainsaw ,チェーンソー
+meleetoolpickt1ironpickaxe,Iron Pickaxe ,鉄つるはし
+meleetoolpickt2steelpickaxe,Steel Pickaxe ,鉄鋼つるはし
+meleetoolpickt3auger,Auger ,オーガー
+meleetoolrepairt0stoneaxe,Stone Axe ,石斧
+meleetoolrepairt1clawhammer,Claw Hammer ,くぎ抜きハンマー
+meleetoolrepairt3nailgun,Nailgun ,ネイルガン
+meleetoolsalvaget1wrench,Wrench ,レンチ
+meleetoolsalvaget2ratchet,Ratchet ,ラチェット
+meleetoolsalvaget3impactdriver,Impact Driver ,衝撃ドライバー
+meleetoolshovelt0stoneshovel,Stone Shovel ,石ショベル
+meleetoolshovelt1ironshovel,Iron Shovel ,鉄ショベル
+meleetoolshovelt2steelshovel,Steel Shovel ,鉄鋼ショベル
+meleewpnbatont0pipebaton,Pipe Baton ,パイプバトン
+meleewpnbatont2stunbaton,Stun Baton ,スタンバトン
+meleewpnbladet0boneknife,Bone Knife ,骨ナイフ
+meleewpnbladet1huntingknife,Hunting Knife ,狩猟ナイフ
+meleewpnbladet3machete,Machete ,マチェーテ
+meleewpnclubt0woodenclub,Wooden Club ,木製棍棒
+meleewpnclubt1baseballbat,Baseball Bat ,ベースボールバット
+meleewpnclubt3steelclub,Steel Club ,鉄鋼製棍棒
+meleewpnknucklest0leatherknuckles,Knuckle Wraps ,ナックルラップ
+meleewpnknucklest1ironknuckles,Iron Knuckles ,鉄ナックル
+meleewpnknucklest3steelknuckles,Steel Knuckles ,鉄鋼ナックル
+meleewpnsledget0stonesledgehammer,Stone Sledgehammer ,石製スレッジハンマー
+meleewpnsledget1ironsledgehammer,Iron Sledgehammer ,鉄製スレッジハンマー
+meleewpnsledget3steelsledgehammer,Steel Sledgehammer ,鉄鋼製スレッジハンマー
+meleewpnspeart0stonespear,Stone Spear ,石槍
+meleewpnspeart1ironspear,Iron Spear ,鉄槍
+meleewpnspeart3steelspear,Steel Spear ,鉄鋼槍
+ammo44magnumbulletap,AP .44 Magnum Ammo ,AP.44マグナム弾
+ammo44magnumbulletapDesc,Unlock AP .44 Magnum Ammo ,AP.44マグナム弾を解放
+ammo44magnumbullethp,HiPower .44 Magnum Ammo ,ハイパワー.44マグナム弾
+ammo44magnumbullethpDesc,Unlock HiPower .44 Magnum Ammo ,ハイパワー.44マグナム弾を解放
+ammo762mmbulletap,AP 7.62mm Ammo ,AP 7.62mm弾
+ammo762mmbulletapDesc,Unlock AP 7.62mm Ammo ,AP 7.62mm弾を解放
+ammo762mmbullethp,HiPower 7.62mm Ammo ,ハイパワー7.62mm弾
+ammo762mmbullethpDesc,Unlock HiPower 7.62mm Ammo ,ハイパワー7.62mm弾を解放
+ammo9mmbulletap,AP 9mm Ammo ,AP 9mm弾
+ammo9mmbulletapDesc,Unlock AP 9mm Ammo ,AP 9mm弾を解放
+ammo9mmbullethp,HiPower 9mm Ammo ,ハイパワー9mm弾
+ammo9mmbullethpDesc,Unlock HiPower 9mm Ammo ,ハイパワー9mm弾を解放
+ammoarrowexploding,Exploding Arrow (Ammo) ,爆発矢（弾薬）
+ammoarrowexplodingDesc,Rifle grenades gone medieval. Ages 6 and up. ,中世版小銃擲弾です。対象年齢6才以上。
+ammoarrowflaming,Flaming Arrow (Ammo) ,燃焼矢（弾薬）
+ammoarrowflamingDesc,A flaming arrow does the most damage by setting its victims on fire. Hold reload to use alternate ammo. ,対象者に火を放つことで最高クラスのダメージを与える燃え盛る矢です。\nリロード長押しで別の弾薬を使用できます。
+ammoarrowsteelap,Steel Arrow (Ammo) ,鉄鋼矢（弾薬）
+ammoarrowsteelapDesc,Steel-tipped arrows do yet more damage and fly straighter.\nHold reload to use alternate ammo. ,鉄鋼製の矢尻を持つた矢で、より大きなダメージを与えることができ、より直線的に飛びます。\nリロード長押しで別の弾薬を使用できます。
+ammobundle44magnumbulletap,Box of AP .44 Magnum Ammo (100) ,AP.44マグナム弾（100）個入りの箱
+ammobundle44magnumbulletapDesc,Unlock Box of AP .44 Magnum Ammo (100) ,AP.44マグナム弾（100）個入りの箱を解放
+ammobundle44magnumbulletball,Box of .44 Magnum Ammo (100) ,.44マグナム弾（100）個入りの箱
+ammobundle44magnumbulletballDesc,Unlock Box of .44 Magnum Ammo (100) ,.44マグナム弾（100）個入りの箱を解放
+ammobundle44magnumbullethp,Box of HP .44 Magnum Ammo (100) ,HP .44マグナム弾（100）個入りの箱
+ammobundle44magnumbullethpDesc,Unlock Box of HP .44 Magnum Ammo (100) ,HP .44マグナム弾（100）個入りの箱を解放
+ammobundle762mmbulletap,Box of AP 7.62mm Ammo (100) ,AP 7.62mm弾（100）個入りの箱
+ammobundle762mmbulletapDesc,Unlock Box of AP 7.62mm Ammo (100) ,AP 7.62mm弾（100）個入りの箱を解放
+ammobundle762mmbulletball,Box of 7.62mm Ammo (100) ,7.62mm弾（100）個入りの箱
+ammobundle762mmbulletballDesc,Unlock Box of 7.62mm Ammo (100) ,7.62mm弾（100）個入りの箱を解放
+ammobundle762mmbullethp,Box of HP 7.62mm Ammo (100) ,HP 7.62mm弾（100）個入りの箱
+ammobundle762mmbullethpDesc,Unlock Box of HP 7.62mm Ammo (100) ,HP 7.62mm弾（100）個入りの箱を解放
+ammobundle9mmbulletap,Box of AP 9mm Ammo (100) ,AP 9mm弾（100）個入りの箱
+ammobundle9mmbulletapDesc,Unlock Box of AP 9mm Ammo (100) ,AP 9mm弾（100）個入りの箱を解放
+ammobundle9mmbulletball,Box of 9mm Ammo (100) ,9mm弾（100）個入りの箱
+ammobundle9mmbulletballDesc,Unlock Box of 9mm Ammo (100) ,9mm弾（100）個入りの箱を解放
+ammobundle9mmbullethp,Box of HP 9mm Ammo (100) ,HP 9mm弾（100）個入りの箱
+ammobundle9mmbullethpDesc,Unlock Box of HP 9mm Ammo (100) ,HP 9mm弾（100）個入りの箱を解放
+ammobundlearrowexploding,Box of Exploding Arrows (75) ,爆発矢（75）本入りの箱
+ammobundlearrowexplodingDesc,Unlock Box of Exploding Arrows (75) ,爆発矢（75）本入りの箱を解放
+ammobundlearrowflaming,Box of Flaming Arrows (100) ,燃焼矢（100）本入りの箱
+ammobundlearrowflamingDesc,Unlock Box of Flaming Arrows (100) ,燃焼矢（100）本入りの箱を解放
+ammobundlearrowiron,Box of Iron Arrows (100) ,鉄矢（100）本入りの箱
+ammobundlearrowironDesc,Unlock Box of Iron Arrows (100) ,鉄矢（100）本入りの箱を解放
+ammobundlearrowsteelap,Box of Steel Arrows (100) ,鉄鋼矢（100）本入りの箱
+ammobundlearrowsteelapDesc,Unlock Box of Steel Arrows (100) ,鉄鋼矢（100）本入りの箱を解放
+ammobundlearrowstone,Box of Stone Arrows (100) ,石矢（100）本入りの箱
+ammobundlearrowstoneDesc,Unlock Box of Stone Arrows (100) ,石矢（100）本入りの箱を解放
+ammobundlecrossbowboltexploding,Box of Exploding Crossbow Bolts (75) ,クロスボウ用爆発ボルト（75）本入りの箱
+ammobundlecrossbowboltexplodingDesc,Unlock Box of Exploding Crossbow Bolts (75) ,クロスボウ用爆発ボルト（75）本入りの箱を解放
+ammobundlecrossbowboltflaming,Box of Flaming Crossbow Bolts (100) ,クロスボウ用燃焼ボルト（100）本入りの箱
+ammobundlecrossbowboltflamingDesc,Unlock Box of Flaming Crossbow Bolts (100) ,クロスボウ用燃焼ボルト（100）本入りの箱を解放
+ammobundlecrossbowboltiron,Box of Iron Crossbow Bolts (100) ,クロスボウ用鉄ボルト（100）本入りの箱
+ammobundlecrossbowboltironDesc,Unlock Box of Iron Crossbow Bolts (100) ,クロスボウ用鉄ボルト（100）本入りの箱を解放
+ammobundlecrossbowboltsteelap,Box of Steel Crossbow Bolts (100) ,クロスボウ用鉄鋼ボルト（100）本入りの箱
+ammobundlecrossbowboltsteelapDesc,Unlock Box of Steel Crossbow Bolts (100) ,クロスボウ用鉄鋼ボルト（100）本入りの箱を解放
+ammobundlecrossbowboltstone,Box of Stone Crossbow Bolts (100) ,クロスボウ用石ボルト（100）本入りの箱
+ammobundlecrossbowboltstoneDesc,Unlock Box of Stone Crossbow Bolts (100) ,クロスボウ用石ボルト（100）本入りの箱を解放
+ammobundlejunkturretap,Box of AP Robotic Turret Ammo (1000) ,APロボット砲台弾（1000）個入りの箱
+ammobundlejunkturretapDesc,Unlock Box of AP Robotic Turret Ammo (1000) ,APロボット砲台弾（1000）個入りの箱を解放
+ammobundlejunkturretregular,Box of Robotic Turret Ammo (1000) ,ロボット砲台弾（1000）個入りの箱
+ammobundlejunkturretregularDesc,Unlock Box of Robotic Turret Ammo (1000) ,ロボット砲台弾（1000）個入りの箱を解放
+ammobundlejunkturretshell,Box of Robotic Turret Shell Ammo (1000) ,ロボット砲台シェル（1000）個入りの箱
+ammobundlejunkturretshellDesc,Unlock Box of Robotic Turret Shell Ammo (1000) ,ロボット砲台シェル（1000）個入りの箱を解放
+ammobundlemaster,Ammo Bundle Master ,弾薬バンドルマスター
+ammobundlemasterDesc,Unlock Ammo Bundle Master ,弾薬バンドルマスターを解放
+ammobundleshotgunbreachingslug,Box of Shotgun Breaching Slugs (100) ,ショットガン用ブリーチング弾（100）個入りの箱
+ammobundleshotgunbreachingslugDesc,Unlock Box of Shotgun Breaching Slugs (100) ,ショットガン用ブリーチング弾（100）個入りの箱を解放
+ammobundleshotgunshell,Box of Shotgun Shells (100) ,ショットガン用シェル（100）個入りの箱
+ammobundleshotgunshellDesc,Unlock Box of Shotgun Shells (100) ,ショットガン用シェル（100）個入りの箱を解放
+ammobundleshotgunslug,Box of Shotgun AP Slugs (100) ,ショットガン用AP弾（100）個入りの箱
+ammobundleshotgunslugDesc,Unlock Box of Shotgun AP Slugs (100) ,ショットガン用AP弾（100）個入りの箱を解放
+ammocrossbowboltexploding,Exploding Crossbow Bolts ,クロスボウ用爆発ボルト
+ammocrossbowboltexplodingDesc,Unlock Exploding Crossbow Bolts ,クロスボウ用爆発ボルトを解放
+ammocrossbowboltflaming,Flaming Crossbow Bolt (Ammo) ,クロスボウ用燃焼ボルト（弾薬）
+ammocrossbowboltflamingDesc,A flaming bolt does the most damage by setting its victims on fire. Hold reload to use alternate ammo. ,対象者に火を放つことで最高クラスのダメージを与える燃え盛るボルトです。\nリロード長押しで別の弾薬を使用できます。
+ammocrossbowboltsteelap,Steel Crossbow Bolt (Ammo) ,クロスボウ用鉄鋼ボルト（弾薬）
+ammocrossbowboltsteelapDesc,Steel-tipped bolts do yet more damage and fly straighter.\nHold reload to use alternate ammo. ,鉄鋼製の矢尻をつけたクロスボウ用のボルトです。石や鉄のボルトより大きなダメージを与えることができ、より直線的に飛びます。\nリロード長押しで別の弾薬を使用できます。
+ammogascan,Gas Can ,ガソリン缶
+ammogascanDesc,A can of gas. Can be used to fuel powered tools and vehicles.\nCrafted in lots of 2. ,ガソリン入りの缶です。動力源を用いるツールや車両の燃料として使用できます。\n\n2個ずつクラフトされます。
+ammogascanbundle,Stack of Gas Cans (5000) ,ガソリン缶（バルク・5000）
+ammogascanbundleDesc,This is a compact stack of gas cans. Use this item to open and unpack it. ,大量のガソリン缶がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+ammojunkturretap,AP Robotic Turret Ammo ,APロボット砲台弾
+ammojunkturretapDesc,Unlock AP Robotic Turret Ammo ,APロボット砲台弾を解放
+ammojunkturretshell,Robotic Turret Shells (Ammo) ,ロボット砲台シェル(弾)
+ammojunkturretshellDesc,Effective at closer ranges and against more than a single target. ,2体以上のターゲットに対して接近戦で効果的
+ammorocketfrag,Rocket Frag (Ammo) ,破砕ロケット（弾薬）
+ammorocketfragDesc,A fragmentation rocket used as rocket launcher ammunition can be crafted at a forge and workbench once you've gained the perk. ,ロケットランチャーの弾薬として使用する破砕性のロケットで、専用のクラフトスキルを上げることで、クラフト可能になります。
+ammorockethe,Rocket HE (Ammo) ,榴弾ロケット（弾薬）
+ammorocketheDesc,A high explosive rocket used as rocket launcher ammunition can be crafted at a forge and workbench once you've gained the perk. ,ロケットランチャーの弾薬として使用する高性能爆薬のロケットで、専用のクラフトスキルを上げることで、クラフト可能になります。
+ammoshotgunbreachingslug,Shotgun Breaching Slug (Ammo) ,ショットガン用ブリーチング弾（弾薬）
+ammoshotgunbreachingslugDesc,Designed for use against door hinges or locks for quick entry.\nNot very useful in a fight due to the extremely short range. ,素早く入室するために蝶番や鍵に対して使用するよう設計されています。\n射程が非常に狭く、戦闘においてはあまり役に立ちません。
+ammoshotgunslug,Shotgun AP Slug (Ammo) ,ショットガン用AP弾（弾薬）
+ammoshotgunslugDesc,Armor piercing shotgun ammo that fires a single projectile.\nDamage falls off rapidly beyond the effective range.\nHold reload to use alternate ammo. ,単一の弾を発射するショットガン用の貫通弾です。\n有効射程外ではダメージが劇的に低下します。\nリロード長押しで別の弾薬を使用できます。
+armorassassinbootsDesc,"Medium Armor\nSilent, but deadly. Sprinting while sneaking makes no extra sound.\n\nFull Set Bonus: Become hidden faster. ,ミディアムアーマー\n静かで殺人的。\nしゃがみ移動中に走っても余計な音がしなくなります。\n\nフルセットボーナス： より早く敵から隠れることができます。"
+armorassassinglovesDesc,Medium Armor\nDexterity is the key to unleashing your fury. Increases attack speed with all weapons governed by agility.\n\nFull Set Bonus: Become hidden faster. ,ミディアムアーマー\n器用さは怒りを爆発させる鍵です。\n素早さツリー内の武器使用時、攻撃速度上昇。\n\nフルセットボーナス： より早く敵から隠れることができます。
+armorassassinhelmetDesc,Medium Armor\nThey'll never see it coming. Deal more damage when sneaking.\n\nFull Set Bonus: Become hidden faster. ,ミディアムアーマー\n誰にも気付かれず攻撃します。\nスニーク中、ダメージ量上昇。\n\nフルセットボーナス： より早く敵から隠れることができます。
+armorassassinoutfitDesc,"Medium Armor\nMove unseen, unheard, and unharmed. Increases sneak effectiveness.\n\nFull Set Bonus: Become hidden faster. ,ミディアムアーマー\n見られず、聞かれず、傷つけられず動きます。\nスニーク性能が上昇し、敵に見つかりにくくなります。\n\nフルセットボーナス： より早く敵から隠れることができます。"
+armorathleticbootsDesc,"Light Armor\nYou don't have to be the fastest, you just have to not be the slowest. Increases run speed.\n\nFull Set Bonus: Use less food and water. ,ライトアーマー\n最速である必要はありません。最遅にならなければいいのです。\n走行速度上昇。\n\nフルセットボーナス： 食料値と水分値が減りにくくなります。"
+armorathleticglovesDesc,Light Armor\nStronger grip that won't wear you down. Increases max stamina.\n\nFull Set Bonus: Use less food and water. ,ライトアーマー\n軽量ですが、しっかりとしたグリップです。\n最大スタミナ値上昇。\n\nフルセットボーナス： 食料値と水分値が減りにくくなります。
+armorathletichelmetDesc,"Light Armor\nLook the part to strike a better deal. Food, drinks, and drugs cost less.\n\nFull Set Bonus: Use less food and water. ,ライトアーマー\nそれらしく見えると交渉が上手くなります。\n飲食品と医療品の購入価格が安くなります。\n\nフルセットボーナス： 食料値と水分値が減りにくくなります。"
+armorathleticoutfitDesc,Light Armor\nAthleticism boosts vigor in battle. Increases max health\n\nFull Set Bonus: Use less food and water. ,ライトアーマー\n運動神経は戦いの活力を高めます。\n最大体力値上昇。\n\nフルセットボーナス： 食料値と水分値が減りにくくなります。
+armorbikerbootsDesc,Medium Armor\nNothing says kick ass more than a pair of leather biker boots. Use less stamina with melee weapons.\n\nFull Set Bonus: Armor rating is increased. Minibikes and motorcycles use less fuel. ,ミディアムアーマー\n革製のバイカーブーツ以上にかっこいい物はありません。\n近接武器使用時、スタミナ消費量軽減。\n\nフルセットボーナス： アーマー値上昇。ミニバイクとオートバイの燃料消費軽減。
+armorbikerglovesDesc,Medium Armor\nImprove your punch and look nasty doing it too. Increases melee weapon damage.\n\nFull Set Bonus: Armor rating is increased. Minibikes and motorcycles use less fuel. ,ミディアムアーマー\nバイカーグローブはかっこいいだけではなく、パンチ力が上がります。\n近接武器使用時、ダメージ量上昇。\n\nフルセットボーナス： アーマー値上昇。ミニバイクとオートバイの燃料消費軽減。
+armorbikerhelmetDesc,Medium Armor\nTake a hit while looking intimidating at the same time. Increases stun resistance.\n\nFull Set Bonus: Armor rating is increased. Minibikes and motorcycles use less fuel. ,ミディアムアーマー\nバイカーヘルメットは迫力がある上に打たれ強くなります。\n脳震盪耐性が上昇。\n\nフルセットボーナス： アーマー値上昇。ミニバイクとオートバイの燃料消費軽減。
+armorbikeroutfitDesc,Medium Armor\nLook and feel like a badass. Increases max health.\n\nFull Set Bonus: Armor rating is increased. Minibikes and motorcycles use less fuel. ,ミディアムアーマー\nバイカー衣装を着用すると、見た目も気分もかっこよくなります。\n最大体力値上昇。\n\nフルセットボーナス： アーマー値上昇。ミニバイクとオートバイの燃料消費軽減。
+armorcommandobootsDesc,Medium Armor\nThese carbon fiber toed ass kickers make you look tough and help you run faster. Increases run speed.\n\nFull Set Bonus: Recovery items work faster. ,ミディアムアーマー\nカーボンファイバー入りで、あなたの見た目をタフにし、走りを良くします。\n走行速度上昇。\n\nフルセットボーナス： 治療済み重症の回復速度上昇。
+armorcommandoglovesDesc,Medium Armor\nProtect your trigger finger and dish out the pain. Increases damage with all ranged weapons.\n\nFull Set Bonus: Recovery items work faster. ,ミディアムアーマー\nあなたのトリガーハッピーな指を保護しながら、敵を痛めつけることが出来ます。\n遠距離武器使用時、ダメージ量上昇。\n\nフルセットボーナス： 治療済み重症の回復速度上昇。
+armorcommandohelmetDesc,Medium Armor\nProtect your skull from incoming attacks. Adds stun resistance.\n\nFull Set Bonus: Recovery items work faster. ,ミディアムアーマー\n頭蓋骨を保護しましょう。\n脳震盪耐性上昇。\n\nフルセットボーナス： 治療済み重症の回復速度上昇。
+armorcommandooutfitDesc,Medium Armor\nTrue commandos endure without flinching. Faster critical injury recovery.\n\nFull Set Bonus: Recovery items work faster. ,ミディアムアーマー\n真の特殊部隊員は瞬きせずに耐えます。\n重傷の回復速度上昇。\n\nフルセットボーナス： 治療済み重症の回復速度上昇。
+armordlcmaster,DLC Armor Master ,DLC防具マスター
+armordlcmasterDesc,Unlock DLC Armor Master ,DLC防具マスターを解放
+armorenforcerbootsDesc,Light Armor\nChase down those punks like a badass homicide cop. Increases run speed.\n\nFull Set Bonus: .44 ammo does more damage and .44 Magnum and Desert Vulture reloads faster. ,ライトアーマー\n殺人課の警官のように、不良たちを追い詰めろ。\n走行速度上昇。\n\nフルセットボーナス： .44マグナム弾使用時、ダメージ量上昇。マグナムやデザートヴァルチャー使用時、リロード速度上昇。
+armorenforcerglovesDesc,Light Armor\nA true wheelman wears gloves. Vehicles use less fuel.\n\nFull Set Bonus: .44 ammo does more damage and .44 Magnum and Desert Vulture reloads faster. ,ライトアーマー\n真のホイールマンはグローブを着用します。\n車両の燃料消費量を下げます。\n\nフルセットボーナス： .44マグナム弾使用時、ダメージ量上昇。マグナムやデザートヴァルチャー使用時、リロード速度上昇。
+armorenforcerhelmetDesc,Light Armor\nLook like a boss in this getup. Increases bartering.\n\nFull Set Bonus: .44 ammo does more damage and .44 Magnum and Desert Vulture reloads faster. ,ライトアーマー\nこの衣装でかっこよくなりましょう。\n交渉能力を上げます。\n\nフルセットボーナス： .44マグナム弾使用時、ダメージ量上昇。マグナムやデザートヴァルチャー使用時、リロード速度上昇。
+armorenforceroutfitDesc,"Light Armor\nStylish, lightweight, and breathable materials that can take a beating. Increases resistance to critical injuries.\n\nFull Set Bonus: .44 ammo does more damage and .44 Magnum and Desert Vulture reloads faster. ,ライトアーマー\nスタイリッシュで軽量、通気性に優れた素材は、激しい動きにも耐えてくれます。\n重症デバフ耐性上昇。\n\nフルセットボーナス： .44マグナム弾使用時、ダメージ量上昇。マグナムやデザートヴァルチャー使用時、リロード速度上昇。"
+armorfarmerbootsDesc,Medium Armor\nNothing beats a comfortable pair of boots out in the field. Adds a chance to gain a seed when harvesting.\n\nFull Set Bonus: Gain more health and stamina from food. ,ミディアムアーマー\n畑では快適なブーツに勝るものはありません。\n収穫時に種を入手する確率を追加します。\n\nフルセットボーナス： 飲食時のスタミナと体力回復量増加。
+armorfarmerglovesDesc,Medium Armor\nGet a grip and shoot everything that moves. Increases rifle damage.\n\nFull Set Bonus: Gain more health and stamina from food. ,ミディアムアーマー\nしっかりと握って、動くものはすべて撃ちましょう。\nライフル使用時のダメージ量が上がります。\n\nフルセットボーナス： 飲食時のスタミナと体力回復量増加。
+armorfarmerhelmetDesc,Medium Armor\nKeep the sun out of your eyes and on the prize. Increases the chance to find seeds in loot.\n\nFull Set Bonus: Gain more health and stamina from food. ,ミディアムアーマー\n日差しから目を守ってお宝に集中できるようにします。\n略奪時の種発見率を上げます。\n\nフルセットボーナス： 飲食時のスタミナと体力回復量増加。
+armorfarmeroutfitDesc,Medium Armor\nBeing ready for the square dance isn't all these overalls are good for. Adds a chance to harvest an extra crop.\n\nFull Set Bonus: Gain more health and stamina from food. ,ミディアムアーマー\nこのオーバーオールはスクエアダンス以外にも役に立ちます。\n追加収穫のチャンスを追加。\n\nフルセットボーナス： 飲食時のスタミナと体力回復量増加。
+armorheavymasterDesc,Unlock Heavy Armor Master ,重装防具マスターを解放
+armorlightmasterDesc,Unlock Light Armor Master ,軽装防具マスターを解放
+armorlumberjackbootsDesc,Light Armor\nThe form-fitting ankle support prevents quick fatigue in the woods. Reduces stamina cost when sprinting.\n\nFull Set Bonus: Use less stamina when using axes. ,ライトアーマー\n体にフィットした足首のサポートは森の中での疲労を防ぎます。\n走行中スタミナ消費軽減。\n\nフルセットボーナス： 斧使用時、スタミナ消費量軽減。
+armorlumberjackglovesDesc,Light Armor\nWho said an axe is a terrible weapon? Increases melee damage with axes.\n\nFull Set Bonus: Use less stamina when using axes. ,ライトアーマー\n斧が武器に向いてないだなんて、誰が言いましたか？\n斧使用時、ダメージ量上昇。\n\nフルセットボーナス： 斧使用時、スタミナ消費量軽減。
+armorlumberjackhelmetDesc,Light Armor\nBe the boss of the lumber yard. Increases wood harvest.\n\nFull Set Bonus: Use less stamina when using axes. ,ライトアーマー\n木材置き場のボスになろう。\n伐採時の木材獲得量上昇。\n\nフルセットボーナス： 斧使用時、スタミナ消費量軽減。
+armorlumberjackoutfitDesc,"Light Armor\nWith a vest full of pockets, you'll have room for that. Reduces encumbrance.\n\nFull Set Bonus: Use less stamina when using axes. ,ライトアーマー\nポケットがたくさんあるベストなら、あれもこれも持てます。\n荷重制限を軽減します。\n\nフルセットボーナス： 斧使用時、スタミナ消費量軽減。"
+armormediummasterDesc,Unlock Medium Armor Master ,中装防具マスターを解放
+armorminerbootsDesc,Heavy Armor\nThese steel toed boots keep your feet protected. Reduces fall damage.\n\nFull Set Bonus: Reduces degradation of mining tools. ,ヘビーアーマー\n足を保護してくれる、鉱夫用の安全靴。\n落下ダメージを軽減します。\n\nフルセットボーナス： 採掘ツールの耐久値減少率が軽減されます。
+armorminerglovesDesc,Heavy Armor\nCrack rock like a pro with these gloves. Increases damage of mining tools.\n\nFull Set Bonus: Reduces degradation of mining tools. ,ヘビーアーマー\nプロのように岩を砕くことが出来るようになります。\n採掘ツール使用時の対物ダメージ量が増えます。\n\nフルセットボーナス： 採掘ツールの耐久値減少率が軽減されます。
+armorminerhelmetDesc,Heavy Armor\nLight the way to higher yields. Increases mining tool harvest.\n\nFull Set Bonus: Reduces degradation of mining tools. ,ヘビーアーマー\n大収穫への道を照らしてくれます。\n採掘ツール使用時、鉱石獲得量上昇。\n\nフルセットボーナス： 採掘ツールの耐久値減少率が軽減されます。
+armormineroutfitDesc,Heavy Armor\nThe ergonomic fit will keep you mining all night without getting tired. Reduces stamina cost of mining tools.\n\nFull Set Bonus: Reduces degradation of mining tools. ,ヘビーアーマー\n人口工学的にフィットする鉱夫用衣装を着用すると、疲れる事無く一晩中採掘することが出来るようになります。\n採掘用ツール使用時の消費スタミナ量が軽減されます。\n\nフルセットボーナス： 採掘ツールの耐久値減少率が軽減されます。
+armornerdbootsDesc,Heavy Armor\nProtection with a spring in your step. Reduces fall damage.\n\nFull Set Bonus: Tools and Weapons degrade slower. ,ヘビーアーマー\nステップがバネにより保護されます。\n落下ダメージが軽減されます。\n\nフルセットボーナス： 武器やツールの耐久値減少率が軽減されます。
+armornerdglovesDesc,Heavy Armor\nProtect those cold clammy soft hands from the elements and become an intellectual badass. Deal more damage with intellect based weapons.\n\nFull Set Bonus: Tools and Weapons degrade slower. ,ヘビーアーマー\nその弱くて汗ばんだ手を保護して知的でヤバい奴になりましょう。\n知能ツリー内の武器使用時のダメージ量を増やします。\n\nフルセットボーナス： 武器やツールの耐久値減少率が軽減されます。
+armornerdhelmetDesc,"Heavy Armor\nYou might not win any dates, but you'll win at leveling up your skills. Increases experience gain.\n\nFull Set Bonus: Tools and Weapons degrade slower. ,ヘビーアーマー\nデートのお誘いは無いかもしれませんが、　その分スキルアップに集中出来ます。\n獲得経験値量が上がります。\n\nフルセットボーナス： 武器やツールの耐久値減少率が軽減されます。"
+armornerdoutfitDesc,Heavy Armor\nYour lack of fashion sense gives you the ability to focus on your inventions. Adds a chance to gain two crafting skill points when reading magazines.\n\nFull Set Bonus: Tools and Weapons degrade slower. ,ヘビーアーマー\nファッションセンスは無いかもしれませんが、　その分発明に集中出来ます。\n雑誌使用時に確率でクラフトスキルレベルが1ではなく2上昇します。\n\nフルセットボーナス： 武器やツールの耐久値減少率が軽減されます。
+armornomadbootsDesc,Heavy Armor\nSeasoned travelers know the importance of proper footwear. Increases run speed.\n\nFull Set Bonus: Reduces stamina recovery costs. ,ヘビーアーマー\nベテランの放浪者は良い靴の重要さを理解しています。\n走行速度上昇。\n\nフルセットボーナス： スタミナ回復コストが下がります。
+armornomadglovesDesc,"Heavy Armor\nIntegrated with materials that absorb radiation, these gloves are capable of inflicting increased melee damage on radiated foes. Deal more melee damage against Radiated, Charged, and Infernal enemies.\n\nFull Set Bonus: Reduces stamina recovery costs. ,ヘビーアーマー\n放射線を吸収する素材と一体化したこのグローブは、放射線を浴びた敵に与える近接ダメージ量を上昇させます。\n被爆したゾンビ、インフェルノ・ゾンビ、チャージド・ゾンビへの近接ダメージ上昇。\n\nフルセットボーナス： スタミナ回復コストが下がります。"
+armornomadhelmetDesc,"Heavy Armor\nGuarded against the severe conditions of the wasteland, this headgear enables the Nomad to wander further. Reduces food and water use.\n\nFull Set Bonus: Reduces stamina recovery costs. ,ヘビーアーマー\n荒れ地の過酷な環境から身を守るこのヘルメットは、遊牧民がより遠くまで彷徨うことを可能にします。\n食料値や水分値が減りにくくなります。\n\nフルセットボーナス： スタミナ回復コストが下がります。"
+armornomadoutfitDesc,Heavy Armor\nNomadic life means carrying everything with you. Reduces encumbrance.\n\nFull Set Bonus: Reduces stamina recovery costs. ,ヘビーアーマー\n遊牧民はすべて持ち歩きます。\n荷重制限を軽減します。\n\nフルセットボーナス： スタミナ回復コストが下がります。
+armorpreacherbootsDesc,Light Armor\nYou can't kick ass for the Lord if you're dead! Decreases treated healing time of abrasions and breaks.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ライトアーマー\n死んでしまったら神のために戦うことは出来なくなります！\n治療済みのかすり傷や骨折の回復速度上昇。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。
+armorpreacherglovesDesc,Light Armor\nSmite thy enemy. Increases damage dealt to the undead.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ライトアーマー\n敵を打ち負かせましょう。\n\nアンデッドに与えるダメージ量が上がります。\nフルセットボーナス： 重症デバフを受ける確率が下がります。
+armorpreacherhelmetDesc,"Light Armor\nEarned through acts of kindness, fairness, and heroic deeds, the Preacher's positive reputation is well respected by the trading community. Receive a discount on purchased items.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ライトアーマー\n優しさ、公正さ、英雄的行為によって獲得した説教者の好意的な評判は、トレーダーから高く評価されています。\n購入商品の割引を受けます。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。"
+armorpreacheroutfitDesc,"Light Armor\nBlessed by the Lord, these threads will keep you protected from evil. Reduces incoming damage.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ライトアーマー\n主に祝福され、これらの糸はあなたを悪から守ってくれます。\n受けるダメージ量を下げます。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。"
+armorprimitivebootsDesc,Guard your feet with every step to ensure your survival. ,生き残るために、あなたの一歩一歩を守ります。
+armorprimitiveglovesDesc,"Designed to enhance basic grip, but these gloves may also ward off a few bloody knuckles. ,基本的なグリップ力を高めるためにデザインされたグローブですが、拳が血まみれになることを防ぐことも出来ます。"
+armorprimitivehelmetDesc,"Thin and lightweight, but it'll shield you from minor scrapes. ,薄くて軽量ですが、ちょっとした擦り傷から身を守ってくれます。"
+armorprimitivemasterDesc,Unlock Primitive Armor Master ,原始防具マスターを解放
+armorprimitiveoutfitDesc,"It might be itchy, but at least you're not naked. ,痒いかもしれませんが、少なくとも裸ではありません。"
+armorraiderbootsDesc,Heavy Armor\nShock absorbing soles will soften your falls. Reduces fall damage.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ヘビーアーマー\n衝撃を吸収する靴底が落下ダメージを和らげてくれます。\n落下ダメージを軽減します。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。
+armorraiderglovesDesc,Heavy Armor\nMetal plates increase the momentum of your swing. Increases melee weapon damage.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ヘビーアーマー\n金属プレートはスイングの勢いを増します。\n近接武器ダメージ量を上げます。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。
+armorraiderhelmetDesc,"Heavy Armor\nThe chaos of battle can be jarring, but this helmet will leave you unshaken. Increases stun resistance.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ヘビーアーマー\n戦闘の混乱は耳障りなものだが、このヘルメットなら揺らぐことはない。\n脳震盪耐性が上がります。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。"
+armorraideroutfitDesc,Heavy Armor\nA nearly impenetrable defense is worth its weight. Reduces critical injuries to be less severe.\n\nFull Set Bonus: Reduces the chance of critical injuries. ,ヘビーアーマー\nほぼ貫通されないディフェンスは重さに見合う価値があります。\n重症デバフの回復速度上昇。\n\nフルセットボーナス： 重症デバフを受ける確率が下がります。
+armorrangerbootsDesc,Medium Armor\nCover more ground and stay in the fight longer. Increases max stamina.\n\nFull Set Bonus: Reload faster with Revolvers and Lever-Action Rifles. ,ミディアムアーマー\nより広いエリアをカバーでき、より長く戦えます。\n最大スタミナ量を上げます。\n\nフルセットボーナス： リボルバーとレバーアクションライフルのリロード速度が上がります。
+armorrangerglovesDesc,Medium Armor\nKill varmints with enhanced grip and precision. Increases rifle and revolver damage. \n\nFull Set Bonus: Reload faster with Revolvers and Lever-Action Rifles. ,ミディアムアーマー\n強化されたグリップと正確さで害獣を仕留めます。\nライフルとリボルバー使用時のダメージ量を上げます。\n\nフルセットボーナス： リボルバーとレバーアクションライフルのリロード速度が上がります。
+armorrangerhelmetDesc,"Medium Armor\nRangers are ruthless negotiators, especially while wearing a well crafted hat. Increases bartering.\n\nFull Set Bonus: Reload faster with Revolvers and Lever-Action Rifles. ,ミディアムアーマー\nレンジャーは冷酷な交渉人です。よくできた帽子をかぶっているときは特に。\n交渉能力を上げます。\n\nフルセットボーナス： リボルバーとレバーアクションライフルのリロード速度が上がります。"
+armorrangeroutfitDesc,Medium Armor\nA rugged leather duster that keeps you in the fight longer. Increases max health.\n\nFull Set Bonus: Reload faster with Revolvers and Lever-Action Rifles. ,ミディアムアーマー\n頑丈な革のダスターと丈夫なデニムで、より長く戦えます。\n最大体力を上げます。\n\nフルセットボーナス： リボルバーとレバーアクションライフルのリロード速度が上がります。
+armorroguebootsDesc,"Light Armor\nDesigned for withstanding harsh impacts, these boots protect you from fall damage. Increases safe fall distance.\n\nFull Set Bonus: Find more cash and dukes in loot. ,ライトアーマー\n激しい衝撃に耐えるように設計されたこのブーツは、落下によるダメージからあなたを守ります。\n落下ダメージを軽減します。\n\nフルセットボーナス： 旧紙幣とデュークのカジノトークンの略奪取得量上昇。"
+armorrogueglovesDesc,Light Armor\nTime is everything when breaking into locks. Increases lockpicking speed and success rate.\n\nFull Set Bonus: Find more cash and dukes in loot. ,ライトアーマー\n鍵を破るには時間がすべてだ。\nピッキング速度と成功率上昇。\n\nフルセットボーナス： 旧紙幣とデュークのカジノトークンの略奪取得量上昇。
+armorroguehelmetDesc,Light Armor\nA cunning thief always knows where to look. Increases loot stage.\n\nFull Set Bonus: Find more cash and dukes in loot. ,ライトアーマー\n狡猾な泥棒は、常にどこを探せばいいかを知っています。\n略奪ステージ上昇。\n\nフルセットボーナス： 旧紙幣とデュークのカジノトークンの略奪取得量上昇。
+armorrogueoutfitDesc,"Light Armor\nThieves know how to get in, and get out undetected. Increases sneak effectiveness.\n\nFull Set Bonus: Find more cash and dukes in loot. ,ライトアーマー\n泥棒は目当てのものを手に入れ、気づかれずに脱出する方法を知っています。\nスニーク性能上昇。\n\nフルセットボーナス： 旧紙幣とデュークのカジノトークンの略奪取得量上昇。"
+armorscavengerbootsDesc,Medium Armor\nSalvage longer with these custom fitted boots. Reduces stamina usage when salvaging.\n\nFull Set Bonus: Find better quality loot. ,ミディアムアーマー\nカスタムフィットブーツで長時間解体出来ます。\n解体ツール使用時、スタミナ消費量軽減。\n\nフルセットボーナス： 略奪品ボーナス上昇。
+armorscavengerglovesDesc,Medium Armor\nProtect those knuckles and concentrate on your salvaging efforts. Increase resources when salvaging.\n\nFull Set Bonus: Find better quality loot. ,ミディアムアーマー\n拳を保護して解体に集中できるようにします。\n解体ツール使用時、獲得資材量上昇。\n\nフルセットボーナス： 略奪品ボーナス上昇。
+armorscavengerhelmetDesc,Medium Armor\nYou're bound to learn something from taking all that stuff apart. Gain more XP when salvaging.\n\nFull Set Bonus: Find better quality loot. ,ミディアムアーマー\nあれだけのものを分解すれば、何かを学べるに違いありません。\n解体ツール使用時、獲得経験値上昇。\n\nフルセットボーナス： 略奪品ボーナス上昇。
+armorscavengeroutfitDesc,Medium Armor\nDeep pockets help bring the goods home. Reduces encumbrance.\n\nFull Set Bonus: Find better quality loot. ,ミディアムアーマー\n深いポケットでたくさんのお土産を持ち帰ります。\n荷重制限を軽減します。\n\nフルセットボーナス： 略奪品ボーナス上昇。
+autoturret,SMG Auto Turret ,SMG自動砲台
+autoturretDesc,"A motion sensing bullet hose. No really, this thing eats piles of 9mm ammunition.\n\nRepair with Forged Iron, Mechanical Parts, and Electrical Parts. ,人感センサーを備えた砲台です。9mm弾を消費します。\n\n錬鉄、機械部品、電気部品で修理可能。"
+batterybank,Battery Bank ,バッテリーバンク
+batterybankDesc,Unlock Battery Bank ,バッテリーバンクを解放
+bladetrap,Blade Trap ,ブレードトラップ
+bladetrapDesc,Used to chop up zombies into many pieces. Just add zombies and stir.\n\nRepair with Forged Steel. ,ゾンビどもを木端微塵に切り刻みます。ゾンビを入れてかき混ぜればできあがり。\n\n鍛鋼（たんこう）で修理可能。
+carbatteryDesc,Car batteries can be used to craft vehicles as well as scrapped or smelted at the forge for lead. Recharge them in a powered battery bank. ,バッテリーは車両のクラフトに使用され、解体や炉での精錬で鉛に変えることもできます。バッテリーバンクで充電できます。
+ceilinglight01_player,Basic Light Bulb ,ベーシック電球
+ceilinglight01_playerDesc,Unlock Basic Light Bulb ,ベーシック電球を解放
+ceilinglight07_player,Fluorescent Light ,蛍光灯
+ceilinglight07_playerDesc,Unlock Fluorescent Light ,蛍光灯を解放
+cementmixer,Cement Mixer ,セメントミキサー
+cementmixerDesc,"A cement mixer will help you craft materials like concrete mix or asphalt.\n\nRepair with Forged Iron, Mechanical Parts, and Springs. ,セメントミキサーはコンクリートミックスやアスファルトを作るときに役立ちます。\n\n錬鉄、機械部品、ばねで修理可能。"
+chemistrystation,Chemistry Station ,化学実験ステーション
+chemistrystationDesc,"With the proper equipment you can work far more efficiently than on a campfire.\nCan be used to warm up.\nRepair with Forged Iron, Short Iron Pipe, and Wood. ,適切な設備があれば、キャンプファイヤーよりもはるかに効率的に作業することができます。\n暖を取るために使用することも出来ます。\n錬鉄、鉄パイプ（ショート）、木材で修理可能。"
+cntapiary,Apiary ,養蜂箱
+cntapiaryDesc,"Slowly produces honey over time.\n\nCan be fueled with 10 Chrysanthemum, 10 Goldenrod, or 10 Cotton.\nWithout a Smoker tool mod, opening the hive may have a chance to provoke an angry swarm.\nRepair with Forged Iron. ,時間経過とともに蜂蜜を生成します。\n\n蜂蜜1瓶に付き、菊10個、アキノキリンソウ10個、または綿花10個を消費します。\n燻煙器がセットされていない場合、養蜂箱を開いたときに蜂が襲い掛かってくることがあります。\n\n錬鉄で修理可能です。"
+cntdewcollector,Dew Collector ,水滴収集器
+cntdewcollectorDesc,Unlock Dew Collector ,水滴収集器を解放
+darttrap,Dart Trap ,ダーツトラップ
+darttrapDesc,"Launches metal darts when powered.\n\nRepair with Forged Iron, Mechanical Parts, and Electrical Parts. ,通電させておくと金属製のダーツを発射します。\n\n錬鉄、機械部品、電気部品で修理可能。"
+drinkjarbeer,Beer ,ビール
+drinkjarbeerDesc,"300% Fist Melee Damage\n50% Stamina Gain\n\nGain stamina, bravado and stun immunity all in one bottle of this tasty home brewed beer. Just like grandpa used to make. ,素手やナックル使用時ダメージ量300%上昇\nスタミナ回復量50%上昇\n\nスタミナ上昇、虚勢、スタン耐性を一本のボトルに詰め込んだ美味しい自家製ビール。懐かしいおじいちゃんの味。"
+drinkjarblackstrapcoffee,Blackstrap Coffee ,ブラックストラップコーヒー
+drinkjarblackstrapcoffeeDesc,Blackstrap Coffee. This 2 century old favorite coffee was a staple among miners in the 1800's. Otherwise known as 'Muckmen Blackstrap' this strong blended roast will give you long lasting energy and keep you warm for hours. ,ブラックストラップコーヒーです。1800年代の鉱夫の間で定番であった、2世紀前に愛飲されていたコーヒーです。「マックメン・ブラックストラップ」の名でも知られており、長時間活力がみなぎり、体を数時間温めてくれる深煎りブレンドです。
+drinkjarcoffee,Coffee ,コーヒー
+drinkjarcoffeeDesc,Coffee keeps your stamina up and helps you stay warm for a limited time. ,コーヒーはスタミナを持続させ、一定時間体を温めてくれます。
+drinkjargoldenrodtea,Goldenrod Tea ,アキノキリンソウ茶
+drinkjargoldenrodteaDesc,Greatly speeds up recovering from dysentery. ,赤痢からの快復速度上昇。
+drinkjargrandpasawesomesauce,Grandpa's Awesome Sauce ,おじいちゃんの素敵なソース
+drinkjargrandpasawesomesauceDesc,Tired of getting bent by those pesky traders?\nTake a shot of Grandpa's Awesome Sauce\nand get a better deal! ,あの煩わしいトレーダーどもにやり込められるのはもううんざり？\nおじいちゃんの素敵なソースを一杯引っかけて交渉を有利に進めてやりましょう！
+drinkjargrandpaslearningelixir,Grandpa's Learnin' Elixir ,おじいちゃんの学習エリクサー
+drinkjargrandpaslearningelixirDesc,"Learn twice as much, twice as fast, or sumthin like that. ,学習効率と学習速度が二倍、っぽいそんな感じです。"
+drinkjargrandpasmoonshine,Grandpa's Moonshine ,おじいちゃんの密造酒
+drinkjargrandpasmoonshineDesc,Nuthin' makes settling it the old way easier than a bottle of grandpa's moonshine.\nGives all melee damage a punch that will make 'em quake in their boots. ,昔ながらのやり方でカタをつけるなら、おじいちゃんの密造酒がもってこいです。\nすべての近接ダメージに喝を入れます。相手はブルブルと震え上がることでしょう。ダメージ耐性、その他諸々も向上します。
+drinkjarhoneytea,Honey Tea ,蜂蜜茶
+drinkjarhoneyteaDesc,Greatly speeds up recovering from dysentery and helps fight off the early stages of infection. ,赤痢からの回復を大幅に早め、初期段階の感染症を緩和してくれます。
+drinkjarpuremineralwater,Pure Mineral Water ,ピュアミネラルウォーター
+drinkjarpuremineralwaterDesc,Pure mineral water is good for your digestion and hydrates you for days!\nExertion will not make you hungry and thirsty as quickly. ,ピュアミネラルウォーターは消化を助け、数日間水分補給が不要になります！\n運動してもそれほど早く空腹や喉の渇きを感じることがなくなります。
+drinkjarredtea,Red Tea ,菊茶
+drinkjarredteaDesc,"An ancient Chinese secret, red tea is known for being an antioxidant, providing excellent rehydration and reducing food drain so that exertion does not make you hungry and thirsty as quickly. ,古代中国の秘伝である菊茶は、解毒作用と強力な補水作用があります。また最大スタミナの減少を低減しますので、運動してもそれほど早く空腹や喉の渇きを感じることがなくなります。"
+drinkjaryuccajuice,Yucca Juice ,ユッカジュース
+drinkjaryuccajuiceDesc,Yucca juice provides excellent hydration. ,ユッカジュースには強力な補水作用があります。
+drinkyuccajuicesmoothie,Yucca Juice Smoothie ,ユッカジューススムージー
+drinkyuccajuicesmoothieDesc,This smoothie helps you boost stamina regeneration. ,このスムージーはスタミナの回復力を上げます。
+drugantibiotics,Antibiotics ,抗生物質
+drugantibioticsDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire. ,感染症を治療することができます。\n\nキャンプファイヤーでビーカーを使ってクラフトできます。
+drugfortbites,Fort Bites ,フォート・バイツ
+drugfortbitesDesc,Fort Bites greatly increase your damage resistance. ,フォート・バイツはダメージ耐性を大幅に向上させます。
+drugherbalantibiotics,Herbal Antibiotics ,ハーブ系抗生物質
+drugherbalantibioticsDesc,Herbal Antibiotics can cure infections.\n\nCan be crafted in a cooking pot at a campfire. ,ハーブ系抗生物質は、感染症を治療することができます。\n\nキャンプファイヤーで調理鍋を使ってクラフトできます。
+drugrecog,Recog ,レコグ
+drugrecogDesc,Recog enhances ranged damage. ,レコグの効果で遠距離ダメージが増加します。
+drugsteroids,Steroids ,ステロイド
+drugsteroidsDesc,"Steroids decrease encumbrance, allowing you to carry more items, and allow you to run faster. They also allow you to move and perform actions normally when you have a sprained or broken limb. ,ステロイドは、一時的に荷重制限が全開放され、走行速度が上がります。ステロイドのバフが付与されている間は、捻挫や骨折の痛みを感じなくなり、普段通りに行動することが出来るようになります。"
+electricfencepost,Electric Fence Post ,電流フェンスポスト
+electricfencepostDesc,Wire up 2 or more of these and shock your enemies.\n\nRepair with Forged Iron and Electrical Parts. ,配線したものを2本以上設置して繋げます。間を通った敵を感電させましょう。\n\n錬鉄、電気部品で修理可能。
+electrictimerrelay,Electric Timer Relay ,電気タイマーリレー
+electrictimerrelayDesc,Wire up one of these to trigger events based on time of day.\n\nRepair with Forged Iron and Electrical Parts. ,配線しておけば日程に合わせて罠類が発動します。\n\n錬鉄、電気部品で修理可能。
+electricwirerelay,Electric Wire Relay ,電気配線リレー
+electricwirerelayDesc,Used to connect and extend wires between electrical components.\n\nRepair with Forged Iron. ,電気機器同士の接続や配線の延長に使用します。\n\n錬鉄で修理可能。
+foodbaconandeggs,Bacon and Eggs ,ベーコンエッグ
+foodbaconandeggsDesc,Bacon and eggs will really fill you up and boost your Maximum Stamina. Cholesterol is the least of your worries now. ,ベーコンエッグはお腹を満たし、最大スタミナにブーストがかかります。コレステロール値の心配などしている場合ではありませんから。
+foodbakedpotato,Baked Potato ,ベークドポテト
+foodbakedpotatoDesc,A nutritious baked potato full of carbohydrates. Great for couch potatoes too. ,栄養満点のベークドポテトには炭水化物がたっぷり。カウチポテト族にもうってつけです。
+foodblueberrypie,Blueberry Pie ,ブルーベリーパイ
+foodblueberrypieDesc,This homemade blueberry pie is just like Grandma used to make. ,お手製ブルーベリーパイは、まさにおばあちゃんの味。
+foodboiledmeat,Boiled Meat ,ゆで肉
+foodboiledmeatDesc,"While not as yummy as grilled meat, boiling is an efficient way to prepare a meal. ,焼肉ほど食欲をそそりませんが、ゆでるというのは肉の下ごしらえとして効率的な方法です。"
+foodcansham,Can of Sham ,シャム缶
+foodcanshamDesc,"A can of high quality Shamway Ham.\nShamway, the #1 maker of meat-like products. The lunch of champions.\n\nNow 100% acid free!!! ,Shamwayハムの高品質な缶詰です。\n謎肉のナンバー1製造メーカー、Shamway。ランチの王者。\n\n100%アシッドフリー！"
+foodchilidog,Chili Dog ,チリドッグ
+foodchilidogDesc,Tasty! ,美味しい！
+foodcornbread,Corn Bread ,トウモロコシパン
+foodcornbreadDesc,A tasty piece of corn bread lifts your spirits with its home-cooked charm. ,家庭の味を彷彿とさせるトウモロコシパンが気持ちを盛り上げてくれます。
+foodcornonthecob,Grilled Corn ,焼きとうもろこし
+foodcornonthecobDesc,A grilled ear of corn isn't the most filling or nutritious meal but it sure is satisfying. ,焼いたトウモロコシは、それほどお腹が膨れて栄養価が高いというわけではありません。それでも満足はできるでしょう。
+foodfishtacos,Fish Tacos ,フィッシュタコス
+foodfishtacosDesc,Who wants to live off the land when it's taco Tuesday? Or is this Thursday? ,火曜日のタコスの日に自給自足なんて本気ですか？それとも、今日は木曜日でしたっけ？
+foodgrilledmeat,Grilled Meat ,焼肉
+foodgrilledmeatDesc,"Meat! Meat on fire! Good! Meat fresh off the grill is nutritious, delicious, and filling. ,肉！火にかけた肉！いいですね！グリルで焼きたての肉は栄養満点で美味。お腹もいっぱいになります。"
+foodgumbostew,Gumbo Stew ,ガンボシチュー
+foodgumbostewDesc,"Vomiting is for the peasants! Eat like an apocalyptic king with this super filling, delicious gumbo stew. ,吐くなんて貧乏人のすること！この特に腹持ちの良い美味しいガンボシチューを世紀末の王のように食しましょう。"
+foodhobostew,Hobo Stew ,ホボシチュー
+foodhobostewDesc,"Nutritious and deli... it's edible, okay? ,栄養満点で美味し...とにかく食用です。"
+foodhoneybrisket,Honey Brisket ,ハニーブリスケット
+foodhoneybrisketDesc,"It’s sweet, it’s smoky, and it makes antibiotics look like baby food.\n\nCan help fight off the early stages of infection. ,甘くて、スモーキー、そして感染症の治療として役立ちます。\n\n初期段階の感染症を緩和してくれます。"
+foodhoneyglazedsham,Honey Glazed Sham ,ハニーグレーズシャム
+foodhoneyglazedshamDesc,"A premium can of Shamway’s finest meat-adjacent product, now with a sticky honey glaze!\n\nStill 100% acid free!\n\nCan help fight off the early stages of infection. ,シャムウェイ社特選肉風製品、プレミアム缶！今ならねっとりとしたハニーグレーズ付き！\n\n依然として100%アシッドフリーです！\n\n初期段階の感染症を緩和してくれます。"
+foodmeatstew,Meat Stew ,肉シチュー
+foodmeatstewDesc,A survivor isn't worth his salt if he can't make a meat stew. ,肉シチューを作ることができない奴は生存者とは呼べません。
+foodpumpkinbread,Pumpkin Bread ,カボチャパン
+foodpumpkinbreadDesc,Pumpkin bread is more filling than corn bread and tastes amazing. ,カボチャパンはトウモロコシパンよりもお腹がふくれ、味も素晴らしいです。
+foodpumpkincheesecake,Pumpkin Cheesecake ,カボチャチーズケーキ
+foodpumpkincheesecakeDesc,This pumpkin cheesecake tastes delicious and grants you a 5% discount when bartering. ,カボチャチーズケーキは美味しく、取引時に5%の割引を受けることができます。
+foodpumpkinpie,Pumpkin Pie ,カボチャパイ
+foodpumpkinpieDesc,"If there is one thing to be thankful for in the apocalypse, it's pumpkin pie. ,何か一つだけ黙示録に感謝することがあるとすれば、それはカボチャパイ。"
+foodshamchowder,Sham Chowder ,シャムチャウダー
+foodshamchowderDesc,Sham Chowder increases your Fortitude and grows chest hair! ,シャムチャウダーで忍耐力が向上し、胸毛まで生えてきます！
+foodshepardspie,Shepherd's Pie ,シェパーズパイ
+foodshepardspieDesc,Shepherd's Pie sure is tasty and super filling. ,シェパーズパイは本当に美味しいし、腹持ちも良い。
+foodspaghetti,Spaghetti ,スパゲッティ
+foodspaghettiDesc,"It's not a classy Italian dish, but it is very filling and has a full no money back guarantee that you won't vomit. ,上品なイタリア料理ではないけれど、腹持ちはとても良く、吐かないという全額返金保証付き。"
+foodsteakandpotato,Steak and Potato Meal ,ステーキとジャガイモの食事
+foodsteakandpotatoDesc,A filling meal fit for a king! ,王に相応しいずっしりとした食事です！
+foodtunafishgravytoast,Tuna Fish Gravy Toast ,ツナグレービートースト
+foodtunafishgravytoastDesc,"Some call it shit on a shingle, but it's actually pretty tasty and filling. ,屋根板の上のフンなんて呼ぶ人もいるけど、実はかなり美味しくて満腹になります。"
+foodvegetablestew,Vegetable Stew ,野菜シチュー
+foodvegetablestewDesc,Your mom always said eat your vegetables. Now's your chance to make her happy and guess what? They're good for you. ,常々お母さんから野菜を食べるように言われてませんでしたか。今こそお母さんを喜ばせるチャンスです。それに知っていましたか？健康にいいんですよ。
+forge,Forge ,炉
+forgeDesc,"Used to smelt metals to craft tools and weapons or stone to craft cement. Install tools to increase performance or unlock recipes.\nCan be used to warm up.\nRepair with Small Stone, Clay Soil, and Leather. ,金属を精錬してツールや武器をクラフトします。石を溶かしてセメントをクラフトすることもできます。鉄床や鞴（ふいご）をセットすると、炉の性能が上がり、坩堝（るつぼ）をセットすると鍛鋼（たんこう）などがクラフト可能になります。\n暖を取るために使用することも出来ます。\n小石、粘土、皮で修理可能。"
+generatorbank,Generator Bank ,発電バンク
+generatorbankDesc,Unlock Generator Bank ,発電バンクを解放
+gunbott1junksledgeDesc,You may not be good at punching but you have the technology.\nYou can also deploy this on the ground using the Secondary action.\n\nRepair with a Repair Kit.\nScrap to Robotics Parts. ,あなたのパンチは強くないかもしれませんが、化学の技術は持ち合わせています。\n第二アクションで地面に展開することも可能です。\n\n修理キットで修理可能。\n解体するとロボットパーツに。
+gunbott2junkturretDesc,This contraption can be fired and reloaded like a gun. It uses Robotic Turret Ammo for ammunition.\nYou can also deploy it on the ground using the Secondary action.\n\nRepair with a Repair Kit.\nScrap to Robotics Parts. ,銃のように発砲やリロードができる珍妙な装置です。弾薬としてロボット砲台用弾薬を使用します。\n第二アクションで地面に展開することも可能です。\n\n修理キットで修理可能。\n解体するとロボットパーツに。
+gunbott3junkdroneDesc,"Crafted from robotic parts and scrap, the robotic drone is the ultimate companion in the apocalypse. It can heal you and carry some items.\n\nRepair with a Repair Kit.\nScrap to Robotics Parts. ,ロボットパーツと鉄くずから作られたロボットドローンは、終末世界での究極のコンパニオンです。あなたを治療したり、アイテムを運ぶことができます。\n修理キットで修理可能。\n解体するとロボットパーツに。"
+gunbowt0primitivebowDesc,Good for hunting and killing zombies. Uses arrows for ammunition.\nHold reload to use alternate ammo.\n\nRepair with Wood.\nScrap to Wood. ,狩りやゾンビ殺しに有効です。弾薬として矢を使用します。\nリロード長押しで別の弾薬を使用できます。\n\n木材で修復します。\n解体すると木材になります。
+gunbowt1ironcrossbowDesc,A crossbow is slow to reload but does more damage than a bow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.\n\nRepair with a Repair Kit.\nScrap to Bow ,Crossbow Parts. ,クロスボウは普通の弓よりもリロードに時間がかかりますが、より大きなダメージを与えることができます。\nこの武器は水中でも発射できます。\nリロード長押しで別の弾薬を使用できます。\n修理キットで修理可能。\n解体すると弓/クロスボウパーツに。
+gunbowt1woodenbowDesc,Good for hunting and killing zombies. Uses arrows for ammunition.\nHold reload to use alternate ammo.\n\nRepair with a Repair Kit.\nScrap to Bow ,Crossbow Parts. ,狩りやゾンビ殺しに有効です。弾薬として矢を使用します。\nリロード長押しで別の弾薬を使用できます。\n\n修理キットで修理可能。\n解体すると弓/クロスボウパーツに。
+gunbowt3compoundbowDesc,A compound bow does more damage and arrows fly straighter which makes it easier to aim.\n\nRepair with a Repair Kit.\nScrap to Bow ,Crossbow Parts. ,複合弓は通常の弓よりも大きなダメージを与えることができ、より直線的に飛ぶので狙いをつけやすくなります。\n\n修理キットで修理可能。\n解体すると弓/クロスボウパーツに。
+gunbowt3compoundcrossbowDesc,Unlock Compound Crossbow ,複合クロスボウを解放
+gunexplosivest3rocketlauncherDesc,A Rocket Launcher shoots rocket propelled grenades.\n\nRepair with a Repair Kit.\nScrap to Rocket Launcher parts. ,ロケット推進擲弾を発射するロケットランチャーです。\n\n修理キットで修理可能。\n解体するとロケットランチャーパーツに。
+gunhandgunt0pipepistolDesc,A home-made pistol firing 9mm ammo.\n\nRepair with Short Iron Pipe.\nScrap to Iron. ,9mmの弾丸を発射する手作りのピストル。\n\n鉄パイプ（ショート）で修理します。\n解体すると鉄に。
+gunhandgunt1pistolDesc,A basic pistol that uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to Handgun Parts. ,9mm弾を使用するベーシックなピストル。\n\n修理キットで修理可能。\n解体するとハンドガンパーツに。
+gunhandgunt2magnum44Desc,The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.\n\nRepair with a Repair Kit.\nScrap to Handgun Parts. ,.44マグナムはハンドガンの王様です。最も強力で発砲音も最大です。この銃を装備してクリントイーストウッドのように颯爽と振舞いましょう。\n\n修理キットで修理可能。\n解体するとハンドガンパーツに。
+gunhandgunt3desertvultureDesc,This heavy pistol uses .44 Magnum ammo.\n\nRepair with a Repair Kit.\nScrap to Handgun Parts. ,この重拳銃は、.44マグナム弾を使用しています。\n\n修理キットで修理可能。\n解体するとハンドガンパーツに。
+gunhandgunt3smg5Desc,This submachine gun uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to Handgun Parts. ,9mm弾を使用するサブマシンガンです。\n\n修理キットで修理可能。\n解体するとハンドガンパーツに。
+gunmgt0pipemachinegunDesc,A home-made automatic weapon firing 7.62mm ammo.\n\nRepair with Short Iron Pipe.\nScrap to Iron. ,7.62mmの弾丸を発射する手作りのマシンガン。\n\n鉄パイプ（ショート）で修理します。\n解体すると鉄に。
+gunmgt1ak47Desc,This badass AK-47 Machine Gun uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts. ,このいかにもワルそうなAK-47マシンガンには7.62mm弾を使用します。\n\n修理キットで修理可能。\n解体するとマシンガンパーツに。
+gunmgt2tacticalarDesc,This Tactical Assault Rifle uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts. ,タクティカルアサルトライフルには7.62mm弾が使用されます。\n\n修理キットで修理可能。\n解体するとマシンガンパーツに。
+gunmgt3m60Desc,Machine guns are somewhat cumbersome to use but excel at automatic fire. This one uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts. ,マシンガンはやや取り回しに苦労しますが、自動連射にとても優れています。これには7.62mm弾を使用します。\n\n修理キットで修理可能。\n解体するとマシンガンパーツに。
+gunriflet0piperifleDesc,A home-made rifle firing 7.62mm ammo.\n\nRepair with Short Iron Pipe.\nScrap to Iron. ,7.62mmの弾丸を発射する手作りのライフル。\n\n鉄パイプ（ショート）で修理します。\n解体すると鉄に。
+gunriflet1huntingrifleDesc,This common farmer's hunting rifle uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Rifle parts. ,7.62mm弾を使用する普通の農夫が持つような狩猟ライフルです。\n\n修理キットで修理可能。\n解体するとライフルパーツに。
+gunriflet2leveractionrifleDesc,This Lever Action rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.\n\nRepair with a Repair Kit.\nScrap to Rifle parts. ,このレバーアクションライフルには7.62mm弾を使用します。命中精度を上げたいならこれしかありません。\n\n修理キットで修理可能。\n解体するとライフルパーツに。
+gunriflet3sniperrifleDesc,"This high precision, long ranged rifle is perfect for sniping enemies at great distances.\n\nRepair with a Repair Kit.\nScrap to Rifle parts. ,この高い精密性を持った遠距離ライフルは、遠くから敵を狙うのに最適です。\n\n修理キットで修理可能。\n解体するとライフルパーツに。"
+gunshotgunt0pipeshotgunDesc,A home-made gun firing shotgun shells.\nEffective at very close ranges.\n\nRepair with Short Iron Pipe.\nScrap to Iron. ,ショットガン用シェルを発射する手作りのライフル。\n超近距離で効果的です。\n\n鉄パイプ（ショート）で修理します。\n解体すると鉄に。
+gunshotgunt1doublebarrelDesc,"A rusty old double barrel shotgun, great for close range carnage.\n\nRepair with a Repair Kit.\nScrap to Shotgun Parts. ,錆びついて古くなった2連ショットガンです。近距離での皆殺しにピッタリ。\n\n修理キットで修理可能。\n解体するとショットガンパーツに。"
+gunshotgunt2pumpshotgunDesc,A long-barreled shotgun with pump action loading .\n\nRepair with a Repair Kit.\nScrap to Shotgun Parts. ,ポンプアクション式で装填する銃身の長いショットガンです。\n\n修理キットで修理可能。\n解体するとショットガンパーツに。
+gunshotgunt3autoshotgunDesc,This semi automatic shotgun is a rare and devastating short range weapon capable of making minced meat out of anything in its path.\n\nRepair with a Repair Kit.\nScrap to Shotgun Parts. ,このセミオートショットガンは、その進路上にあるものすべてをひき肉にすることができる破滅的で珍しい近距離武器です。\n\n修理キットで修理可能。\n解体するとショットガンパーツに。
+industriallight01_player,Industrial Light ,工業用照明
+industriallight01_playerDesc,Unlock Industrial Light ,工業用照明を解放
+industriallight02_player,Industrial Light Bulb ,工業用電球
+industriallight02_playerDesc,Unlock Industrial Light Bulb ,工業用電球を解放
+irongaragedoor_poweredblockvarianthelper,Iron Garage Door 3x2 (Powered) ,鉄製ガレージドア 3x2（電動）
+irongaragedoor_poweredblockvarianthelperDesc,Unlock Iron Garage Door 3x2 (Powered) ,鉄製ガレージドア 3x2（電動）を解放
+irongaragedoor_poweredwhite,White Iron Garage Door 3x2 (Powered) ,鉄製ガレージドア 3x2（電動・白）
+irongaragedoor_poweredwhiteDesc,Unlock White Iron Garage Door 3x2 (Powered) ,鉄製ガレージドア 3x2（電動・白）を解放
+medicalfirstaidbandage,First Aid Bandage ,救急包帯
+medicalfirstaidbandageDesc,"Bandages coated in aloe stop bleeding, heal wounds and increase abrasion healing speed.\nUse the secondary action to treat another player. ,アロエクリームを塗り込んだ包帯は、止血、傷の治療に使え、擦り傷の回復速度を速めます。\n他のプレイヤーを手当するには第二アクションを使用しましょう。"
+medicalfirstaidkit,First Aid Kit ,救急キット
+medicalfirstaidkitDesc,"First aid kits stop bleeding, heal wounds, increase abrasion healing speed and suture lacerations.\nUse the secondary action to treat another player. ,救急キットは、止血や大きな傷の治療、擦り傷の回復速度を速め、裂傷の縫合に使用します。\n他のプレイヤーを手当するには第二アクションを使用しましょう。"
+medicalplastercast,Plaster Cast ,石膏ギプス
+medicalplastercastDesc,Heals a broken arm or leg more quickly than a splint but does not protect against further injury.\nUse the secondary action to treat another player. ,添木よりも早く骨折した腕や脚を回復させますが、さらなる負傷からは守ってくれません。\n他のプレイヤーを手当するには第二アクションを使用しましょう。
+meleetoolaxet1ironfireaxeDesc,The fireaxe is good for harvesting wood.\n\nRepair with a Repair Kit.\nScrap to Iron. ,消防斧は木材の採取に役立ちます。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleetoolaxet2steelaxeDesc,The steel axe has a durable blade and is great for harvesting wood.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts. ,鉄鋼斧には丈夫な刃がついており、木材の採取に役立ちます。\n\n修理キットで修理可能。\n解体すると鉄鋼ツールパーツに。
+meleetoolaxet3chainsawDesc,Chop down the biggest trees or zombies faster than Paul Bunyan with this great chainsaw that uses gasoline for fuel.\n\nRepair with a Repair Kit.\nScrap to Motor Tool Parts. ,ぶっとい木やゾンビをポール・バニヤンよりも手早くぶった切りましょう。ガソリンを燃料とする偉大なチェーンソーです。\n\n修理キットで修理可能。\n解体すると動力ツールパーツに。
+meleetoolpickt1ironpickaxeDesc,The iron pickaxe is great for breaking stone and harvesting minerals.\n\nRepair with a Repair Kit.\nScrap to Iron. ,鉄つるはしは砕石や鉱石の採取に役立ちます。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleetoolpickt2steelpickaxeDesc,The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts. ,鉄鋼つるはしは砕石や鉱石の採取に最適です。\n\n修理キットで修理可能。\n解体すると鉄鋼ツールパーツに。
+meleetoolpickt3augerDesc,Rock out with your auger out and be the envy of every miner when they see you sporting this sexy gas-powered auger.\n\nRepair with a Repair Kit.\nScrap to Motor Tool Parts. ,鼻歌まじりにこのセクシーなガソリン駆動オーガーを操りながら、採掘している他の連中を羨ましがらせましょう。\n\n修理キットで修理可能。\n解体すると動力ツールパーツに。
+meleetoolrepairt0stoneaxeDesc,"A primitive tool useful for cutting wood, mining stone, repairing & upgrading walls, doors & windows. Not the best weapon.\n\nRepair with Small Stone.\nScrap to Small Stone. ,伐採や採石、壁、ドア、窓などの修復やアップグレードに役立つ原始的なツールです。武器としてはいまいちです。\n\n小石で修理可能。\n解体すると小石に。"
+meleetoolrepairt1clawhammerDesc,The claw hammer is great for repairing and upgrading base walls and not bad as a weapon.\n\nRepair with a Repair Kit.\nScrap to Iron. ,くぎ抜きハンマーは、拠点の壁の修復やアップグレードに最高のツールです。また、武器としても悪くありません。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleetoolrepairt3nailgunDesc,The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.\n\nRepair with a Repair Kit.\nScrap to Mechanical parts. ,ネイルガンは拠点の壁を修復したりアップグレードしたりするのに最高のツールです。また、釘を持っている場合は武器としても悪くありません。\n\n修理キットで修理可能。\n解体すると機械部品に。
+meleetoolsalvaget1wrenchDesc,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Repair Kit.\nScrap to Iron. ,車両や室外機などの機械を分解するのにとても便利です。\n\n修理キットで修理可能。\n解体すると鉄に。"
+meleetoolsalvaget2ratchetDesc,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Repair Kit.\nScrap to Steel Tool Parts. ,車両や室外機などの機械を分解するのにとても便利です。\n\n修理キットで修理可能。\n解体すると鉄鋼ツールパーツに。"
+meleetoolsalvaget3impactdriverDesc,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Repair Kit.\nScrap to Motor Tool Parts. ,車両や室外機などの機械を分解するのにとても便利です。\n\n修理キットで修理可能。\n解体すると動力ツールパーツに。"
+meleetoolshovelt0stoneshovelDesc,"The stone shovel is a primitive tool useful for digging dirt, sand or snow.\n\nRepair with Small Stone.\nScrap to Small Stone. ,石ショベルは土や砂、雪などを掘る時に役立つ原始的なツールです。\n\n小石で修理可能。\n解体すると小石に。"
+meleetoolshovelt1ironshovelDesc,"The iron shovel is great for digging through earth, sand or snow.\n\nRepair with a Repair Kit.\nScrap to Iron. ,鉄ショベルは地面や砂、雪などを掘るのに役立ちます。\n\n修理キットで修理可能。\n解体すると鉄に。"
+meleetoolshovelt2steelshovelDesc,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts. ,鉄鋼ショベルはとても丈夫で地面や砂、雪などを掘るのに理想的なツールです。\n\n修理キットで修理可能。\n解体すると鉄鋼ツールパーツに。"
+meleewpnbatont0pipebatonDesc,This baton crafted from junk is light weight but still packs a decent punch.\n\nRepair with Short Iron Pipe.\nScrap to Iron. ,ガラクタで作られたバトンは軽量ですが、それでもしっかりしたパンチを食らわせることができます。\n\n鉄パイプ（ショート）で修理します。\n解体すると鉄に。
+meleewpnbatont2stunbatonDesc,Goes zap.\n\nRepair with a Repair Kit.\nScrap to Stun Baton parts. ,バチッとなる。\n\n修理キットで修理可能。\n解体するとバトンパーツに。
+meleewpnbladet0boneknifeDesc,This primitive makeshift weapon is also useful for gutting animals.\nRegular attacks cause 1 Bleeding Wound and power attacks at least 2.\n\nRepair with Bone.\nScrap to Bone. ,原始的な急造の武器で動物の解体にも使用できます。\n通常攻撃によって流血ダメージ+1。パワーアタックだと2以上となります。\n骨で修理可能。\n解体すると骨に。
+meleewpnbladet1huntingknifeDesc,Great for slashing zombies and gutting animals for meat.\nRegular attacks cause 1 Bleeding Wound and power attacks at least 2.\n\nRepair with a Repair Kit.\nScrap to Iron. ,ゾンビを蹴散らしたり、動物の解体に使用できます。\n通常攻撃によって流血ダメージ+1。パワーアタックだと2以上となります。\n修理キットで修理可能。\n解体すると鉄に。
+meleewpnbladet3macheteDesc,Great for chopping zombies and sometimes trees and gutting animals for meat.\nRegular attacks cause 1 Bleeding Wound and power attacks at least 2.\n\nRepair with a Repair Kit.\nScrap to Machete parts. ,ゾンビや木を切り刻んだり、動物の解体に使用できます。\n通常攻撃によって流血ダメージ+1。パワーアタックだと2以上となります。\n修理キットで修理可能。\n解体するとマチェーテパーツに。
+meleewpnclubt0woodenclubDesc,A wooden club. Good for breaking knees and skulls.\n\nRepair with Wood.\nScrap to Wood. ,木製の棍棒です。膝の皿や頭上段骨を叩き割るのに有効です。\n\n木材で修理可能。\n解体すると木材に。
+meleewpnclubt1baseballbatDesc,This club was used in gladiatorial games of the past that were held in huge arenas.\n\nRepair with a Repair Kit.\nScrap to Wood. ,古代の巨大闘技場で開催されていた剣闘士遊戯で使用されていた棍棒です。\n\n修理キットで修理可能。\n解体すると木材に
+meleewpnclubt3steelclubDesc,Steel clubs are very durable and hard-hitting.\n\nRepair with a Repair Kit.\nScrap to Steel Club Parts. ,鉄鋼製棍棒は非常に丈夫で、強打をかますことができます。\n\n修理キットで修理可能。\n解体すると鉄鋼製棍棒パーツに。
+meleewpnknucklest0leatherknucklesDesc,Knuckle wraps protect your hands and put some weight into those swings.\n\nRepair with Cloth.\nScrap to Cloth. ,ナックルラップで手を保護して一撃一撃をもっと重く。\n端切れで修理可能。\n解体すると端切れに。
+meleewpnknucklest1ironknucklesDesc,Protect your hands and put some weight into those swings.\n\nRepair with a Repair Kit.\nScrap to Iron. ,手を保護して一撃一撃をもっと重く。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleewpnknucklest3steelknucklesDesc,Protect your hands and put some weight into those swings. These blades can also be useful for gutting animals.\n\nRepair with a Repair Kit.\nScrap to Steel Knuckles parts. ,手を保護して一撃一撃をもっと重く。刃がついているので動物の解体にも役に立ちます。\n\n修理キットで修理可能。\n解体すると鉄鋼ナックルパーツに
+meleewpnsledget0stonesledgehammerDesc,The sledgehammer is one of the best weapons for cracking skulls.\n\nRepair with Small Stone.\nScrap to Small Stone. ,頭上段骨を叩き割るならスレッジハンマーに限ります。\n小石で修理可能。\n解体すると小石に。
+meleewpnsledget1ironsledgehammerDesc,The sledgehammer is one of the best weapons for cracking skulls.\n\nRepair with a Repair Kit.\nScrap to Iron. ,頭上段骨を叩き割るならスレッジハンマーに限ります。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleewpnsledget3steelsledgehammerDesc,The sledgehammer is one of the best weapons for cracking skulls.\n\nRepair with a Repair Kit.\nScrap to Steel Sledgehammer parts. ,頭上段骨を叩き割るなスレッジハンマーに限ります。\n\n修理キットで修理可能。\n解体すると鉄鋼製スレッジハンマーパーツに。
+meleewpnspeart0stonespearDesc,Spears have more range than other melee weapons.\n\nRepair with Small Stone.\nScrap to Small Stone. ,槍は他の武器よりも攻撃範囲が広くなっています。\n小石で修理可能。\n解体すると小石に。
+meleewpnspeart1ironspearDesc,Spears have more range than other melee weapons.\n\nRepair with a Repair Kit.\nScrap to Iron. ,槍は他の武器よりも攻撃範囲が広くなっています。\n\n修理キットで修理可能。\n解体すると鉄に。
+meleewpnspeart3steelspearDesc,Spears have more range than other melee weapons.\n\nRepair with a Repair Kit.\nScrap to Steel Spear parts. ,槍は他の武器よりも攻撃範囲が広くなっています。\n\n修理キットで修理可能。\n解体すると鉄鋼槍パーツに。
+metalreinforcedwooddrawbridgepowered,Reinforced Drawbridge (Powered) ,補強跳ね橋（電動）
+metalreinforcedwooddrawbridgepoweredDesc,Unlock Reinforced Drawbridge (Powered) ,補強跳ね橋（電動）を解放
+mineairfilter,Air Filter Land Mine ,エアフィルター地雷
+mineairfilterDesc,Place mine and step back carefully. Turns zombies into good zombies! ,地面に設置し、踏まないように気を付けて離れます。ゾンビを大人しくさせるのに使用します。
+minecookingpot,Cooking Pot Mine ,鍋地雷
+minecookingpotDesc,Can you smell what this survivor is cooking? It probably isn't healthy. ,あの生存者が何を料理していたのか、においでわかりますか？おそらく健康的な料理ではありません。
+minehubcap,Hubcap Land Mine ,ハブキャップ地雷
+minehubcapDesc,A hubcap land mine. Place it on the ground and let the fun begin. ,ハブキャップの地雷です。地面に設置すればお楽しみが始まります。
+modarmoradvancedmuffledconnectors,Advanced Muffled Connectors Mod ,高性能静音コネクター改造パーツ
+modarmoradvancedmuffledconnectorsDesc,Greatly reduced noise from armor.\n\nCannot be installed into Light or Assassin Armor. ,アーマーのノイズを大幅に下げます。\n\nライトアーマーやアサシンアーマーには取り付けることが出来ません。
+modarmorbandolier,Bandolier Mod ,弾帯改造パーツ
+modarmorbandolierDesc,Reload 15% faster. ,リロード速度が15%上昇する。
+modarmorcigar,Cigar ,葉巻
+modarmorcigarDesc,Look intimidating and get a better deal from traders. Also boosts strength! ,威圧感を与え、トレーダーからより良い取引を引き出し、強さの特性も上がります！
+modarmorcustomizedfittings,Advanced Armor Fittings Mod ,上級接合部改造パーツ
+modarmorcustomizedfittingsDesc,Greatly decreases movement and stamina penalties from armor.\n\nCannot be installed into Light Armor. ,アーマーによる起動性とスタミナへのペナルティーを大幅に下げます。\n\nライトアーマーには取り付けることが出来ません。
+modarmordoublestoragepocket,Armor Double Pocket Mod ,アーマーダブルポケット改造パーツ
+modarmordoublestoragepocketDesc,Decrease encumbrance penalty by 2 by installing this modification into your armor. ,アーマーにセットすると、荷重制限がかかる所持品スロットを2スロット分解放します。
+modarmorhelmetlight,Helmet Light Mod ,ヘルメットライト改造パーツ
+modarmorhelmetlightDesc,A light source that can be installed into any head armor.\n\nUse the Light Source ([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight]) action to activate. ,頭用アーマーに取り付け可能。\n\n光源アクション([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight])でライトをつける事が出来ます。
+modarmorimpactbracing,Impact Bracing Mod ,衝撃ブレーシング改造パーツ
+modarmorimpactbracingDesc,Reduces fall damage. ,落下ダメージを軽減します。
+modarmorimprovedfittings,Armor Fittings Mod ,接合部改造パーツ
+modarmorimprovedfittingsDesc,Decreases movement and stamina penalties from armor.\n\nCannot be installed into Light Armor. ,アーマーによる起動性とスタミナへのペナルティーを下げます。\n\nライトアーマーには取り付けることが出来ません。
+modarmormuffledconnectors,Muffled Connectors Mod ,静音コネクター改造パーツ
+modarmormuffledconnectorsDesc,Reduces noise from armor.\n\nCannot be installed into Light or Assassin Armor. ,アーマーから発生するノイズを削減します。\n\nライトアーマーやアサシンアーマーには取り付けることが出来ません。
+modarmorplatingbasic,Armor Plating Mod ,アーマープレーティング改造パーツ
+modarmorplatingbasicDesc,Improve your armor rating with these additional armor plates.\n\nCannot be installed into Heavy Armor. ,アーマープレートを追加することでアーマー値を向上させることができます。\n\nヘビーアーマーに取り付けることは出来ません。
+modarmorplatingreinforced,Advanced Armor Plating Mod ,上級アーマープレーティング改造パーツ
+modarmorplatingreinforcedDesc,Unlock Advanced Armor Plating Mod ,上級アーマープレーティング改造パーツを解放
+modarmorquadstoragepocket,Armor Quad Pocket Mod ,アーマークアッドポケット改造パーツ
+modarmorquadstoragepocketDesc,Decrease encumbrance penalty by 4 by installing this modification into your armor. ,アーマーにセットすると、荷重制限がかかる所持品スロットを4スロット分解放します。
+modarmorstealthboots,Stealth Boots Mod ,ステルスブーツ改造パーツ
+modarmorstealthbootsDesc,Reduces the noise and stamina penalties of medium and heavy boots. ,ミディアムブーツとヘビーブーツの騒音とスタミナペナルティを軽減します。
+modarmorstoragepocket,Armor Pocket Mod ,アーマーポケット改造パーツ
+modarmorstoragepocketDesc,Decrease encumbrance penalty by 1 by installing this modification into your armor. ,アーマーにセットすると、荷重制限がかかる所持品スロットを1スロット分解放します。
+modarmortriplestoragepocket,Armor Triple Pocket Mod ,アーマートリプルポケット改造パーツ
+modarmortriplestoragepocketDesc,Decrease encumbrance penalty by 3 by installing this modification into your armor. ,アーマーにセットすると、荷重制限がかかる所持品スロットを3スロット分解放します。
+modarmorwaterpurifier,Water Purifier Mod ,浄水器改造パーツ
+modarmorwaterpurifierDesc,Allows safe consumption of murky water. ,泥水を安全に飲むことができるようになります。
+modfueltanklarge,Motor Tool Large Tank Mod ,動力ツール大容量タンク改造パーツ
+modfueltanklargeDesc,Increases tank size by 100% for chainsaws and augers. ,チェーンソーやオーガーのタンク容量を100%拡張します。
+modfueltanksmall,Motor Tool Small Tank Mod ,動力ツール小容量タンク改造パーツ
+modfueltanksmallDesc,Increases tank size by 50% for chainsaws and augers. ,チェーンソーやオーガーのタンク容量を50%拡張します。
+modgunbarrelextender,Barrel Extender Mod ,バレル拡張改造パーツ
+modgunbarrelextenderDesc,"Increases damage, range and aimed accuracy but makes the weapon more unwieldy when fired from the hip. ,ダメージ、射程距離、命中精度が向上しますが、緊急時の武器の取り回しが難しくなります。"
+modgunbipod,Bipod Mod ,二脚改造パーツ
+modgunbipodDesc,Increases accuracy and handling when aiming weapons. ,ADS時の射撃制度と取り回しが上昇します。
+modgunbowarrowrest,Arrow Rest Mod ,アローレスト改造パーツ
+modgunbowarrowrestDesc,An arrow rest improves the accuracy of a bow. ,弓やクロスボウの射撃制度上昇。
+modgunbowpolymerstring,Polymer String Mod ,ポリマーストリング改造パーツ
+modgunbowpolymerstringDesc,Arrows and Bolts fly quicker and further with this modification. ,この改造で矢やボルトの飛翔速度と到達距離が向上します。
+modgunchoke,Shotgun Choke Mod ,ショットガンチョーク改造パーツ
+modgunchokeDesc,Tightens the shotgun's spread. ,ショットガンの弾の散開を縮小します。
+modguncrippleem,Cripple 'Em Mod ,歩行困難化改造パーツ
+modguncrippleemDesc,20% chance to cripple a leg on a bipedal target. ,20%の確率で二足歩行のターゲットの足を歩行困難にします。
+modgundrummagazineextender,Drum Magazine Mod ,ドラム型弾倉改造パーツ
+modgundrummagazineextenderDesc,This large drum magazine doubles ammo capacity on machine guns but is a little slower to reload. ,大きなドラム型弾倉によって、マシンガンの弾薬装填容量が倍になりますが、リロードは若干遅くなります。
+modgunduckbill,Shotgun Duckbill Mod ,ショットガンダックビル改造パーツ
+modgunduckbillDesc,Modifies the spread to a horizontal pattern instead of the normal round one. ,散弾の散開を通常の円形パターンから水平パターンに変更します。
+modgunflashlight,Weapon Flashlight Mod ,武器用フラッシュライト改造パーツ
+modgunflashlightDesc,Installs into any firearm or crossbow.\n\nUse the Light Source action ([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight]) to activate. Hold the Light Source action to activate multiple items. ,銃器やクロスボウにセット可能。\n\n光源アクション([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight])でつける事が出来ます。光源アクションを長押しすることにより複数の光源アイテムを同時に使用することができます。
+modgunforegrip,Fore Grip Mod ,フォアグリップ改造パーツ
+modgunforegripDesc,Improves handling and accuracy when firing weapons from the hip or while moving. ,腰撃ち時の射撃制度や取り回しが上昇し、反動が減少します。
+modgunlasersight,Laser Sight Mod ,レーザー照準改造パーツ
+modgunlasersightDesc,Helps with aiming quickly and increases accuracy when firing from the hip.\nInstalls into any firearm or crossbow.\n\nUse the Light Source action ([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight]) to activate. Hold the Light Source action to activate multiple items. ,腰撃ち時の照準を合わせる速度と命中精度を上げます。\n銃器やクロスボウにセット可能。\n\n光源アクション([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight])でつける事が出来ます。光源アクションを長押しすることにより複数の光源アイテムを同時に使用することができます。
+modgunmagazineextender,Magazine Extender Mod ,弾倉拡張改造パーツ
+modgunmagazineextenderDesc,Increases magazine capacity. ,弾倉容量が増加します。
+modgunmeleeradremover,Rad Remover Mod ,放射能除去装置改造パーツ
+modgunmeleeradremoverDesc,"Will disable the regeneration ability of Radiated, Charged, and Infernal zombies for 90 seconds. ,被爆したゾンビ、インフェルノ・ゾンビ、チャージド・ゾンビの回復能力を90秒間無効にします。"
+modgunmeleethehunter,The Hunter Mod ,ハンター改造パーツ
+modgunmeleethehunterDesc,+25% more damage to all animals. ,すべての動物へのダメージが+25%。
+modgunmuzzlebrake,Muzzle Brake Mod ,マズルブレーキ改造パーツ
+modgunmuzzlebrakeDesc,Diverts the propellant gases to reduce recoil. ,推進用のガスを迂回させて反動を軽減します。
+modgunreflexsight,Reflex Sight Mod ,リフレックス照準改造パーツ
+modgunreflexsightDesc,This sight is designed for fast target acquisition and improves weapon handling. ,この照準は、より素早い照準合わせを目的として考案されており、取り回しが上昇します。
+modgunretractingstock,Retracting Stock Mod ,リトラクタブルストック改造パーツ
+modgunretractingstockDesc,Improves weapon handling while moving or firing from the hip because the weapon becomes more manageable in close quarters. ,接近戦における武器の取り回しが向上するため、移動時や緊急時の武器の扱いやすさが改善されます。
+modgunscopelarge,Scope 8x Mod ,8xスコープ改造パーツ
+modgunscopelargeDesc,Increases visual magnification when aiming.\nInstalls into long rifles. ,照準にとらえたターゲットを拡大して見ることができます。\nロングライフルに装着します。
+modgunscopemedium,Scope 4x Mod ,4xスコープ改造パーツ
+modgunscopemediumDesc,Increases visual magnification when aiming.\nInstalls into medium sized firearms and crossbows. ,照準にとらえたターゲットを拡大して見ることができます。\nミディアムサイズの火器やクロスボウに装着します。
+modgunscopesmall,Scope 2x Mod ,2xスコープ改造パーツ
+modgunscopesmallDesc,Increases visual magnification when aiming.\nInstalls into small firearms and crossbows. ,照準にとらえたターゲットを拡大して見ることができます。\n小型の火器やクロスボウに装着します。
+modgunshotguntubeextendermagazine,Shotgun Tube Extender Mod ,チューブ拡張ショットガン改造パーツ
+modgunshotguntubeextendermagazineDesc,Increases magazine capacity for pump shotguns by 3 shells. ,ポンプアクション式ショットガンの弾倉容量が3発分増加します。
+modgunsoundsuppressorsilencer,Silencer Mod ,サイレンサー改造パーツ
+modgunsoundsuppressorsilencerDesc,A sound suppressor greatly reduces the firing sound but reduces maximum range and damage.\nWorks best with small calibers and guns with a low rate of fire. ,サイレンサーは発砲音を大幅に削減しますが、射程距離やダメージは低下します。\n小口径の銃や速射率の低い銃との相性が抜群です。
+modguntriggergroupautomatic,Trigger Group: Full Auto Mod ,引き金式武器グループ:フルオート改造パーツ
+modguntriggergroupautomaticDesc,Modifies the trigger group to fire full auto only.\nIncreases the rate of fire and slightly increases recoil. ,引き金式の武器をフルオートでの発砲のみに改造します。\n速射率を向上させ、反動をわずかに増加させます。
+modguntriggergroupburst3,Trigger Group: Burst Mod ,引き金式武器グループ:バースト改造パーツ
+modguntriggergroupburst3Desc,Modifies the trigger group to fire 3 round bursts.\nIncreases the rate of fire and slightly increases recoil. ,引き金式の武器を3点バーストによる発砲に改造します。\n速射率を向上させ、反動をわずかに増加させます。
+modguntriggergroupsemi,Trigger Group: Semi Mod ,引き金式武器グループ:セミ改造パーツ
+modguntriggergroupsemiDesc,Modifies the trigger group to fire semi-auto only.\nIncreases the rate of fire and slightly increases recoil. ,引き金式の武器をセミオートでの発砲のみに改造します。\n速射率を向上させ、反動をわずかに増加させます。
+modmeleebunkerbuster,Bunker Buster Mod ,バンカーバスター改造パーツ
+modmeleebunkerbusterDesc,25% more damage against stone. ,石に対するダメージが25%向上します。
+modmeleeclubbarbedwire,Barbed Wire Mod ,有刺鉄線改造パーツ
+modmeleeclubbarbedwireDesc,"20% chance to cause bleeding damage, 40% with power attacks.\nCan be installed in clubs. ,20%の確率で流血ダメージを与えます。パワーアタックの場合は40%。\n棍棒やバットに装着可能です。"
+modmeleeclubburningshaft,Burning Shaft Mod ,バーニングシャフト改造パーツ
+modmeleeclubburningshaftDesc,"A melee item can triple as a light source, set enemies on fire, and used as a source of heat.\n\nCan be installed in melee tools and weapons that have a long shaft or blade. ,近接武器やツールが光源と熱源になり、敵に火をつけることも可能になります。\n\n長いシャフトかブレードを持つ近接用ツールと武器に取り付けられます。"
+modmeleeclubmetalchain,Metal Chain Mod ,メタルチェーン改造パーツ
+modmeleeclubmetalchainDesc,10% chance to knock down opponents.\nCan be installed in clubs. ,10%の確率で相手をノックダウンします。\n棍棒やバットに装着可能です。
+modmeleeclubmetalspikes,Metal Spikes Mod ,メタルスパイク改造パーツ
+modmeleeclubmetalspikesDesc,Each successive hit lowers enemies armor rating 20%.\nCan be installed in clubs. ,攻撃がヒットするたびに敵のアーマー値を20%下げます。\n棍棒やバットに装着可能です。
+modmeleediamondtip,Diamond Blade Tip Mod ,ダイヤモンドブレードチップ改造パーツ
+modmeleediamondtipDesc,Any hand tool or bladed weapon degrades 30% slower with this modification. ,この変更によってあらゆる手持ちツールやブレード武器の耐久値減少率30%軽減。
+modmeleeergonomicgrip,Ergonomic Grip Mod ,エルゴグリップ改造パーツ
+modmeleeergonomicgripDesc,Decreases melee stamina usage by 10% and increases weapon handling of bows by 10%. ,近接戦闘時のスタミナ消費量を10%低減し、弓の取り回しを10%上昇させます。
+modmeleefiremansaxemod,Fireman's Axe Mod ,消防士の斧改造パーツ
+modmeleefiremansaxemodDesc,Deal 25% more damage to blocks but 25% less damage to enemies. ,ブロックに対するダメージが25%上昇しますが、敵に対するダメージは25%低下します。
+modmeleefortifyinggrip,Fortifying Grip Mod ,防備グリップ改造パーツ
+modmeleefortifyinggripDesc,When health is below 50% gain 1 hit point every 5 seconds. ,体力が50%を下回ると、体力が5秒おきに1回復します。
+modmeleegravedigger,Grave Digger Mod ,墓守改造パーツ
+modmeleegravediggerDesc,25% more damage against dirt. ,土に対するダメージが25%向上します。
+modmeleeironbreaker,Iron Breaker Mod ,アイアンブレーカー改造パーツ
+modmeleeironbreakerDesc,15% more damage against iron. ,金属に対するダメージが15%向上します。
+modmeleeserratedblade,Serrated Blade Mod ,ノコギリブレード改造パーツ
+modmeleeserratedbladeDesc,10% chance to cause a Bleeding Wound on a regular attack. ,通常攻撃時、10%の確率で流血を付与します。
+modmeleestructuralbrace,Structural Brace Mod ,構造ブレース改造パーツ
+modmeleestructuralbraceDesc,"This modification for melee weapons, tools and bows lowers degradation by 25%. ,この変更によって近接武器やツールや弓の耐久値減少率25%軽減。"
+modmeleestunbatonrepulsor,Stun Baton Repulsor Mod ,スタンバトンリパルサー改造パーツ
+modmeleestunbatonrepulsorDesc,Install this mod into a stun baton and send zombies flying on the charged hit. ,スタンバトンにセットし、チャージ中に攻撃すると敵を吹き飛ばす事が出来るようになります。
+modmeleetemperedblade,Tempered Blade Mod ,焼き入れブレード改造パーツ
+modmeleetemperedbladeDesc,This blade modification increases block damage by 10% and lowers degradation by 15%. ,このブレード改造によって対物ダメージが10%向上し、耐久値減少率が15%軽減されます。
+modmeleeweightedhead,Weighted Head Mod ,おもりヘッド改造パーツ
+modmeleeweightedheadDesc,A modification for all melee weapons and tools.\nAdds a chance to stun and slow victims.\n\nKnives and machetes do not have a head that can be weighted. ,近接武器やツール用の改造です。\n敵をスタンさせたり動きを鈍らせる効果が追加されます。\n\nナイフやマチェーテには重りとなるヘッドないため使用できません。
+modmeleewoodsplitter,Wood Splitter Mod ,ウッドスプリッター改造パーツ
+modmeleewoodsplitterDesc,15% more damage against wood. ,木に対するダメージが15%向上します。
+modroboticdronearmorplatingmod,Robotic Drone Armor Plating Mod ,ロボットドローンアーマープレーティング改造パーツ
+modroboticdronearmorplatingmodDesc,Upgrade your robotic drone's defensive ability with this modification. Reduces damage and degradation by 50%. ,この改造パーツでロボットドローンの防衛能力をアップグレードしましょう。ロボットドローンの防御力が50%上昇します。
+modroboticdronecargomod,Robotic Drone Cargo Mod ,ロボットドローンカーゴ改造パーツ
+modroboticdronecargomodDesc,Increase your drones storage capacity with this modification. Add more for additional storage. ,この改造パーツをロボットドローンに取り付けると、ドローンのストレージを1列分拡張させます。
+modroboticdroneheadlampmod,Robotic Headlamp Mod ,ロボットドローンヘッドランプ改造パーツ
+modroboticdroneheadlampmodDesc,This robotic drone modification adds a headlamp to your drone to improve visibility in dark spaces. ,この改造パーツをロボットドローンに取り付けると、暗い場所での視界を改善できるヘッドランプがドローンに付きます。
+modroboticdronemedicmod,Robotic Drone Medic Mod ,ロボットドローン医療改造パーツ
+modroboticdronemedicmodDesc,Modify your drone into a robotic field medic that will automatically heal you as long as medical bandages or first aid kits are in its inventory. ,この改造パーツをロボットドローンに取り付けると、ドローンが持ち主の体力を回復するようになります。\nドローンのストレージに救急包帯、または救急キットが入っていない場合は回復できません。
+modroboticdronemoraleboostermod,Robotic Drone Morale Booster Mod ,ロボットドローン士気ブースター改造パーツ
+modroboticdronemoraleboostermodDesc,Stamina regeneration is increased by 10% when near the drone with this mod installed. ,この改造パーツが取り付けられているドローンに近付くと、スタミナ回復率が10%上昇します。
+modshotgunsawedoffbarrel,Sawed-Off Shotgun Mod ,ソードオフ・ショットガン改造パーツ
+modshotgunsawedoffbarrelDesc,Increases projectile spread. ,散弾の散開が拡大します。
+modvehiclearmor,Vehicle Armor Mod ,車両用アーマー改造パーツ
+modvehiclearmorDesc,Reinforced armor for motorcycles and gyrocopters.\n\nReduces the damage taken when objects hit the front of the vehicle. Increases damage to blocks and entities. ,オートバイとジャイロコプター用の強化装甲改造パーツ。\n\n車体前部に物体が衝突した際に受けるダメージを軽減します。衝突したブロックや生き物へのダメージ量上昇。
+modvehicleexpandedseat,Vehicle Expanded Seating Mod ,車両用座席拡大改造パーツ
+modvehicleexpandedseatDesc,Expand your seating capacity in vehicles with this mod. ,乗り物にセットすると、乗車可能な人数が増えます。
+modvehiclefuelsaver,Vehicle Fuel Saver Mod ,車両用省燃料改造パーツ
+modvehiclefuelsaverDesc,Vehicles consume less fuel. ,車両の燃料消費量が軽減されます。
+modvehicleoffroadheadlights,Vehicle Off Road Headlights Mod ,車両用オフロードヘッドライト改造パーツ
+modvehicleoffroadheadlightsDesc,These off road headlights will brighten the path even on the darkest of nights.\n\nUse the Light Source action ([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight]) to activate. ,オフロードヘッドライトをセットすると、ヘッドライトがより明るくなります。\n\n光源アクション([action:permanent:ToggleFlashlight][action:local:ToggleFlashlight])でライトをつける事が出来ます。
+modvehicleplow,Vehicle Plow Mod ,車両用プラウ改造パーツ
+modvehicleplowDesc,A rugged 4x4 plow. Perfect for clearing paths through hordes of zombies.\n\nReduces the damage taken when objects hit the front of the 4x4. Increases damage to blocks and entities. ,頑丈な4x4駆動トラック用のプラウ。ゾンビの大群を掻き分けて道を切り開くのに最適。\n\n4x4駆動トラックのフロントに物体が衝突した際に受けるダメージを軽減する。衝突の際にブロックや生き物に与えるダメージ増加。
+modvehiclereservefueltank,Vehicle Reserve Fuel Tank Mod ,車両用予備燃料タンク改造パーツ
+modvehiclereservefueltankDesc,Increase your vehicle fuel storage by 50% with this mod. ,車両の燃料タンク容量が50%上昇します。
+modvehiclestorage,Vehicle Storage Mod ,車両用ストレージ改造パーツ
+modvehiclestorageDesc,Increase your vehicle storage capacity with this modification.\nAdd up to two mods per vehicle. ,この改造パーツで車両の収納容量を増やしましょう。\n1台の車両につき最大2つ追加可能。
+modvehiclesupercharger,Vehicle Super Charger Mod ,車両スーパーチャージャー改造パーツ
+modvehiclesuperchargerDesc,This super charger mod Increases vehicle acceleration and top speed. ,このスーパーチャージャー改造パーツを使えば、車両の加速と最高速度が増加します。
+motionsensor,Motion Sensor ,人感センサー
+motionsensorDesc,Used to trigger electrical events when motion is detected.\n\nRepair with Forged Iron and Electrical Parts. ,これを使用すると、動きを感知して電動の罠などを発動させることができます。\n\n錬鉄、電気部品で修理可能。
+plantedaloe1,Aloe Vera (Seed) ,アロエ（種子）
+plantedaloe1Desc,Unlock Aloe Vera (Seed) ,アロエ（種子）を解放
+plantedblueberry1,Blueberry (Seed) ,ブルーベリー（種子）
+plantedblueberry1Desc,Unlock Blueberry (Seed) ,ブルーベリー（種子）を解放
+plantedchrysanthemum1,Chrysanthemum (Seed) ,菊（種子）
+plantedchrysanthemum1Desc,Unlock Chrysanthemum (Seed) ,菊（種子）を解放
+plantedcoffee1,Coffee (Seed) ,コーヒー（種子）
+plantedcoffee1Desc,Unlock Coffee (Seed) ,コーヒー（種子）を解放
+plantedcorn1,Corn (Seed) ,トウモロコシ（種子）
+plantedcorn1Desc,Unlock Corn (Seed) ,トウモロコシ（種子）を解放
+plantedcotton1,Cotton (Seed) ,綿花（種子）
+plantedcotton1Desc,Unlock Cotton (Seed) ,綿花（種子）を解放
+plantedgoldenrod1,Goldenrod (Seed) ,アキノキリンソウ（種子）
+plantedgoldenrod1Desc,Unlock Goldenrod (Seed) ,アキノキリンソウ（種子）を解放
+plantedgracecorn1,Super Corn (Seed) ,スーパーコーン（種子）
+plantedgracecorn1Desc,Unlock Super Corn (Seed) ,スーパーコーン（種子）を解放
+plantedhop1,Hop (Seed) ,ホップ（種子）
+plantedhop1Desc,Unlock Hop (Seed) ,ホップ（種子）を解放
+plantedmushroom1,Mushroom Spores (Seed) ,キノコ胞子（種子）
+plantedmushroom1Desc,Mushroom spores can be planted on all surfaces and walls and will grow without sunlight. ,キノコの胞子はすべての表面と壁に植えられ、日光なしで成長する。
+plantedpotato1,Potato (Seed) ,ジャガイモ（種子）
+plantedpotato1Desc,Unlock Potato (Seed) ,ジャガイモ（種子）を解放
+plantedpumpkin1,Pumpkin (Seed) ,カボチャ（種子）
+plantedpumpkin1Desc,Unlock Pumpkin (Seed) ,カボチャ（種子）を解放
+plantedsnowberry1,Snowberry (Seed) ,セッコウボク（種子）
+plantedsnowberry1Desc,Unlock Snowberry (Seed) ,セッコウボク（種子）を解放
+plantedyucca1,Yucca (Seed) ,ユッカ（種子）
+plantedyucca1Desc,Unlock Yucca (Seed) ,ユッカ（種子）を解放
+pressureplate,Trigger Plate 1x1 ,トリガープレート 1x1
+pressureplateDesc,"Used to trigger electrical events when stepped on.\n\nRepair with Forged Iron, Mechanical Parts, and Electrical Parts. ,これを使用すると、誰かが踏んだ時に電動の罠などを発動させることができます。\n\n錬鉄、機械部品、電気部品で修理可能。"
+pressureplatelong,Trigger Plate 1x5 ,トリガープレート 1x5
+pressureplatelongDesc,Unlock Trigger Plate 1x5 ,トリガープレート 1x5を解放
+resourcecloth,Cloth Fragment ,端切れ
+resourceclothDesc,"Cloth is a staple for survival used for clothing, bandages and more. ,布はサバイバルの必需品です。衣服、包帯などに使用されます。"
+resourcecoalbundle,Stack of Coal (6000) ,石炭（バルク・6000）
+resourcecoalbundleDesc,This is a compact stack of coal. Use this item to open and unpack it. ,大量の石炭がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcegunpowderbundle,Stack of Gunpowder (1000) ,火薬（バルク・1000）
+resourcegunpowderbundleDesc,This is a compact stack of gunpowder. Use this item to open and unpack it. ,大量の火薬がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourceleadbundle,Stack of Lead (6000) ,鉛（バルク・6000）
+resourceleadbundleDesc,This is a compact stack of lead. Use this item to open and unpack it. ,大量の鉛がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcelockpick,Lockpick ,ロックピック
+resourcelockpickDesc,"When a locked container is found, simply press [action:local:Activate][action:permanent:Activate] to attempt to unlock it. If the attempt fails, the lockpick will break and be consumed.\n\nLockpicks do not need to be equipped on the hotbar. ,鍵のかかったコンテナに向かって[action:local:Activate][action:permanent:Activate]を押すとピッキングを開始します。 ピッキングに失敗すると、ロックピックが一つ消費されます。\n\nロックピックを装備ベルトにセットする必要はありません。"
+resourcelockpickbundle,Stack of Lockpicks (50) ,ロックピック（バルク・50）
+resourcelockpickbundleDesc,This is a compact stack of lockpicks. Use this item to open and unpack it. ,大量のロックピックがコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourceoil,Oil ,オイル
+resourceoilDesc,Oil is a key ingredient for crafting traps and various mods. ,オイルはトラップや様々な改造パーツのクラフトに必要となる主要な材料です。
+resourceoilshalebundle,Stack of Oil Shale (6000) ,オイルシェール（バルク・6000）
+resourceoilshalebundleDesc,This is a compact stack of oil shale. Use this item to open and unpack it. ,大量のオイルシェールがコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcepotassiumnitratepowderbundle,Stack of Nitrate Powder (6000) ,硝石粉末（バルク・6000）
+resourcepotassiumnitratepowderbundleDesc,This is a compact stack of nitrate powder. Use this item to open and unpack it. ,大量の硝石粉末がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcerocketcasing,Rocket Casing ,ロケットケーシング
+resourcerocketcasingDesc,A rocket casing is used to make ammo for the rocket launcher. ,ロケットケーシングはロケットランチャー用の弾薬を作るときに使用されます。
+resourcerockettip,Rocket Tip ,ロケット弾頭
+resourcerockettipDesc,A rocket tip is used to make ammo for the rocket launcher. ,ロケット弾頭はロケットランチャー用の弾薬を作るときに使用されます。
+resourcerocksmallbundle,Stack of Small Stone (6000) ,小石（バルク・6000）
+resourcerocksmallbundleDesc,This is a compact stack of small stones. Use this item to open and unpack it. ,大量の小石がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcescrapbrassbundle,Stack of Brass (6000) ,真鍮（バルク・6000）
+resourcescrapbrassbundleDesc,This is a compact stack of brass. Use this item to open and unpack it. ,大量の真鍮がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcescrapironbundle,Stack of Iron (6000) ,鉄（バルク・6000）
+resourcescrapironbundleDesc,This is a compact stack of iron. Use this item to open and unpack it. ,大量の鉄がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+resourcewoodbundle,Stack of Wood (6000) ,木材（バルク・6000）
+resourcewoodbundleDesc,This is a compact stack of wood. Use this item to open and unpack it. ,大量の木材がコンパクトにまとめられています。このアイテムを使用すると開封や内容品の取り出しが可能です。
+shotgunturret,Shotgun Auto Turret ,ショットガン自動砲台
+shotgunturretDesc,"A motion sensing shotgun turret. What more needs to be said?\n\nRepair with Forged Iron, Mechanical Parts, and Electrical Parts. ,人感センサーを備えたショットガン砲台です。これ以上説明が必要ですか？\n\n錬鉄、機械部品、電気部品で修理可能。"
+speaker,Speaker ,スピーカー
+speakerDesc,Makes an alarm sound when powered on.\n\nRepair with Forged Iron and Electrical Parts. ,通電させるとアラーム音が鳴り響きます。\n\n錬鉄、電気部品で修理可能。
+spotlightplayer,Spotlight ,スポットライト
+spotlightplayerDesc,Unlock Spotlight ,スポットライトを解放
+steelgaragedoor3x3_poweredblockvarianthelper,Steel Garage Door 3x3 (Powered) ,鉄鋼製ガレージドア 3x3（電動）
+steelgaragedoor3x3_poweredblockvarianthelperDesc,Unlock Steel Garage Door 3x3 (Powered) ,鉄鋼製ガレージドア 3x3（電動）を解放
+steelgaragedoor3x3_poweredwhite,White Steel Garage Door 3x3 (Powered) ,鉄鋼製ガレージドア 3x3（電動・白）
+steelgaragedoor3x3_poweredwhiteDesc,Unlock White Steel Garage Door 3x3 (Powered) ,鉄鋼製ガレージドア 3x3（電動・白）を解放
+steelgaragedoor4x3_poweredblockvarianthelper,Steel Garage Door 4x3 (Powered) ,鉄鋼製ガレージドア 4x3（電動）
+steelgaragedoor4x3_poweredblockvarianthelperDesc,Unlock Steel Garage Door 4x3 (Powered) ,鉄鋼製ガレージドア 4x3（電動）を解放
+steelgaragedoor4x3_poweredwhite,White Steel Garage Door 4x3 (Powered) ,鉄鋼製ガレージドア 4x3（電動・白）
+steelgaragedoor4x3_poweredwhiteDesc,Unlock White Steel Garage Door 4x3 (Powered) ,鉄鋼製ガレージドア 4x3（電動・白）を解放
+steelgaragedoor5x3_poweredblockvarianthelper,Steel Garage Door 5x3 (Powered) ,鉄鋼製ガレージドア 5x3（電動）
+steelgaragedoor5x3_poweredblockvarianthelperDesc,Unlock Steel Garage Door 5x3 (Powered) ,鉄鋼製ガレージドア 5x3（電動）を解放
+steelgaragedoor5x3_poweredwhite,White Steel Garage Door 5x3 (Powered) ,鉄鋼製ガレージドア 5x3（電動・白）
+steelgaragedoor5x3_poweredwhiteDesc,Unlock White Steel Garage Door 5x3 (Powered) ,鉄鋼製ガレージドア 5x3（電動・白）を解放
+switch,Switch ,スイッチ
+switchDesc,Used to trigger electrical events when activated.\n\nRepair with Forged Iron. ,これを使用すると、作動時に電動の罠などを発動させることができます。\n\n錬鉄で修理可能。
+thrownammopipebomb,Pipe Bomb (Ammo) ,パイプ爆弾（弾薬）
+thrownammopipebombDesc,"Make pipe bombs with gunpowder, pipes & plant fibers.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary] ,パイプ爆弾は、火薬、パイプ、植物繊維から作ります。\n[action:local:Secondary]で点火 ,[action:local:Primary]で投擲"
+throwndynamite,Stick of Dynamite (Ammo) ,ダイナマイトスティック（弾薬）
+throwndynamiteDesc,A stick of dynamite.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary]\nThe throwing part is very important. ,ダイナマイトスティック。\n[action:local:Secondary]で点火 ,[action:local:Primary]で投擲\n投擲することが非常に大切です。
+throwngrenade,Grenade (Ammo) ,手榴弾（弾薬）
+throwngrenadeDesc,Pull pin. Throw.\nArm with [action:local:Secondary]\nThrow with [action:local:Primary] ,[action:local:Secondary]でピンを抜き、[action:local:Primary]で投擲。\n\n長押しするとチャージする事が出来、遠くまで投げる事が可能になります。
+throwngrenadecontact,Contact Grenade (Ammo) ,接触起爆手榴弾（弾薬）
+throwngrenadecontactDesc,Contact-fused grenades are volatile devices that explode on contact when armed.\nArm with [action:local:Secondary]\nThrow with [action:local:Primary] ,接触起爆手榴弾は、何かに接触すると爆発します。\n\nうっかり落とさないよう、お気を付けください。\n\n[action:local:Secondary]でピンを抜き、[action:local:Primary]で投擲。\n\n長押しするとチャージする事が出来、遠くまで投げる事が可能になります。
+throwntimedcharge,Timed Charge (Ammo) ,時限爆弾（弾薬）
+throwntimedchargeDesc,"A shaped charge designed for delicate work like blowing off a safe lock, a door, or a zombie's head. Automatically detonates after 5 seconds. Want to bring the house down? Try some dynamite instead.\nArm with [action:local:Secondary]\nThrow with [action:local:Primary] ,金庫の鍵やドア、ゾンビの頭を吹き飛ばすような繊細な作業用に設計された成形爆薬。5秒後に自動的に爆発する。家を崩落させたい？ならばダイナマイトを使いましょう。[action:local:Secondary]でセットし、　[action:local:Primary]で投擲。"
+toolanvil,Anvil ,鉄床
+toolanvilDesc,A tool that can be installed in a forge. It increases the crafting speed of that forge. ,炉に設置するツールです。設置された炉のクラフト速度を上げます。
+toolapiarybroodbox,Brood Box ,巣箱
+toolapiarybroodboxDesc,Doubles the quantity of honey production when installed in an Apiary. ,養蜂箱にセットすると、蜂蜜の生産量を倍増させます。
+toolapiaryextractor,Honey Extractor ,蜂蜜分離器
+toolapiaryextractorDesc,Increases the rate of honey production when installed in an Apiary. ,養蜂箱にセットすると、蜂蜜の生産率を高めます。
+toolapiarysmoker,Smoker ,燻煙器
+toolapiarysmokerDesc,Removes the chance to spawn angry bees when installed in an Apiary. ,養蜂箱にセットすると、怒った蜂が出現しなくなります。
+toolbellows,Advanced Bellows ,鞴（ふいご）
+toolbellowsDesc,A tool that can be installed in the forge to allow increased airflow and faster smelting speeds. ,炉に設置するツールです。空気の流入量を増加させ、炉での精錬速度を上げます。
+tooldewfilter,Water Filter ,ウォーターフィルター
+tooldewfilterDesc,Filters out the murky bits leaving the water safe from illness. ,濁った部分をろ過し、病気にならない安全な水を残します。
+tooldewgatherer,Gatherer ,収集器
+tooldewgathererDesc,Surface cooling increases the rate of dew collection. ,表面冷却は露の回収率を高めます。
+tooldewtarp,Tarp ,タープ
+tooldewtarpDesc,Increases the amount of water collected each day. ,毎日回収できる水の量が増えます。
+toolforgecrucible,Crucible ,坩堝（るつぼ）
+toolforgecrucibleDesc,"A crucible upgrade is required to craft forged steel, steel arrowheads, and bulletproof glass in a forge. ,坩堝（るつぼ）は、炉で鍛鋼（たんこう）、矢尻（鉄鋼）、防弾ガラスをクラフトするために必要となるツールです。"
+tripwirepost,Tripwire Post ,トリップワイヤーポスト
+tripwirepostDesc,Wire up 2 or more of these to trigger electrical events.\n\nRepair with Wood. ,配線したものを2本以上設置して繋げます。間を通ると繋げてある電動トラップなどが発動します。\n\n木材で修理可能。
+vaultdoor01_powered,Steel Door (Powered) ,鉄鋼製ドア（電動）
+vaultdoor01_poweredDesc,Connect to a power source to activate this door.\n\nPress & hold [action:local:Activate][action:permanent:Activate] to lock or set a combination. Repair with Forged Steel and a construction tool. ,動力源に接続して作動させます。\n\n[action:local:Activate][action:permanent:Activate]長押しで、施錠やパスワードの設定を行います。建築ツールの第二アクションで、鍛鋼（たんこう）を消費して修復します。
+vaultdoor01double_powered,Steel Door Double (Powered) ,鉄鋼製ドア（電動・ダブル）
+vaultdoor01double_poweredDesc,Connect to a power source to activate this door.\n\nPress & hold [action:local:Activate][action:permanent:Activate] to lock or set a combination. Repair with Forged Steel and a construction tool. ,動力源に接続して作動させます。\n\n[action:local:Activate][action:permanent:Activate]長押しで施錠やパスワード設定を行います。建築ルールの第二アクションで、鍛鋼（たんこう）を消費して修復します。
+vaulthatch01_powered,Steel Hatch (Powered) ,鉄鋼製ハッチ（電動）
+vaulthatch01_poweredDesc,Connect to a power source to activate this hatch.\n\nPress & hold [action:local:Activate][action:permanent:Activate] to lock or set a combination. Repair with Forged Steel and a construction tool. ,動力源に接続して作動させます。\n\n[action:local:Activate][action:permanent:Activate]長押しで、施錠やパスワードの設定を行います。建築ツールの第二アクションで、鍛鋼（たんこう）を消費して修復します。
+vehiclebicyclechassis,Bicycle Chassis ,自転車シャーシ
+vehiclebicyclechassisDesc,Unlock Bicycle Chassis ,自転車シャーシを解放
+vehiclebicyclehandlebars,Bicycle Handlebars ,自転車ハンドルバー
+vehiclebicyclehandlebarsDesc,Unlock Bicycle Handlebars ,自転車ハンドルバーを解放
+vehiclegyrocopteraccessories,Gyrocopter Accessories ,ジャイロコプター付属品
+vehiclegyrocopteraccessoriesDesc,Unlock Gyrocopter Accessories ,ジャイロコプター付属品を解放
+vehiclegyrocopterchassis,Gyrocopter Chassis ,ジャイロコプターシャーシ
+vehiclegyrocopterchassisDesc,Unlock Gyrocopter Chassis ,ジャイロコプターシャーシを解放
+vehicleminibikechassis,Minibike Chassis ,ミニバイクシャーシ
+vehicleminibikechassisDesc,Unlock Minibike Chassis ,ミニバイクシャーシを解放
+vehicleminibikehandlebars,Minibike Handlebars ,ミニバイクハンドルバー
+vehicleminibikehandlebarsDesc,Unlock Minibike Handlebars ,ミニバイクハンドルバーを解放
+vehiclemotorcyclechassis,Motorcycle Chassis ,オートバイシャーシ
+vehiclemotorcyclechassisDesc,Unlock Motorcycle Chassis ,オートバイシャーシを解放
+vehiclemotorcyclehandlebars,Motorcycle Handlebars ,オートバイハンドルバー
+vehiclemotorcyclehandlebarsDesc,Unlock Motorcycle Handlebars ,オートバイハンドルバーを解放
+vehicletruck4x4accessories,4x4 Truck Accessories ,4x4駆動トラック付属品
+vehicletruck4x4accessoriesDesc,Unlock 4x4 Truck Accessories ,4x4駆動トラック付属品を解放
+vehicletruck4x4chassis,4x4 Truck Chassis ,4x4駆動トラックシャーシ
+vehicletruck4x4chassisDesc,Unlock 4x4 Truck Chassis ,4x4駆動トラックシャーシを解放
+vehiclewheels,Wheel ,タイヤ
+vehiclewheelsDesc,Unlock Wheel ,タイヤを解放
+woodengaragedoor3x3_poweredblockvarianthelper,Wooden Garage Door 3x3 (Powered) ,木製ガレージドア 3x3（電動）
+woodengaragedoor3x3_poweredblockvarianthelperDesc,Unlock Wooden Garage Door 3x3 (Powered) ,木製ガレージドア 3x3（電動）を解放
+woodengaragedoor3x3_poweredwhite,White Wooden Garage Door 3x3 (Powered) ,木製ガレージドア 3x3（電動・白）
+woodengaragedoor3x3_poweredwhiteDesc,Unlock White Wooden Garage Door 3x3 (Powered) ,木製ガレージドア 3x3（電動・白）を解放
+woodengaragedoor4x3_poweredblockvarianthelper,Wooden Garage Door 4x3 (Powered) ,木製ガレージドア 4x3（電動）
+woodengaragedoor4x3_poweredblockvarianthelperDesc,Unlock Wooden Garage Door 4x3 (Powered) ,木製ガレージドア 4x3（電動）を解放
+woodengaragedoor4x3_poweredwhite,White Wooden Garage Door 4x3 (Powered) ,木製ガレージドア 4x3（電動・白）
+woodengaragedoor4x3_poweredwhiteDesc,Unlock White Wooden Garage Door 4x3 (Powered) ,木製ガレージドア 4x3（電動・白）を解放
+woodengaragedoor5x3_poweredblockvarianthelper,Wooden Garage Door 5x3 (Powered) ,木製ガレージドア 5x3（電動）
+woodengaragedoor5x3_poweredblockvarianthelperDesc,Unlock Wooden Garage Door 5x3 (Powered) ,木製ガレージドア 5x3（電動）を解放
+woodengaragedoor5x3_poweredwhite,White Wooden Garage Door 5x3 (Powered) ,木製ガレージドア 5x3（電動・白）
+woodengaragedoor5x3_poweredwhiteDesc,Unlock White Wooden Garage Door 5x3 (Powered) ,木製ガレージドア 5x3（電動・白）を解放
+workbench,Workbench ,作業台
+workbenchDesc,"Many advanced crafting recipes require a workbench. On a workbench you can also craft all items that you can craft in your backpack.\n\nRepair with Forged Iron, Mechanical Parts, and Wood. ,高度なアイテムをクラフトするためには、作業台が必要になります。作業台では所持品内でクラフト可能なすべてのアイテムもクラフトすることができます。\n\n錬鉄、機械部品、木材で修理可能。"
