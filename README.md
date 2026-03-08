@@ -7,7 +7,7 @@ Last Updated: 2026-03-09
 Unlock Tracker is a 7 Days to Die support toolset with two surfaces.
 
 1. In-game categories in Skills UI
-2. Web viewer at `https://7daystodie.jp/hugh/unlocktracker.php`
+2. Web viewer at [Unlock Tracker](https://7daystodie.jp/hugh/unlocktracker.php)
 
 ### What It Solves
 
@@ -27,7 +27,7 @@ Unlock Tracker is a 7 Days to Die support toolset with two surfaces.
 Unlock Trackerは、7 Days to Die向けの2画面構成サポートツールです。
 
 1. ゲーム内Skills UIのカテゴリ表示
-2. Webビューワー `https://7daystodie.jp/hugh/unlocktracker.php`
+2. Webビューワー [Unlock Tracker](https://7daystodie.jp/hugh/unlocktracker.php)
 
 ### 解決すること
 
