@@ -20,7 +20,9 @@ Unlock Tracker is a 7 Days to Die support toolset with two surfaces.
 
 ### Support
 
-- [Steam Group:](https://steamcommunity.com/groups/7DTD_JP) 
+- [Steam Group](https://steamcommunity.com/groups/7DTD_JP)
+- [Discord Support Bot](https://discord.com/oauth2/authorize?client_id=1452050154747203808)
+- [Support Discord](https://discord.gg/n55KRBN7bA)
 
 ## JA
 
@@ -40,4 +42,6 @@ Unlock Trackerは、7 Days to Die向けの2画面構成サポートツールで�
 
 ### サポート
 
-- [Steam Group:](https://steamcommunity.com/groups/7DTD_JP) 
+- [Steam Group](https://steamcommunity.com/groups/7DTD_JP)
+- [Discord Support Bot](https://discord.com/oauth2/authorize?client_id=1452050154747203808)
+- [Support Discord](https://discord.gg/n55KRBN7bA)
